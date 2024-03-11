@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Welcome.md",
+                "file": "C++/Introduction.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "Welcome.md",
+                "file": "C++/Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "Welcome.md",
+                "file": "C++/Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "Welcome.md"
+                "file": "C++/Introduction.md"
               }
             }
           },
@@ -154,9 +154,11 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4d18accfc407c4f0",
+  "active": "e55ade6a40622e36",
   "lastOpenFiles": [
-    "README.md",
-    "Welcome.md"
+    "Welcome.md",
+    "C++/Introduction.md",
+    "C++",
+    "README.md"
   ]
 }
