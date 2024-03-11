@@ -128,13 +128,21 @@
                 "file": "Welcome.md"
               }
             }
+          },
+          {
+            "id": "83e4d14bcca20bca",
+            "type": "leaf",
+            "state": {
+              "type": "git-view",
+              "state": {}
+            }
           }
-        ]
+        ],
+        "currentTab": 4
       }
     ],
     "direction": "horizontal",
-    "width": 300,
-    "collapsed": true
+    "width": 335.5
   },
   "left-ribbon": {
     "hiddenItems": {
