@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/Introduction.md",
+                "file": "C++/CompilationModel/Header and source files.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/Introduction.md",
+                "file": "C++/CompilationModel/Header and source files.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/Introduction.md",
+                "file": "C++/CompilationModel/Header and source files.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/Introduction.md"
+                "file": "C++/CompilationModel/Header and source files.md"
               }
             }
           },
@@ -162,13 +162,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "83e4d14bcca20bca",
+  "active": "e55ade6a40622e36",
   "lastOpenFiles": [
-    "C++/HelloWorld/helloworld.exe",
-    "C++/HelloWorld/helloworld.cpp",
-    "C++/HelloWorld",
-    "Welcome.md",
+    "C++/Programs/CompileExample/main.exe",
+    "C++/Programs/CompileExample/a.exe",
+    "C++/Programs/CompileExample/main.cpp",
+    "C++/Programs/CompileExample",
+    "C++/CompilationModel/Process overview and example.md",
+    "C++/CompilationModel/Header and source files.md",
+    "C++/Programs/HelloWorld/HelloWorld.exe",
+    "C++/Programs",
     "C++/Introduction.md",
+    "C++/CompilationModel",
+    "C++/Programs/HelloWorld/helloworld.exe",
+    "C++/Programs/HelloWorld/helloworld.cpp",
+    "C++/Programs/HelloWorld",
+    "Welcome.md",
     "C++",
     "README.md"
   ]
