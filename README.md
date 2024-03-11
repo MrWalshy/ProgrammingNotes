@@ -1,2 +1,3 @@
 # ProgrammingNotes
-Programming Notes in Obsidian
+
+Programming Notes in Obsidian.
