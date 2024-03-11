@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/Built-in Data Types/Variable definition.md",
+                "file": "C++/Pointers and References/Variable Scope.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/Built-in Data Types/Variable definition.md",
+                "file": "C++/Pointers and References/Variable Scope.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/Built-in Data Types/Variable definition.md",
+                "file": "C++/Pointers and References/Variable Scope.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/Built-in Data Types/Variable definition.md"
+                "file": "C++/Pointers and References/Variable Scope.md"
               }
             }
           },
@@ -164,8 +164,17 @@
   },
   "active": "e55ade6a40622e36",
   "lastOpenFiles": [
-    "C++/Built-in Data Types/Datatype modifiers.md",
+    "C++/Pointers and References/The const qualifier.md",
+    "C++/Pointers and References/Variable Scope.md",
+    "C++/Pointers and References/References.md",
+    "C++/Programs/ReferenceExample/main.exe",
+    "C++/Programs/ReferenceExample/main.cpp",
+    "C++/Programs/ReferenceExample",
+    "C++/Pointers and References/Pointers.md",
+    "C++/Pointers and References/Overview.md",
     "C++/Built-in Data Types/Variable definition.md",
+    "C++/Pointers and References",
+    "C++/Built-in Data Types/Datatype modifiers.md",
     "C++/Built-in Data Types/Primitive Data Types.md",
     "C++/Built-in Data Types/Overview.md",
     "C++/CompilationModel/Header and source files.md",
@@ -176,11 +185,7 @@
     "C++/Programs/CompileExample",
     "C++/CompilationModel/Process overview and example.md",
     "C++/Programs/HelloWorld/HelloWorld.exe",
-    "C++/Programs",
     "C++/Introduction.md",
-    "C++/CompilationModel",
-    "C++/Programs/HelloWorld/helloworld.exe",
-    "C++/Programs/HelloWorld/helloworld.cpp",
     "Welcome.md",
     "README.md"
   ]
