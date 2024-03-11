@@ -136,6 +136,14 @@
               "type": "git-view",
               "state": {}
             }
+          },
+          {
+            "id": "89e8abc16ce97c17",
+            "type": "leaf",
+            "state": {
+              "type": "git-history-view",
+              "state": {}
+            }
           }
         ],
         "currentTab": 4
@@ -154,7 +162,7 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e55ade6a40622e36",
+  "active": "83e4d14bcca20bca",
   "lastOpenFiles": [
     "Welcome.md",
     "C++/Introduction.md",
