@@ -13,3 +13,5 @@ gcc --version
 g++ --version
 gdb --version
 ```
+
+Building and running a program in VS Code is simple, ensure the C++ plugins are installed to make development easier. To build and run, select the Play icon at the top right of a source file. The first launch will prompt for a compiler, select the G++ Build and Debug option. This will then build the program into an exe file and run the built executable, displaying its output in the terminal.
