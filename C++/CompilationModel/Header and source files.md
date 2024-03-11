@@ -34,6 +34,8 @@ Compiling an object file into a source file is quite simple:
 | MSVC                     | GCC                               |
 | ------------------------ | --------------------------------- |
 | `cl /EHsc /s myfile.cpp` | `g++ -c -o myfile.obj myfile.cpp` |
+
+
 It is common to include headers when compiling, the headers defined in the C++ standard can be included without performing any action. For user-defined headers, the compiler needs to be told where to look up the header files:
 
 - **MSVC**: Pass the parameter as the `/I path` flag where `path` is the path to the directory to look in for the header.
@@ -44,6 +46,7 @@ For example, if `myfile.cpp` includes a header from the `include` directory, the
 | MSVC                                | GCC                                          |
 | ----------------------------------- | -------------------------------------------- |
 | `cl /EHsc /s /I include myfile.cpp` | `g++ -c -I include -o myfile.obj myfile.cpp` |
+
 Several files can be compiled in their respective object files and then linked together to create the final application.
 
 ## Linking object files
@@ -53,6 +56,7 @@ To link together two object files called `main.obj` and `mylib.obj` into an exec
 | MSVC                                    | GCC                              |
 | --------------------------------------- | -------------------------------- |
 | `link main.obj mylib.obj /out:main.exe` | `g++ main.obj mylib.obj -o main` |
+
 For convenience, MSVC and GCC offer a way to compile several files into an executable without the need to manually create an object file for each file and then link the files together. Although, when using this method any user-defined headers still need to be included using the `/I` or `-I` flags.
 
 For example, to compile `main.cpp` and `mylib.cpp` together which both use some headers from the `include` folder, the commands would look like:
