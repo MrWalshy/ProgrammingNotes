@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/ControlFlowStatements/Selection statement - if-else.md",
+                "file": "C++/ControlFlowStatements/Selection statement - switch.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/ControlFlowStatements/Selection statement - if-else.md",
+                "file": "C++/ControlFlowStatements/Selection statement - switch.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/ControlFlowStatements/Selection statement - if-else.md",
+                "file": "C++/ControlFlowStatements/Selection statement - switch.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/ControlFlowStatements/Selection statement - if-else.md"
+                "file": "C++/ControlFlowStatements/Selection statement - switch.md"
               }
             }
           },
@@ -164,11 +164,12 @@
   },
   "active": "e55ade6a40622e36",
   "lastOpenFiles": [
+    "C++/ControlFlowStatements/Selection statement - if-else.md",
+    "C++/ControlFlowStatements/Selection statement - switch.md",
     "C++/Programs/IfElseExample/main.exe",
     "C++/Programs/IfElseExample/main.cpp",
     "C++/Programs/IfElseExample",
     "C++/Pointers and References/Variable Scope.md",
-    "C++/ControlFlowStatements/Selection statement - if-else.md",
     "C++/ControlFlowStatements",
     "C++/Untitled.md",
     "C++/Programs/ScopeExample/main.exe",
@@ -182,7 +183,6 @@
     "C++/Pointers and References/Pointers.md",
     "C++/Pointers and References/Overview.md",
     "C++/Built-in Data Types/Variable definition.md",
-    "C++/Pointers and References",
     "C++/Built-in Data Types/Datatype modifiers.md",
     "C++/Built-in Data Types/Primitive Data Types.md",
     "C++/Built-in Data Types/Overview.md",
