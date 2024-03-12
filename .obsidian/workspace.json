@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/ControlFlowStatements/Jump Statements - break and continue.md",
+                "file": "C++/TryCatchBlocks/The try-catch block.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/ControlFlowStatements/Jump Statements - break and continue.md",
+                "file": "C++/TryCatchBlocks/The try-catch block.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/ControlFlowStatements/Jump Statements - break and continue.md",
+                "file": "C++/TryCatchBlocks/The try-catch block.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/ControlFlowStatements/Jump Statements - break and continue.md"
+                "file": "C++/TryCatchBlocks/The try-catch block.md"
               }
             }
           },
@@ -164,8 +164,13 @@
   },
   "active": "e55ade6a40622e36",
   "lastOpenFiles": [
-    "C++/ControlFlowStatements/Iteration Statement - do-while loop.md",
+    "C++/Programs/FindingFactorsUsingModulo/main.exe",
+    "C++/Programs/FindingFactorsUsingModulo/main.cpp",
+    "C++/Programs/FindingFactorsUsingModulo",
     "C++/ControlFlowStatements/Jump Statements - break and continue.md",
+    "C++/TryCatchBlocks/The try-catch block.md",
+    "C++/TryCatchBlocks",
+    "C++/ControlFlowStatements/Iteration Statement - do-while loop.md",
     "C++/ControlFlowStatements/Iteration Statement - while loop.md",
     "C++/ControlFlowStatements/Iteration Statement - for loop.md",
     "C++/Programs/NestedForLoop/main.exe",
@@ -179,9 +184,6 @@
     "C++/Pointers and References/Variable Scope.md",
     "C++/ControlFlowStatements",
     "C++/Untitled.md",
-    "C++/Programs/ScopeExample/main.exe",
-    "C++/Programs/ScopeExample/main.cpp",
-    "C++/Programs/ScopeExample",
     "C++/Pointers and References/The const qualifier.md",
     "C++/Pointers and References/References.md",
     "C++/Pointers and References/Pointers.md",
