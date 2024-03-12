@@ -164,6 +164,9 @@
   },
   "active": "e55ade6a40622e36",
   "lastOpenFiles": [
+    "C++/Programs/ScopeExample/main.exe",
+    "C++/Programs/ScopeExample/main.cpp",
+    "C++/Programs/ScopeExample",
     "C++/Pointers and References/The const qualifier.md",
     "C++/Pointers and References/Variable Scope.md",
     "C++/Pointers and References/References.md",
@@ -182,9 +185,7 @@
     "C++/Programs/CompileExample/main.exe",
     "C++/Programs/CompileExample/a.exe",
     "C++/Programs/CompileExample/main.cpp",
-    "C++/Programs/CompileExample",
     "C++/CompilationModel/Process overview and example.md",
-    "C++/Programs/HelloWorld/HelloWorld.exe",
     "C++/Introduction.md",
     "Welcome.md",
     "README.md"
