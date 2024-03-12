@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/TryCatchBlocks/The try-catch block.md",
+                "file": "C++/Arrays/Multi-dimensional arrays.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/TryCatchBlocks/The try-catch block.md",
+                "file": "C++/Arrays/Multi-dimensional arrays.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/TryCatchBlocks/The try-catch block.md",
+                "file": "C++/Arrays/Multi-dimensional arrays.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/TryCatchBlocks/The try-catch block.md"
+                "file": "C++/Arrays/Multi-dimensional arrays.md"
               }
             }
           },
@@ -164,11 +164,17 @@
   },
   "active": "e55ade6a40622e36",
   "lastOpenFiles": [
+    "C++/Programs/BiDimensionalArray/main.exe",
+    "C++/Programs/BiDimensionalArray/main.cpp",
+    "C++/Programs/BiDimensionalArray",
+    "C++/Arrays/Arrays.md",
+    "C++/Arrays/Multi-dimensional arrays.md",
+    "C++/TryCatchBlocks/The try-catch block.md",
+    "C++/Arrays",
     "C++/Programs/FindingFactorsUsingModulo/main.exe",
     "C++/Programs/FindingFactorsUsingModulo/main.cpp",
     "C++/Programs/FindingFactorsUsingModulo",
     "C++/ControlFlowStatements/Jump Statements - break and continue.md",
-    "C++/TryCatchBlocks/The try-catch block.md",
     "C++/TryCatchBlocks",
     "C++/ControlFlowStatements/Iteration Statement - do-while loop.md",
     "C++/ControlFlowStatements/Iteration Statement - while loop.md",
@@ -178,11 +184,7 @@
     "C++/Programs/NestedForLoop",
     "C++/ControlFlowStatements/Selection statement - switch.md",
     "C++/ControlFlowStatements/Selection statement - if-else.md",
-    "C++/Programs/IfElseExample/main.exe",
-    "C++/Programs/IfElseExample/main.cpp",
-    "C++/Programs/IfElseExample",
     "C++/Pointers and References/Variable Scope.md",
-    "C++/ControlFlowStatements",
     "C++/Untitled.md",
     "C++/Pointers and References/The const qualifier.md",
     "C++/Pointers and References/References.md",
