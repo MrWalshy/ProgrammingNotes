@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/Pointers and References/Variable Scope.md",
+                "file": "C++/ControlFlowStatements/Selection statement - if-else.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/Pointers and References/Variable Scope.md",
+                "file": "C++/ControlFlowStatements/Selection statement - if-else.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/Pointers and References/Variable Scope.md",
+                "file": "C++/ControlFlowStatements/Selection statement - if-else.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/Pointers and References/Variable Scope.md"
+                "file": "C++/ControlFlowStatements/Selection statement - if-else.md"
               }
             }
           },
@@ -164,11 +164,17 @@
   },
   "active": "e55ade6a40622e36",
   "lastOpenFiles": [
+    "C++/Programs/IfElseExample/main.exe",
+    "C++/Programs/IfElseExample/main.cpp",
+    "C++/Programs/IfElseExample",
+    "C++/Pointers and References/Variable Scope.md",
+    "C++/ControlFlowStatements/Selection statement - if-else.md",
+    "C++/ControlFlowStatements",
+    "C++/Untitled.md",
     "C++/Programs/ScopeExample/main.exe",
     "C++/Programs/ScopeExample/main.cpp",
     "C++/Programs/ScopeExample",
     "C++/Pointers and References/The const qualifier.md",
-    "C++/Pointers and References/Variable Scope.md",
     "C++/Pointers and References/References.md",
     "C++/Programs/ReferenceExample/main.exe",
     "C++/Programs/ReferenceExample/main.cpp",
@@ -181,10 +187,6 @@
     "C++/Built-in Data Types/Primitive Data Types.md",
     "C++/Built-in Data Types/Overview.md",
     "C++/CompilationModel/Header and source files.md",
-    "C++/Built-in Data Types",
-    "C++/Programs/CompileExample/main.exe",
-    "C++/Programs/CompileExample/a.exe",
-    "C++/Programs/CompileExample/main.cpp",
     "C++/CompilationModel/Process overview and example.md",
     "C++/Introduction.md",
     "Welcome.md",
