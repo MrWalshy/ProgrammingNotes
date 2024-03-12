@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/ControlFlowStatements/Selection statement - switch.md",
+                "file": "C++/ControlFlowStatements/Jump Statements - break and continue.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/ControlFlowStatements/Selection statement - switch.md",
+                "file": "C++/ControlFlowStatements/Jump Statements - break and continue.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/ControlFlowStatements/Selection statement - switch.md",
+                "file": "C++/ControlFlowStatements/Jump Statements - break and continue.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/ControlFlowStatements/Selection statement - switch.md"
+                "file": "C++/ControlFlowStatements/Jump Statements - break and continue.md"
               }
             }
           },
@@ -164,8 +164,15 @@
   },
   "active": "e55ade6a40622e36",
   "lastOpenFiles": [
-    "C++/ControlFlowStatements/Selection statement - if-else.md",
+    "C++/ControlFlowStatements/Iteration Statement - do-while loop.md",
+    "C++/ControlFlowStatements/Jump Statements - break and continue.md",
+    "C++/ControlFlowStatements/Iteration Statement - while loop.md",
+    "C++/ControlFlowStatements/Iteration Statement - for loop.md",
+    "C++/Programs/NestedForLoop/main.exe",
+    "C++/Programs/NestedForLoop/main.cpp",
+    "C++/Programs/NestedForLoop",
     "C++/ControlFlowStatements/Selection statement - switch.md",
+    "C++/ControlFlowStatements/Selection statement - if-else.md",
     "C++/Programs/IfElseExample/main.exe",
     "C++/Programs/IfElseExample/main.cpp",
     "C++/Programs/IfElseExample",
@@ -177,9 +184,6 @@
     "C++/Programs/ScopeExample",
     "C++/Pointers and References/The const qualifier.md",
     "C++/Pointers and References/References.md",
-    "C++/Programs/ReferenceExample/main.exe",
-    "C++/Programs/ReferenceExample/main.cpp",
-    "C++/Programs/ReferenceExample",
     "C++/Pointers and References/Pointers.md",
     "C++/Pointers and References/Overview.md",
     "C++/Built-in Data Types/Variable definition.md",
