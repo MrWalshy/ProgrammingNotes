@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/LocalAndGlobalVariables/Local and Global Variables.md",
+                "file": "C++/Functions/Passing Arguments and Returning Values.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/LocalAndGlobalVariables/Local and Global Variables.md",
+                "file": "C++/Functions/Passing Arguments and Returning Values.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/LocalAndGlobalVariables/Local and Global Variables.md",
+                "file": "C++/Functions/Passing Arguments and Returning Values.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/LocalAndGlobalVariables/Local and Global Variables.md"
+                "file": "C++/Functions/Passing Arguments and Returning Values.md"
               }
             }
           },
@@ -164,21 +164,22 @@
   },
   "active": "e55ade6a40622e36",
   "lastOpenFiles": [
+    "C++/Programs/PassByReference/main.exe",
+    "C++/Programs/PassByReference/main.cpp",
+    "C++/Programs/PassByReference",
+    "C++/Programs/PassByValue/main.exe",
+    "C++/Programs/PassByValue/main.cpp",
+    "C++/Programs/PassByValue",
+    "C++/LocalAndGlobalVariables/Local and Global Variables.md",
+    "C++/Functions/Passing Arguments and Returning Values.md",
     "C++/Programs/FibonacciUsingLocalAndGlobalVariables/main.exe",
     "C++/Programs/FibonacciUsingLocalAndGlobalVariables/main.cpp",
     "C++/Programs/FibonacciUsingLocalAndGlobalVariables",
     "C++/CompilationModel/Header and source files.md",
-    "C++/LocalAndGlobalVariables/Local and Global Variables.md",
     "C++/LocalAndGlobalVariables",
     "C++/Programs/DefiningAndInvokingAFunction/include/log.cpp",
-    "C++/Programs/DefiningAndInvokingAFunction/main.exe",
-    "C++/Programs/DefiningAndInvokingAFunction/log.cpp",
     "C++/CompilationModel/Process overview and example.md",
     "C++/Functions/Function Declaration and Definition.md",
-    "C++/Programs/DefiningAndInvokingAFunction/include/log.h",
-    "C++/Programs/DefiningAndInvokingAFunction/include",
-    "C++/Programs/DefiningAndInvokingAFunction/main.cpp",
-    "C++/Programs/DefiningAndInvokingAFunction",
     "C++/Arrays/Multi-dimensional arrays.md",
     "C++/Arrays/Arrays.md",
     "C++/TryCatchBlocks/The try-catch block.md",
@@ -198,7 +199,6 @@
     "C++/Built-in Data Types/Datatype modifiers.md",
     "C++/Built-in Data Types/Primitive Data Types.md",
     "C++/Built-in Data Types/Overview.md",
-    "C++/Introduction.md",
-    "Welcome.md"
+    "C++/Introduction.md"
   ]
 }
