@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/Functions/Default arguments.md",
+                "file": "C++/CompilationModel/Header and source files.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/Functions/Default arguments.md",
+                "file": "C++/CompilationModel/Header and source files.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/Functions/Default arguments.md",
+                "file": "C++/CompilationModel/Header and source files.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/Functions/Default arguments.md"
+                "file": "C++/CompilationModel/Header and source files.md"
               }
             }
           },
@@ -164,27 +164,29 @@
   },
   "active": "e55ade6a40622e36",
   "lastOpenFiles": [
-    "C++/Functions/Const Parameters.md",
+    "C++/Programs/NamespaceExample/main.exe",
+    "C++/Programs/NamespaceExample/car.cpp",
+    "C++/Namespaces/Namespaces.md",
+    "C++/Programs/NamespaceExample/include/car.h",
+    "C++/Programs/NamespaceExample/include",
+    "C++/Programs/NamespaceExample/main.cpp",
+    "C++/Programs/NamespaceExample",
     "C++/Functions/Default arguments.md",
+    "C++/Namespaces",
+    "C++/Functions/Const Parameters.md",
     "C++/Functions/Returning values.md",
     "C++/Programs/PassAndReturnByValueAndRef/main.exe",
     "C++/Programs/PassAndReturnByValueAndRef/main.cpp",
     "C++/Programs/PassAndReturnByValueAndRef",
     "C++/Functions/Passing Arguments and Returning Values.md",
     "C++/Programs/ReturnByReferenceEx1/main.exe",
-    "C++/Programs/ReturnByReferenceEx1/main.cpp",
-    "C++/Programs/ReturnByReferenceEx1",
     "C++/Pointers and References/References.md",
     "C++/Pointers and References/Pointers.md",
     "C++/LocalAndGlobalVariables/Local and Global Variables.md",
     "C++/Functions/Function Declaration and Definition.md",
     "C++/Functions/Working with const references or r-value references.md",
-    "C++/Programs/PassingAPointer/main.exe",
-    "C++/Programs/PassingAPointer/main.cpp",
-    "C++/Programs/PassingAPointer",
     "C++/ConsoleInputAndOutput/Outputting data.md",
     "C++/ConsoleInputAndOutput/Accepting input.md",
-    "C++/ConsoleInputAndOutput",
     "C++/CompilationModel/Header and source files.md",
     "C++/CompilationModel/Process overview and example.md",
     "C++/Arrays/Multi-dimensional arrays.md",
@@ -197,8 +199,6 @@
     "C++/ControlFlowStatements/Selection statement - switch.md",
     "C++/ControlFlowStatements/Selection statement - if-else.md",
     "C++/Pointers and References/Variable Scope.md",
-    "C++/Untitled.md",
-    "C++/Pointers and References/The const qualifier.md",
-    "C++/Pointers and References/Overview.md"
+    "C++/Untitled.md"
   ]
 }
