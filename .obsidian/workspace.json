@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/Classes/Static members.md",
+                "file": "C++/Classes/Member functions.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/Classes/Static members.md",
+                "file": "C++/Classes/Member functions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/Classes/Static members.md",
+                "file": "C++/Classes/Member functions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/Classes/Static members.md"
+                "file": "C++/Classes/Member functions.md"
               }
             }
           },
@@ -164,11 +164,12 @@
   },
   "active": "e55ade6a40622e36",
   "lastOpenFiles": [
+    "C++/Classes/Static members.md",
+    "C++/Classes/Member functions.md",
     "C++/Programs/StaticVariablesInsideFunction/main.exe",
     "C++/Programs/StaticVariablesInsideFunction/main.cpp",
     "C++/Programs/StaticVariablesInsideFunction",
     "C++/Classes/Declaring and Defining a Class.md",
-    "C++/Classes/Static members.md",
     "C++/Conventions/Common Naming Conventions.md",
     "C++/Conventions",
     "C++/CompilationModel/Header and source files.md",
@@ -180,7 +181,6 @@
     "C++/Programs/Math3DGameVectorsExample/include/math3d.h",
     "C++/Programs/Math3DGameVectorsExample/include",
     "C++/Programs/Math3DGameVectorsExample/main.cpp",
-    "C++/Programs/Math3DGameVectorsExample",
     "C++/Namespaces/Namespaces.md",
     "C++/Functions/Default arguments.md",
     "C++/Functions/Const Parameters.md",
