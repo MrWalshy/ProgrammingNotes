@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/Classes/Declaring and Defining a Class.md",
+                "file": "C++/Classes/Static members.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/Classes/Declaring and Defining a Class.md",
+                "file": "C++/Classes/Static members.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/Classes/Declaring and Defining a Class.md",
+                "file": "C++/Classes/Static members.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/Classes/Declaring and Defining a Class.md"
+                "file": "C++/Classes/Static members.md"
               }
             }
           },
@@ -164,8 +164,12 @@
   },
   "active": "e55ade6a40622e36",
   "lastOpenFiles": [
-    "C++/Conventions/Common Naming Conventions.md",
+    "C++/Programs/StaticVariablesInsideFunction/main.exe",
+    "C++/Programs/StaticVariablesInsideFunction/main.cpp",
+    "C++/Programs/StaticVariablesInsideFunction",
     "C++/Classes/Declaring and Defining a Class.md",
+    "C++/Classes/Static members.md",
+    "C++/Conventions/Common Naming Conventions.md",
     "C++/Conventions",
     "C++/CompilationModel/Header and source files.md",
     "C++/Arrays/Multi-dimensional arrays.md",
@@ -177,8 +181,6 @@
     "C++/Programs/Math3DGameVectorsExample/include",
     "C++/Programs/Math3DGameVectorsExample/main.cpp",
     "C++/Programs/Math3DGameVectorsExample",
-    "C++/Programs/NamespaceExample/main.exe",
-    "C++/Programs/NamespaceExample/car.cpp",
     "C++/Namespaces/Namespaces.md",
     "C++/Functions/Default arguments.md",
     "C++/Functions/Const Parameters.md",
@@ -197,8 +199,6 @@
     "C++/ControlFlowStatements/Jump Statements - break and continue.md",
     "C++/ControlFlowStatements/Iteration Statement - do-while loop.md",
     "C++/ControlFlowStatements/Iteration Statement - while loop.md",
-    "C++/ControlFlowStatements/Iteration Statement - for loop.md",
-    "C++/ControlFlowStatements/Selection statement - switch.md",
-    "C++/ControlFlowStatements/Selection statement - if-else.md"
+    "C++/ControlFlowStatements/Iteration Statement - for loop.md"
   ]
 }
