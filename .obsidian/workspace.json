@@ -13,13 +13,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/Classes/Constructors and Destructors.md",
+                "file": "C++/Classes/Resource Acquisition Is Initialisation.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "11ac330dee932e28",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "C++/Arrays/Arrays.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -85,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/Classes/Constructors and Destructors.md",
+                "file": "C++/Arrays/Arrays.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/Classes/Constructors and Destructors.md",
+                "file": "C++/Arrays/Arrays.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/Classes/Constructors and Destructors.md"
+                "file": "C++/Arrays/Arrays.md"
               }
             }
           },
@@ -162,21 +175,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "e55ade6a40622e36",
+  "active": "11ac330dee932e28",
   "lastOpenFiles": [
+    "C++/Programs/RAIIExample/main.exe",
+    "C++/Programs/RAIIExample/CoordinateTracker.cpp",
+    "C++/Classes/Resource Acquisition Is Initialisation.md",
+    "C++/Programs/RAIIExample/include/CoordinateTracker.h",
+    "C++/Programs/RAIIExample/main.cpp",
+    "C++/Programs/RAIIExample/Coordinates2D.cpp",
+    "C++/Programs/RAIIExample/include/Coordinates2D.h",
+    "C++/Programs/RAIIExample/include",
+    "C++/Programs/RAIIExample",
+    "C++/Classes/Constructors and Destructors.md",
     "C++/Programs/Coordinates2DConstructorExample/main.exe",
     "C++/Programs/Coordinates2DConstructorExample/Coordinates2D.cpp",
     "C++/Programs/Coordinates2DConstructorExample/include/Coordinates2D.h",
-    "C++/Programs/Coordinates2DConstructorExample/Coordinates.cpp",
-    "C++/Programs/Coordinates2DConstructorExample/include/Coordinates.h",
-    "C++/Programs/Coordinates2DConstructorExample/include",
-    "C++/Programs/Coordinates2DConstructorExample/main.cpp",
-    "C++/Programs/Coordinates2DConstructorExample",
-    "C++/Programs/ConstructorDestructorExample/main.exe",
-    "C++/Programs/ConstructorDestructorExample/main.cpp",
-    "C++/Programs/ConstructorDestructorExample",
     "C++/Classes/Non-Member Class-Related functions.md",
-    "C++/Classes/Constructors and Destructors.md",
     "C++/Classes/The this keyword.md",
     "C++/Classes/Member functions.md",
     "C++/Classes/Static members.md",
@@ -198,7 +212,6 @@
     "C++/ConsoleInputAndOutput/Outputting data.md",
     "C++/ConsoleInputAndOutput/Accepting input.md",
     "C++/CompilationModel/Process overview and example.md",
-    "C++/Arrays/Arrays.md",
-    "C++/TryCatchBlocks/The try-catch block.md"
+    "C++/Arrays/Arrays.md"
   ]
 }
