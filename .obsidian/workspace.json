@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/Arrays/Arrays.md",
+                "file": "C++/Classes/Nested Class Declarations.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/Arrays/Arrays.md",
+                "file": "C++/Classes/Nested Class Declarations.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/Arrays/Arrays.md",
+                "file": "C++/Classes/Nested Class Declarations.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/Arrays/Arrays.md"
+                "file": "C++/Classes/Nested Class Declarations.md"
               }
             }
           },
@@ -177,6 +177,8 @@
   },
   "active": "11ac330dee932e28",
   "lastOpenFiles": [
+    "C++/Arrays/Arrays.md",
+    "C++/Classes/Nested Class Declarations.md",
     "C++/Programs/RAIIExample/main.exe",
     "C++/Programs/RAIIExample/CoordinateTracker.cpp",
     "C++/Classes/Resource Acquisition Is Initialisation.md",
@@ -189,7 +191,6 @@
     "C++/Classes/Constructors and Destructors.md",
     "C++/Programs/Coordinates2DConstructorExample/main.exe",
     "C++/Programs/Coordinates2DConstructorExample/Coordinates2D.cpp",
-    "C++/Programs/Coordinates2DConstructorExample/include/Coordinates2D.h",
     "C++/Classes/Non-Member Class-Related functions.md",
     "C++/Classes/The this keyword.md",
     "C++/Classes/Member functions.md",
@@ -211,7 +212,6 @@
     "C++/Functions/Working with const references or r-value references.md",
     "C++/ConsoleInputAndOutput/Outputting data.md",
     "C++/ConsoleInputAndOutput/Accepting input.md",
-    "C++/CompilationModel/Process overview and example.md",
-    "C++/Arrays/Arrays.md"
+    "C++/CompilationModel/Process overview and example.md"
   ]
 }
