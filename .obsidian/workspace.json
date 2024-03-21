@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/Classes/Non-Member Class-Related functions.md",
+                "file": "C++/Classes/Constructors and Destructors.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/Classes/Non-Member Class-Related functions.md",
+                "file": "C++/Classes/Constructors and Destructors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/Classes/Non-Member Class-Related functions.md",
+                "file": "C++/Classes/Constructors and Destructors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/Classes/Non-Member Class-Related functions.md"
+                "file": "C++/Classes/Constructors and Destructors.md"
               }
             }
           },
@@ -162,21 +162,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "83e4d14bcca20bca",
+  "active": "e55ade6a40622e36",
   "lastOpenFiles": [
-    "C++/Programs/InformationHidingGettersAndSetters/main.exe",
-    "C++/Programs/InformationHidingGettersAndSetters/Coordinates.cpp",
-    "C++/Programs/InformationHidingGettersAndSetters/include/Coordinates.h",
-    "C++/Programs/InformationHidingGettersAndSetters/include",
-    "C++/Programs/InformationHidingGettersAndSetters/main.cpp",
-    "C++/Programs/InformationHidingGettersAndSetters",
-    "C++/Classes/The this keyword.md",
+    "C++/Programs/Coordinates2DConstructorExample/main.exe",
+    "C++/Programs/Coordinates2DConstructorExample/Coordinates2D.cpp",
+    "C++/Programs/Coordinates2DConstructorExample/include/Coordinates2D.h",
+    "C++/Programs/Coordinates2DConstructorExample/Coordinates.cpp",
+    "C++/Programs/Coordinates2DConstructorExample/include/Coordinates.h",
+    "C++/Programs/Coordinates2DConstructorExample/include",
+    "C++/Programs/Coordinates2DConstructorExample/main.cpp",
+    "C++/Programs/Coordinates2DConstructorExample",
+    "C++/Programs/ConstructorDestructorExample/main.exe",
+    "C++/Programs/ConstructorDestructorExample/main.cpp",
+    "C++/Programs/ConstructorDestructorExample",
     "C++/Classes/Non-Member Class-Related functions.md",
-    "C++/Programs/ClassesAndThisKeywordExample/main.exe",
-    "C++/Programs/ClassesAndThisKeywordExample/PrintName.cpp",
-    "C++/Programs/ClassesAndThisKeywordExample/include/PrintName.h",
-    "C++/Programs/ClassesAndThisKeywordExample/main.cpp",
-    "C++/Programs/ClassesAndThisKeywordExample/include",
+    "C++/Classes/Constructors and Destructors.md",
+    "C++/Classes/The this keyword.md",
     "C++/Classes/Member functions.md",
     "C++/Classes/Static members.md",
     "C++/Classes/Declaring and Defining a Class.md",
@@ -198,7 +199,6 @@
     "C++/ConsoleInputAndOutput/Accepting input.md",
     "C++/CompilationModel/Process overview and example.md",
     "C++/Arrays/Arrays.md",
-    "C++/TryCatchBlocks/The try-catch block.md",
-    "C++/ControlFlowStatements/Jump Statements - break and continue.md"
+    "C++/TryCatchBlocks/The try-catch block.md"
   ]
 }
