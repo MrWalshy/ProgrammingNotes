@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/Classes/Operator overloading.md",
+                "file": "C++/Classes/Functors.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/Classes/Operator overloading.md",
+                "file": "C++/Classes/Functors.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/Classes/Operator overloading.md",
+                "file": "C++/Classes/Functors.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/Classes/Operator overloading.md"
+                "file": "C++/Classes/Functors.md"
               }
             }
           },
@@ -189,22 +189,23 @@
   },
   "active": "f56b6218041395ea",
   "lastOpenFiles": [
+    "C++/Programs/FunctorExample/main.exe",
+    "C++/Programs/FunctorExample/AddX.cpp",
+    "C++/Programs/FunctorExample/include/AddX.h",
+    "C++/Programs/FunctorExample/include",
+    "C++/Programs/FunctorExample/main.cpp",
+    "C++/Programs/FunctorExample",
+    "C++/Classes/Operator overloading.md",
+    "C++/Classes/Functors.md",
     "C++/Programs/OperatorOverloadingExample/main.exe",
     "C++/Programs/OperatorOverloadingExample/include/Point.h",
     "C++/Programs/OperatorOverloadingExample/include",
     "C++/Programs/OperatorOverloadingExample/Point.cpp",
     "C++/Programs/OperatorOverloadingExample/include.cpp/Point.h",
-    "C++/Programs/OperatorOverloadingExample/include.cpp",
-    "C++/Programs/OperatorOverloadingExample/main.cpp",
-    "C++/Programs/OperatorOverloadingExample",
     "C++/Classes/Non-Member Class-Related functions.md",
     "C++/Classes/Friend Specifier.md",
-    "C++/Classes/Operator overloading.md",
     "C++/Classes/Copy Constructors and Assignment Operators.md",
     "C++/Namespaces/Namespaces.md",
-    "C++/Programs/FriendClassNamespaceExample/main.exe",
-    "C++/Programs/FriendClassNamespaceExample/main.cpp",
-    "C++/Programs/FriendClassNamespaceExample/AppleTree.cpp",
     "C++/Classes/Nested Class Declarations.md",
     "C++/Arrays/Arrays.md",
     "C++/Classes/Resource Acquisition Is Initialisation.md",
@@ -223,7 +224,6 @@
     "C++/Functions/Passing Arguments and Returning Values.md",
     "C++/Pointers and References/References.md",
     "C++/Pointers and References/Pointers.md",
-    "C++/LocalAndGlobalVariables/Local and Global Variables.md",
-    "C++/Functions/Function Declaration and Definition.md"
+    "C++/LocalAndGlobalVariables/Local and Global Variables.md"
   ]
 }
