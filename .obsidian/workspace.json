@@ -25,7 +25,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/Classes/Friend Specifier.md",
+                "file": "C++/Classes/Non-Member Class-Related functions.md",
                 "mode": "source",
                 "source": false
               }
@@ -37,7 +37,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/Classes/Copy Constructors and Assignment Operators.md",
+                "file": "C++/Classes/Operator overloading.md",
                 "mode": "source",
                 "source": false
               }
@@ -110,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/Classes/Copy Constructors and Assignment Operators.md",
+                "file": "C++/Classes/Operator overloading.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/Classes/Copy Constructors and Assignment Operators.md",
+                "file": "C++/Classes/Operator overloading.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/Classes/Copy Constructors and Assignment Operators.md"
+                "file": "C++/Classes/Operator overloading.md"
               }
             }
           },
@@ -189,24 +189,26 @@
   },
   "active": "f56b6218041395ea",
   "lastOpenFiles": [
-    "C++/Namespaces/Namespaces.md",
+    "C++/Programs/OperatorOverloadingExample/main.exe",
+    "C++/Programs/OperatorOverloadingExample/include/Point.h",
+    "C++/Programs/OperatorOverloadingExample/include",
+    "C++/Programs/OperatorOverloadingExample/Point.cpp",
+    "C++/Programs/OperatorOverloadingExample/include.cpp/Point.h",
+    "C++/Programs/OperatorOverloadingExample/include.cpp",
+    "C++/Programs/OperatorOverloadingExample/main.cpp",
+    "C++/Programs/OperatorOverloadingExample",
+    "C++/Classes/Non-Member Class-Related functions.md",
+    "C++/Classes/Friend Specifier.md",
+    "C++/Classes/Operator overloading.md",
     "C++/Classes/Copy Constructors and Assignment Operators.md",
+    "C++/Namespaces/Namespaces.md",
     "C++/Programs/FriendClassNamespaceExample/main.exe",
     "C++/Programs/FriendClassNamespaceExample/main.cpp",
     "C++/Programs/FriendClassNamespaceExample/AppleTree.cpp",
-    "C++/Programs/FriendClassNamespaceExample/Apple.cpp",
-    "C++/Programs/FriendClassNamespaceExample/include/AppleTree.h",
-    "C++/Programs/FriendClassNamespaceExample/include/Apple.h",
-    "C++/Programs/FriendClassNamespaceExample/include",
-    "C++/Programs/FriendClassNamespaceExample",
-    "C++/Programs/FriendClassExample/main.exe",
-    "C++/Programs/FriendClassExample/AppleTree.cpp",
-    "C++/Classes/Friend Specifier.md",
     "C++/Classes/Nested Class Declarations.md",
     "C++/Arrays/Arrays.md",
     "C++/Classes/Resource Acquisition Is Initialisation.md",
     "C++/Classes/Constructors and Destructors.md",
-    "C++/Classes/Non-Member Class-Related functions.md",
     "C++/Classes/The this keyword.md",
     "C++/Classes/Member functions.md",
     "C++/Classes/Static members.md",
@@ -222,8 +224,6 @@
     "C++/Pointers and References/References.md",
     "C++/Pointers and References/Pointers.md",
     "C++/LocalAndGlobalVariables/Local and Global Variables.md",
-    "C++/Functions/Function Declaration and Definition.md",
-    "C++/Functions/Working with const references or r-value references.md",
-    "C++/ConsoleInputAndOutput/Outputting data.md"
+    "C++/Functions/Function Declaration and Definition.md"
   ]
 }
