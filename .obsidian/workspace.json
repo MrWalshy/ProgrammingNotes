@@ -25,14 +25,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/Classes/Nested Class Declarations.md",
+                "file": "C++/Classes/Friend Specifier.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "f56b6218041395ea",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "C++/Namespaces/Namespaces.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/Classes/Nested Class Declarations.md",
+                "file": "C++/Namespaces/Namespaces.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/Classes/Nested Class Declarations.md",
+                "file": "C++/Namespaces/Namespaces.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/Classes/Nested Class Declarations.md"
+                "file": "C++/Namespaces/Namespaces.md"
               }
             }
           },
@@ -175,22 +187,24 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "11ac330dee932e28",
+  "active": "f56b6218041395ea",
   "lastOpenFiles": [
-    "C++/Arrays/Arrays.md",
+    "C++/Programs/FriendClassNamespaceExample/main.exe",
+    "C++/Programs/FriendClassNamespaceExample/main.cpp",
+    "C++/Programs/FriendClassNamespaceExample/AppleTree.cpp",
+    "C++/Programs/FriendClassNamespaceExample/Apple.cpp",
+    "C++/Programs/FriendClassNamespaceExample/include/AppleTree.h",
+    "C++/Programs/FriendClassNamespaceExample/include/Apple.h",
+    "C++/Programs/FriendClassNamespaceExample/include",
+    "C++/Programs/FriendClassNamespaceExample",
+    "C++/Programs/FriendClassExample/main.exe",
+    "C++/Programs/FriendClassExample/AppleTree.cpp",
+    "C++/Programs/FriendClassExample/Apple.cpp",
+    "C++/Classes/Friend Specifier.md",
     "C++/Classes/Nested Class Declarations.md",
-    "C++/Programs/RAIIExample/main.exe",
-    "C++/Programs/RAIIExample/CoordinateTracker.cpp",
+    "C++/Arrays/Arrays.md",
     "C++/Classes/Resource Acquisition Is Initialisation.md",
-    "C++/Programs/RAIIExample/include/CoordinateTracker.h",
-    "C++/Programs/RAIIExample/main.cpp",
-    "C++/Programs/RAIIExample/Coordinates2D.cpp",
-    "C++/Programs/RAIIExample/include/Coordinates2D.h",
-    "C++/Programs/RAIIExample/include",
-    "C++/Programs/RAIIExample",
     "C++/Classes/Constructors and Destructors.md",
-    "C++/Programs/Coordinates2DConstructorExample/main.exe",
-    "C++/Programs/Coordinates2DConstructorExample/Coordinates2D.cpp",
     "C++/Classes/Non-Member Class-Related functions.md",
     "C++/Classes/The this keyword.md",
     "C++/Classes/Member functions.md",
@@ -210,8 +224,6 @@
     "C++/LocalAndGlobalVariables/Local and Global Variables.md",
     "C++/Functions/Function Declaration and Definition.md",
     "C++/Functions/Working with const references or r-value references.md",
-    "C++/ConsoleInputAndOutput/Outputting data.md",
-    "C++/ConsoleInputAndOutput/Accepting input.md",
-    "C++/CompilationModel/Process overview and example.md"
+    "C++/ConsoleInputAndOutput/Outputting data.md"
   ]
 }
