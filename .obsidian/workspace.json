@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/GenericProgrammingAndTemplates/Templates.md",
+                "file": "C++/GenericProgrammingAndTemplates/Defining Class Template.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/GenericProgrammingAndTemplates/Templates.md",
+                "file": "C++/GenericProgrammingAndTemplates/Defining Class Template.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/GenericProgrammingAndTemplates/Templates.md",
+                "file": "C++/GenericProgrammingAndTemplates/Defining Class Template.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/GenericProgrammingAndTemplates/Templates.md"
+                "file": "C++/GenericProgrammingAndTemplates/Defining Class Template.md"
               }
             }
           },
@@ -164,9 +164,12 @@
   },
   "active": "9deeda2600f16534",
   "lastOpenFiles": [
+    "C++/GenericProgrammingAndTemplates/Defining Function Templates.md",
+    "C++/GenericProgrammingAndTemplates/Defining Class Template.md",
+    "C++/GenericProgrammingAndTemplates/Using Template Type Parameters.md",
+    "C++/GenericProgrammingAndTemplates/Templates.md",
     "C++/Programs/TemplateFunctionComparingBankAccountsExample/main.exe",
     "C++/Classes/Declaring and Defining a Class.md",
-    "C++/GenericProgrammingAndTemplates/Templates.md",
     "C++/Programs/TemplateFunctionComparingBankAccountsExample/include/BankingFunctions.h",
     "C++/Programs/TemplateFunctionComparingBankAccountsExample/include/UKBankAccount.h",
     "C++/Programs/TemplateFunctionComparingBankAccountsExample/include/EUBankAccount.h",
@@ -177,7 +180,6 @@
     "C++/GenericProgrammingAndTemplates",
     "C++/Programs/FunctorExample/main.exe",
     "C++/Programs/FunctorExample/AddX.cpp",
-    "C++/Programs/FunctorExample/include/AddX.h",
     "C++/Classes/Operator overloading.md",
     "C++/Classes/Non-Member Class-Related functions.md",
     "C++/Classes/Friend Specifier.md",
@@ -197,8 +199,6 @@
     "C++/Functions/Default arguments.md",
     "C++/Functions/Const Parameters.md",
     "C++/Functions/Returning values.md",
-    "C++/Functions/Passing Arguments and Returning Values.md",
-    "C++/Pointers and References/References.md",
-    "C++/Pointers and References/Pointers.md"
+    "C++/Functions/Passing Arguments and Returning Values.md"
   ]
 }
