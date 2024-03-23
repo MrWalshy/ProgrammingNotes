@@ -4,47 +4,22 @@
     "type": "split",
     "children": [
       {
-        "id": "41b31fede4a6f722",
+        "id": "b29145d85f2e2702",
         "type": "tabs",
         "children": [
           {
-            "id": "e55ade6a40622e36",
+            "id": "9deeda2600f16534",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/Classes/Resource Acquisition Is Initialisation.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "11ac330dee932e28",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C++/Classes/Non-Member Class-Related functions.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "f56b6218041395ea",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C++/Classes/Functors.md",
+                "file": "C++/GenericProgrammingAndTemplates/Templates.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
-        ],
-        "currentTab": 2
+        ]
       }
     ],
     "direction": "vertical"
@@ -110,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/Classes/Functors.md",
+                "file": "C++/GenericProgrammingAndTemplates/Templates.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -127,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/Classes/Functors.md",
+                "file": "C++/GenericProgrammingAndTemplates/Templates.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -150,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/Classes/Functors.md"
+                "file": "C++/GenericProgrammingAndTemplates/Templates.md"
               }
             }
           },
@@ -187,21 +162,23 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "f56b6218041395ea",
+  "active": "9deeda2600f16534",
   "lastOpenFiles": [
+    "C++/Programs/TemplateFunctionComparingBankAccountsExample/main.exe",
+    "C++/Classes/Declaring and Defining a Class.md",
+    "C++/GenericProgrammingAndTemplates/Templates.md",
+    "C++/Programs/TemplateFunctionComparingBankAccountsExample/include/BankingFunctions.h",
+    "C++/Programs/TemplateFunctionComparingBankAccountsExample/include/UKBankAccount.h",
+    "C++/Programs/TemplateFunctionComparingBankAccountsExample/include/EUBankAccount.h",
+    "C++/Programs/TemplateFunctionComparingBankAccountsExample/include",
+    "C++/Programs/TemplateFunctionComparingBankAccountsExample/main.cpp",
+    "C++/Programs/TemplateFunctionComparingBankAccountsExample",
+    "C++/Classes/Functors.md",
+    "C++/GenericProgrammingAndTemplates",
     "C++/Programs/FunctorExample/main.exe",
     "C++/Programs/FunctorExample/AddX.cpp",
     "C++/Programs/FunctorExample/include/AddX.h",
-    "C++/Programs/FunctorExample/include",
-    "C++/Programs/FunctorExample/main.cpp",
-    "C++/Programs/FunctorExample",
     "C++/Classes/Operator overloading.md",
-    "C++/Classes/Functors.md",
-    "C++/Programs/OperatorOverloadingExample/main.exe",
-    "C++/Programs/OperatorOverloadingExample/include/Point.h",
-    "C++/Programs/OperatorOverloadingExample/include",
-    "C++/Programs/OperatorOverloadingExample/Point.cpp",
-    "C++/Programs/OperatorOverloadingExample/include.cpp/Point.h",
     "C++/Classes/Non-Member Class-Related functions.md",
     "C++/Classes/Friend Specifier.md",
     "C++/Classes/Copy Constructors and Assignment Operators.md",
@@ -213,7 +190,6 @@
     "C++/Classes/The this keyword.md",
     "C++/Classes/Member functions.md",
     "C++/Classes/Static members.md",
-    "C++/Classes/Declaring and Defining a Class.md",
     "C++/Conventions/Common Naming Conventions.md",
     "C++/CompilationModel/Header and source files.md",
     "C++/Arrays/Multi-dimensional arrays.md",
@@ -223,7 +199,6 @@
     "C++/Functions/Returning values.md",
     "C++/Functions/Passing Arguments and Returning Values.md",
     "C++/Pointers and References/References.md",
-    "C++/Pointers and References/Pointers.md",
-    "C++/LocalAndGlobalVariables/Local and Global Variables.md"
+    "C++/Pointers and References/Pointers.md"
   ]
 }

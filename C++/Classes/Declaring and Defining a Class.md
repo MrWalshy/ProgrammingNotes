@@ -92,6 +92,47 @@ Coordinates manchesterPosition;
 
 These are two different instances of the `Coordinates` class.
 
+## Brace initialisation
+
+The fields of a `struct` or `class` can be initialised using brace initialisation in certain circumstances.
+
+Structs:
+- When initialising an object of a `struct` type, brace initialisation can be used to directly initialise its members.
+- If there is no constructor, provide the elements in the order that the members are declared in the struct.
+
+```cpp
+struct ExampleStruct
+{
+	int x;
+	int y;
+}
+
+// Usage
+ExampleStruct es{10, 20}; // x = 10, y = 20
+```
+
+Classes:
+- If the class has no constructor, provide the elements in order of declaration.
+- If the class has non-default constructors, the order in which parameters appear in the brace initialiser is the order of constructor parameters.
+
+```cpp
+class ExampleClass
+{
+	public:
+		ExampleClass() : x(0), y(0) {}
+		ExampleClass(int x) : x(x), y(0) {}
+		ExampleClass(int x, int y) : x(x), y(y) {}
+
+	private:
+		int x;
+		int y;
+}
+
+// usage
+ExampleClass ec1; // x = 0, y = 0
+ExampleClass ec2{10}; // x = 10, y = 0
+ExampleClass ec3{10, 20}; // x = 10, y = 20
+```
 ### Class scope
 
 When declaring a class, a new scope called the **class scope** is created. Names defined inside the class scope can only be accessed within the same class scope. To access members of a `class` or `struct` from a scope outside the class, use the dot (`.`) operator. Using the `Coordinates` example, the latitude and longitude could be accessed like so:
