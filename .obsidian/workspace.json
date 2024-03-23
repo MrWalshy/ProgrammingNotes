@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/GenericProgrammingAndTemplates/Defining Class Template.md",
+                "file": "C++/GenericProgrammingAndTemplates/Dependent Types.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "fb535f70647c0cdc",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "C++/Classes/Static members.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/GenericProgrammingAndTemplates/Defining Class Template.md",
+                "file": "C++/GenericProgrammingAndTemplates/Dependent Types.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/GenericProgrammingAndTemplates/Defining Class Template.md",
+                "file": "C++/GenericProgrammingAndTemplates/Dependent Types.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/GenericProgrammingAndTemplates/Defining Class Template.md"
+                "file": "C++/GenericProgrammingAndTemplates/Dependent Types.md"
               }
             }
           },
@@ -164,8 +176,10 @@
   },
   "active": "9deeda2600f16534",
   "lastOpenFiles": [
+    "C++/Classes/Static members.md",
+    "C++/GenericProgrammingAndTemplates/Dependent Types.md",
+    "C++/GenericProgrammingAndTemplates/Defining Class Templates.md",
     "C++/GenericProgrammingAndTemplates/Defining Function Templates.md",
-    "C++/GenericProgrammingAndTemplates/Defining Class Template.md",
     "C++/GenericProgrammingAndTemplates/Using Template Type Parameters.md",
     "C++/GenericProgrammingAndTemplates/Templates.md",
     "C++/Programs/TemplateFunctionComparingBankAccountsExample/main.exe",
@@ -191,14 +205,12 @@
     "C++/Classes/Constructors and Destructors.md",
     "C++/Classes/The this keyword.md",
     "C++/Classes/Member functions.md",
-    "C++/Classes/Static members.md",
     "C++/Conventions/Common Naming Conventions.md",
     "C++/CompilationModel/Header and source files.md",
     "C++/Arrays/Multi-dimensional arrays.md",
     "C++/Functions/Function Overloading.md",
     "C++/Functions/Default arguments.md",
     "C++/Functions/Const Parameters.md",
-    "C++/Functions/Returning values.md",
-    "C++/Functions/Passing Arguments and Returning Values.md"
+    "C++/Functions/Returning values.md"
   ]
 }

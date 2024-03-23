@@ -1,4 +1,4 @@
-Classes can also have static members indicated by the `static` keyword, these are values or functions not associated with any instance of a class. They can be used directly thorugh the class name.
+Classes can also have static members indicated by the `static` keyword, these are values or functions not associated with any instance of a class. They can be used directly through the class name.
 
 Declaring a static member looks like:
 
