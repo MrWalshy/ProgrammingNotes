@@ -31,7 +31,8 @@
               }
             }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -97,7 +98,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/GenericProgrammingAndTemplates/Dependent Types.md",
+                "file": "C++/Classes/Static members.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +115,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/GenericProgrammingAndTemplates/Dependent Types.md",
+                "file": "C++/Classes/Static members.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +138,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/GenericProgrammingAndTemplates/Dependent Types.md"
+                "file": "C++/Classes/Static members.md"
               }
             }
           },
@@ -174,26 +175,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "9deeda2600f16534",
+  "active": "fb535f70647c0cdc",
   "lastOpenFiles": [
-    "C++/Classes/Static members.md",
+    "C++/Programs/TemplateClassesMultipleCurrencyExample/main.exe",
+    "C++/Programs/TemplateClassesMultipleCurrencyExample/include/UserAccount.h",
+    "C++/Programs/TemplateClassesMultipleCurrencyExample/include/currency.h",
     "C++/GenericProgrammingAndTemplates/Dependent Types.md",
+    "C++/Programs/TemplateClassesMultipleCurrencyExample/Currency.cpp",
+    "C++/Programs/TemplateClassesMultipleCurrencyExample/include/Currency.h",
+    "C++/Programs/TemplateClassesMultipleCurrencyExample/include",
+    "C++/Programs/TemplateClassesMultipleCurrencyExample/main.cpp",
+    "C++/Programs/TemplateClassesMultipleCurrencyExample",
+    "C++/Programs/TemplateFunctionReadingObjectsFromConnection/main.exe",
+    "C++/Programs/TemplateFunctionReadingObjectsFromConnection/include/connection.h",
+    "C++/Programs/TemplateFunctionReadingObjectsFromConnection/TcpConnection.cpp",
+    "C++/Classes/Static members.md",
     "C++/GenericProgrammingAndTemplates/Defining Class Templates.md",
     "C++/GenericProgrammingAndTemplates/Defining Function Templates.md",
     "C++/GenericProgrammingAndTemplates/Using Template Type Parameters.md",
     "C++/GenericProgrammingAndTemplates/Templates.md",
-    "C++/Programs/TemplateFunctionComparingBankAccountsExample/main.exe",
     "C++/Classes/Declaring and Defining a Class.md",
-    "C++/Programs/TemplateFunctionComparingBankAccountsExample/include/BankingFunctions.h",
-    "C++/Programs/TemplateFunctionComparingBankAccountsExample/include/UKBankAccount.h",
-    "C++/Programs/TemplateFunctionComparingBankAccountsExample/include/EUBankAccount.h",
-    "C++/Programs/TemplateFunctionComparingBankAccountsExample/include",
-    "C++/Programs/TemplateFunctionComparingBankAccountsExample/main.cpp",
-    "C++/Programs/TemplateFunctionComparingBankAccountsExample",
     "C++/Classes/Functors.md",
-    "C++/GenericProgrammingAndTemplates",
-    "C++/Programs/FunctorExample/main.exe",
-    "C++/Programs/FunctorExample/AddX.cpp",
     "C++/Classes/Operator overloading.md",
     "C++/Classes/Non-Member Class-Related functions.md",
     "C++/Classes/Friend Specifier.md",
@@ -210,7 +212,6 @@
     "C++/Arrays/Multi-dimensional arrays.md",
     "C++/Functions/Function Overloading.md",
     "C++/Functions/Default arguments.md",
-    "C++/Functions/Const Parameters.md",
-    "C++/Functions/Returning values.md"
+    "C++/Functions/Const Parameters.md"
   ]
 }
