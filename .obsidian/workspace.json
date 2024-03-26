@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/StandardLibraryContainersAndAlgorithms/UnconventialContainers/Variant.md",
+                "file": "C++/StandardLibraryContainersAndAlgorithms/Iterators.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/StandardLibraryContainersAndAlgorithms/UnconventialContainers/Variant.md",
+                "file": "C++/StandardLibraryContainersAndAlgorithms/Iterators.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/StandardLibraryContainersAndAlgorithms/UnconventialContainers/Variant.md",
+                "file": "C++/StandardLibraryContainersAndAlgorithms/Iterators.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/StandardLibraryContainersAndAlgorithms/UnconventialContainers/Variant.md"
+                "file": "C++/StandardLibraryContainersAndAlgorithms/Iterators.md"
               }
             }
           },
@@ -164,21 +164,22 @@
   },
   "active": "3efa77b42fdabf0e",
   "lastOpenFiles": [
+    "C++/Programs/STLVectorIteratorOverContainerExample/main.exe",
+    "C++/Programs/STLVectorIteratorOverContainerExample/main.cpp",
+    "C++/Programs/STLVectorIteratorOverContainerExample",
+    "C++/Programs/STLVectorIteratorExample/main.exe",
+    "C++/Programs/STLVectorIteratorExample/main.cpp",
+    "C++/Programs/STLVectorIteratorExample",
+    "C++/StandardLibraryContainersAndAlgorithms/UnconventialContainers/Variant.md",
+    "C++/StandardLibraryContainersAndAlgorithms/Iterators.md",
+    "C++/StandardLibraryContainersAndAlgorithms/Iterators",
     "C++/Programs/STLVariantAsClassStateExample/main.exe",
     "C++/Programs/STLVariantAsClassStateExample/Airplane.cpp",
     "C++/Programs/STLVariantAsClassStateExample/include/Airplane.h",
     "C++/Programs/STLVariantAsClassStateExample/include/states.h",
-    "C++/Programs/STLVariantAsClassStateExample/include",
-    "C++/Programs/STLVariantAsClassStateExample/main.cpp",
-    "C++/Programs/STLVariantAsClassStateExample",
-    "C++/Programs/STLVisitorVariantExample/main.exe",
     "C++/Pointers and References/Variable Scope.md",
-    "C++/StandardLibraryContainersAndAlgorithms/UnconventialContainers/Variant.md",
     "C++/LocalAndGlobalVariables/Local and Global Variables.md",
     "C++/Pointers and References/References.md",
-    "C++/Programs/STLVisitorVariantExample/Visitor.cpp",
-    "C++/Programs/STLVisitorVariantExample/include/Visitor.h",
-    "C++/Programs/STLVisitorVariantExample/include",
     "C++/Classes/Functors.md",
     "C++/StandardLibraryContainersAndAlgorithms/UnconventialContainers/Optional.md",
     "C++/StandardLibraryContainersAndAlgorithms/UnconventialContainers/Pairs and Tuples.md",
@@ -189,7 +190,6 @@
     "C++/StandardLibraryContainersAndAlgorithms/ContainerAdaptors/Stacks.md",
     "C++/StandardLibraryContainersAndAlgorithms/ContainerAdaptors/What is a container adaptor.md",
     "C++/StandardLibraryContainersAndAlgorithms/UnorderedContainers/What is an unordered containers.md",
-    "C++/StandardLibraryContainersAndAlgorithms/Untitled.md",
     "C++/StandardLibraryContainersAndAlgorithms/UnorderedContainers/unorderedmap.png",
     "C++/StandardLibraryContainersAndAlgorithms/UnorderedContainers/unorderedset.png",
     "C++/StandardLibraryContainersAndAlgorithms/AssociativeContainers/Map and Multimap.md",
