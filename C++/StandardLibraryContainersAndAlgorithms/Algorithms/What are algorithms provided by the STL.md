@@ -1,0 +1,5 @@
+Algorithms are ways of operating on containers in an abstract way when provided from the STL.
+
+C++ STL algorithms accept iterators, allowing them to operate on any container which also offers an iterator. They allow for many algorithms to work with a variety of different containers without the algorithm knowing how the container is implemented.
+
+Algorithms typically operator on ranges, so they normally take a pair of iterators (`first` and `last`). The `last` iterator denotes the element past the end of the range, it is not part of the range. This means when wanting to operate on all the elements of a container, the `begin()` and `end()` functions can be passed as arguments to the algorithm. If operating on a shorter sequence, the last iterator must be one past the last item to include in the range.

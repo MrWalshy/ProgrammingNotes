@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/StandardLibraryContainersAndAlgorithms/Iterators.md",
+                "file": "C++/StandardLibraryContainersAndAlgorithms/Algorithms/Read-only algorithms.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/StandardLibraryContainersAndAlgorithms/Iterators.md",
+                "file": "C++/StandardLibraryContainersAndAlgorithms/Algorithms/Read-only algorithms.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/StandardLibraryContainersAndAlgorithms/Iterators.md",
+                "file": "C++/StandardLibraryContainersAndAlgorithms/Algorithms/Read-only algorithms.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/StandardLibraryContainersAndAlgorithms/Iterators.md"
+                "file": "C++/StandardLibraryContainersAndAlgorithms/Algorithms/Read-only algorithms.md"
               }
             }
           },
@@ -164,6 +164,11 @@
   },
   "active": "3efa77b42fdabf0e",
   "lastOpenFiles": [
+    "C++/StandardLibraryContainersAndAlgorithms/Algorithms/Lambda.md",
+    "C++/StandardLibraryContainersAndAlgorithms/Algorithms/Read-only algorithms.md",
+    "C++/StandardLibraryContainersAndAlgorithms/Algorithms/What are algorithms provided by the STL.md",
+    "C++/StandardLibraryContainersAndAlgorithms/Iterators.md",
+    "C++/StandardLibraryContainersAndAlgorithms/Algorithms",
     "C++/Programs/STLVectorIteratorOverContainerExample/main.exe",
     "C++/Programs/STLVectorIteratorOverContainerExample/main.cpp",
     "C++/Programs/STLVectorIteratorOverContainerExample",
@@ -171,12 +176,9 @@
     "C++/Programs/STLVectorIteratorExample/main.cpp",
     "C++/Programs/STLVectorIteratorExample",
     "C++/StandardLibraryContainersAndAlgorithms/UnconventialContainers/Variant.md",
-    "C++/StandardLibraryContainersAndAlgorithms/Iterators.md",
     "C++/StandardLibraryContainersAndAlgorithms/Iterators",
     "C++/Programs/STLVariantAsClassStateExample/main.exe",
     "C++/Programs/STLVariantAsClassStateExample/Airplane.cpp",
-    "C++/Programs/STLVariantAsClassStateExample/include/Airplane.h",
-    "C++/Programs/STLVariantAsClassStateExample/include/states.h",
     "C++/Pointers and References/Variable Scope.md",
     "C++/LocalAndGlobalVariables/Local and Global Variables.md",
     "C++/Pointers and References/References.md",
@@ -199,8 +201,6 @@
     "C++/StandardLibraryContainersAndAlgorithms/SequenceContainers/Forward List.md",
     "C++/StandardLibraryContainersAndAlgorithms/SequenceContainers/List.md",
     "C++/StandardLibraryContainersAndAlgorithms/SequenceContainers/Deque.md",
-    "C++/StandardLibraryContainersAndAlgorithms/SequenceContainers/Vectors.md",
-    "C++/StandardLibraryContainersAndAlgorithms/SequenceContainers/Array.md",
-    "C++/StandardLibraryContainersAndAlgorithms/SequenceContainers/Sequence Containers.md"
+    "C++/StandardLibraryContainersAndAlgorithms/SequenceContainers/Vectors.md"
   ]
 }
