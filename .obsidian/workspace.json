@@ -25,7 +25,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/GenericProgrammingAndTemplates/Template Argument Deduction.md",
+                "file": "C++/GenericProgrammingAndTemplates/Generic Templates.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "1516cd60ae30a3b5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "C++/Classes/Functors.md",
                 "mode": "source",
                 "source": false
               }
@@ -98,7 +110,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/GenericProgrammingAndTemplates/Template Argument Deduction.md",
+                "file": "C++/GenericProgrammingAndTemplates/Generic Templates.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -115,7 +127,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/GenericProgrammingAndTemplates/Template Argument Deduction.md",
+                "file": "C++/GenericProgrammingAndTemplates/Generic Templates.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -138,7 +150,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/GenericProgrammingAndTemplates/Template Argument Deduction.md"
+                "file": "C++/GenericProgrammingAndTemplates/Generic Templates.md"
               }
             }
           },
@@ -177,13 +189,15 @@
   },
   "active": "fb535f70647c0cdc",
   "lastOpenFiles": [
+    "C++/Classes/Functors.md",
+    "C++/GenericProgrammingAndTemplates/Generic Templates.md",
+    "C++/GenericProgrammingAndTemplates/Template Argument Deduction.md",
     "C++/Programs/TemplateParameterDeductionExample/main.exe",
     "C++/Programs/TemplateParameterDeductionExample/main.cpp",
     "C++/Programs/TemplateParameterDeductionExample/include/Matrix.h",
     "C++/Programs/TemplateParameterDeductionExample/include",
     "C++/Programs/TemplateParameterDeductionExample",
     "C++/GenericProgrammingAndTemplates/Default Template Arguments.md",
-    "C++/GenericProgrammingAndTemplates/Template Argument Deduction.md",
     "C++/GenericProgrammingAndTemplates/Non-Type Template Parameters.md",
     "C++/Programs/NonTypeTemplateParametersMatrixExample/main.exe",
     "C++/Programs/NonTypeTemplateParametersMatrixExample/include/Matrix.h",
@@ -191,14 +205,12 @@
     "C++/Programs/NonTypeTemplateParametersMatrixExample/main.cpp",
     "C++/Programs/NonTypeTemplateParametersMatrixExample",
     "C++/Classes/Static members.md",
-    "C++/Programs/TemplateClassesMultipleCurrencyExample/main.exe",
     "C++/GenericProgrammingAndTemplates/Dependent Types.md",
     "C++/GenericProgrammingAndTemplates/Defining Class Templates.md",
     "C++/GenericProgrammingAndTemplates/Defining Function Templates.md",
     "C++/GenericProgrammingAndTemplates/Using Template Type Parameters.md",
     "C++/GenericProgrammingAndTemplates/Templates.md",
     "C++/Classes/Declaring and Defining a Class.md",
-    "C++/Classes/Functors.md",
     "C++/Classes/Operator overloading.md",
     "C++/Classes/Non-Member Class-Related functions.md",
     "C++/Classes/Friend Specifier.md",
