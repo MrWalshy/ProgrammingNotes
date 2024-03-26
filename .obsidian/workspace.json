@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/StandardLibraryContainersAndAlgorithms/UnconventialContainers/Pairs and Tuples.md",
+                "file": "C++/StandardLibraryContainersAndAlgorithms/UnconventialContainers/Optional.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/StandardLibraryContainersAndAlgorithms/UnconventialContainers/Pairs and Tuples.md",
+                "file": "C++/StandardLibraryContainersAndAlgorithms/UnconventialContainers/Optional.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/StandardLibraryContainersAndAlgorithms/UnconventialContainers/Pairs and Tuples.md",
+                "file": "C++/StandardLibraryContainersAndAlgorithms/UnconventialContainers/Optional.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/StandardLibraryContainersAndAlgorithms/UnconventialContainers/Pairs and Tuples.md"
+                "file": "C++/StandardLibraryContainersAndAlgorithms/UnconventialContainers/Optional.md"
               }
             }
           },
@@ -164,8 +164,9 @@
   },
   "active": "3efa77b42fdabf0e",
   "lastOpenFiles": [
-    "C++/StandardLibraryContainersAndAlgorithms/UnconventialContainers/What is meant by unconventional container.md",
     "C++/StandardLibraryContainersAndAlgorithms/UnconventialContainers/Pairs and Tuples.md",
+    "C++/StandardLibraryContainersAndAlgorithms/UnconventialContainers/Optional.md",
+    "C++/StandardLibraryContainersAndAlgorithms/UnconventialContainers/What is meant by unconventional container.md",
     "C++/StandardLibraryContainersAndAlgorithms/UnconventialContainers/Strings.md",
     "C++/Programs/CStringsExample/main.exe",
     "C++/Programs/CStringsExample/main.cpp",
@@ -200,7 +201,6 @@
     "C++/Classes/Functors.md",
     "C++/GenericProgrammingAndTemplates/Template Argument Deduction.md",
     "C++/GenericProgrammingAndTemplates/Default Template Arguments.md",
-    "C++/GenericProgrammingAndTemplates/Non-Type Template Parameters.md",
-    "C++/Classes/Static members.md"
+    "C++/GenericProgrammingAndTemplates/Non-Type Template Parameters.md"
   ]
 }
