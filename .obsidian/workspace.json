@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/StandardLibraryContainersAndAlgorithms/ContainerAdaptors/Priority Queues.md",
+                "file": "C++/StandardLibraryContainersAndAlgorithms/UnconventialContainers/Strings.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/StandardLibraryContainersAndAlgorithms/ContainerAdaptors/Priority Queues.md",
+                "file": "C++/StandardLibraryContainersAndAlgorithms/UnconventialContainers/Strings.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/StandardLibraryContainersAndAlgorithms/ContainerAdaptors/Priority Queues.md",
+                "file": "C++/StandardLibraryContainersAndAlgorithms/UnconventialContainers/Strings.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/StandardLibraryContainersAndAlgorithms/ContainerAdaptors/Priority Queues.md"
+                "file": "C++/StandardLibraryContainersAndAlgorithms/UnconventialContainers/Strings.md"
               }
             }
           },
@@ -164,13 +164,19 @@
   },
   "active": "3efa77b42fdabf0e",
   "lastOpenFiles": [
+    "C++/Programs/CStringsExample/main.exe",
+    "C++/Programs/CStringsExample/main.cpp",
+    "C++/Programs/CStringsExample",
+    "C++/StandardLibraryContainersAndAlgorithms/UnconventialContainers/What is meant by unconventional container.md",
+    "C++/StandardLibraryContainersAndAlgorithms/UnconventialContainers/Strings.md",
+    "C++/StandardLibraryContainersAndAlgorithms/ContainerAdaptors/Priority Queues.md",
+    "C++/StandardLibraryContainersAndAlgorithms/UnconventialContainers",
     "C++/Programs/STLContainerAdaptorsExample/main.exe",
     "C++/Programs/STLContainerAdaptorsExample/include/RegistrationForm.h",
     "C++/Programs/STLContainerAdaptorsExample/include",
     "C++/Programs/STLContainerAdaptorsExample/main.cpp",
     "C++/Programs/STLContainerAdaptorsExample",
     "C++/StandardLibraryContainersAndAlgorithms/ContainerAdaptors/Queues.md",
-    "C++/StandardLibraryContainersAndAlgorithms/ContainerAdaptors/Priority Queues.md",
     "C++/StandardLibraryContainersAndAlgorithms/ContainerAdaptors/Stacks.md",
     "C++/StandardLibraryContainersAndAlgorithms/ContainerAdaptors/What is a container adaptor.md",
     "C++/StandardLibraryContainersAndAlgorithms/UnorderedContainers/What is an unordered containers.md",
@@ -180,12 +186,8 @@
     "C++/StandardLibraryContainersAndAlgorithms/UnorderedContainers/unorderedset.png",
     "C++/StandardLibraryContainersAndAlgorithms/AssociativeContainers/Map and Multimap.md",
     "C++/StandardLibraryContainersAndAlgorithms/UnorderedContainers",
-    "C++/Programs/STLMapExample/main.exe",
-    "C++/Programs/STLMapExample/main.cpp",
-    "C++/Programs/STLMapExample",
     "C++/StandardLibraryContainersAndAlgorithms/AssociativeContainers/Sets and Multisets.md",
     "C++/StandardLibraryContainersAndAlgorithms/AssociativeContainers/What is an associative container.md",
-    "C++/StandardLibraryContainersAndAlgorithms/AssociativeContainers",
     "C++/StandardLibraryContainersAndAlgorithms/SequenceContainers/Providing initial values to sequence containers.md",
     "C++/StandardLibraryContainersAndAlgorithms/SequenceContainers/Forward List.md",
     "C++/StandardLibraryContainersAndAlgorithms/SequenceContainers/List.md",
@@ -199,8 +201,6 @@
     "C++/GenericProgrammingAndTemplates/Template Argument Deduction.md",
     "C++/GenericProgrammingAndTemplates/Default Template Arguments.md",
     "C++/GenericProgrammingAndTemplates/Non-Type Template Parameters.md",
-    "C++/Classes/Static members.md",
-    "C++/GenericProgrammingAndTemplates/Dependent Types.md",
-    "C++/GenericProgrammingAndTemplates/Defining Class Templates.md"
+    "C++/Classes/Static members.md"
   ]
 }
