@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/StandardLibraryContainersAndAlgorithms/UnconventialContainers/Strings.md",
+                "file": "C++/StandardLibraryContainersAndAlgorithms/UnconventialContainers/Pairs and Tuples.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/StandardLibraryContainersAndAlgorithms/UnconventialContainers/Strings.md",
+                "file": "C++/StandardLibraryContainersAndAlgorithms/UnconventialContainers/Pairs and Tuples.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/StandardLibraryContainersAndAlgorithms/UnconventialContainers/Strings.md",
+                "file": "C++/StandardLibraryContainersAndAlgorithms/UnconventialContainers/Pairs and Tuples.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/StandardLibraryContainersAndAlgorithms/UnconventialContainers/Strings.md"
+                "file": "C++/StandardLibraryContainersAndAlgorithms/UnconventialContainers/Pairs and Tuples.md"
               }
             }
           },
@@ -164,11 +164,12 @@
   },
   "active": "3efa77b42fdabf0e",
   "lastOpenFiles": [
+    "C++/StandardLibraryContainersAndAlgorithms/UnconventialContainers/What is meant by unconventional container.md",
+    "C++/StandardLibraryContainersAndAlgorithms/UnconventialContainers/Pairs and Tuples.md",
+    "C++/StandardLibraryContainersAndAlgorithms/UnconventialContainers/Strings.md",
     "C++/Programs/CStringsExample/main.exe",
     "C++/Programs/CStringsExample/main.cpp",
     "C++/Programs/CStringsExample",
-    "C++/StandardLibraryContainersAndAlgorithms/UnconventialContainers/What is meant by unconventional container.md",
-    "C++/StandardLibraryContainersAndAlgorithms/UnconventialContainers/Strings.md",
     "C++/StandardLibraryContainersAndAlgorithms/ContainerAdaptors/Priority Queues.md",
     "C++/StandardLibraryContainersAndAlgorithms/UnconventialContainers",
     "C++/Programs/STLContainerAdaptorsExample/main.exe",
@@ -185,7 +186,6 @@
     "C++/StandardLibraryContainersAndAlgorithms/UnorderedContainers/unorderedmap.png",
     "C++/StandardLibraryContainersAndAlgorithms/UnorderedContainers/unorderedset.png",
     "C++/StandardLibraryContainersAndAlgorithms/AssociativeContainers/Map and Multimap.md",
-    "C++/StandardLibraryContainersAndAlgorithms/UnorderedContainers",
     "C++/StandardLibraryContainersAndAlgorithms/AssociativeContainers/Sets and Multisets.md",
     "C++/StandardLibraryContainersAndAlgorithms/AssociativeContainers/What is an associative container.md",
     "C++/StandardLibraryContainersAndAlgorithms/SequenceContainers/Providing initial values to sequence containers.md",
