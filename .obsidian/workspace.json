@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/StandardLibraryContainersAndAlgorithms/UnorderedContainers/What is an unordered containers.md",
+                "file": "C++/StandardLibraryContainersAndAlgorithms/ContainerAdaptors/Priority Queues.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/StandardLibraryContainersAndAlgorithms/UnorderedContainers/What is an unordered containers.md",
+                "file": "C++/StandardLibraryContainersAndAlgorithms/ContainerAdaptors/Priority Queues.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/StandardLibraryContainersAndAlgorithms/UnorderedContainers/What is an unordered containers.md",
+                "file": "C++/StandardLibraryContainersAndAlgorithms/ContainerAdaptors/Priority Queues.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/StandardLibraryContainersAndAlgorithms/UnorderedContainers/What is an unordered containers.md"
+                "file": "C++/StandardLibraryContainersAndAlgorithms/ContainerAdaptors/Priority Queues.md"
               }
             }
           },
@@ -164,9 +164,20 @@
   },
   "active": "3efa77b42fdabf0e",
   "lastOpenFiles": [
+    "C++/Programs/STLContainerAdaptorsExample/main.exe",
+    "C++/Programs/STLContainerAdaptorsExample/include/RegistrationForm.h",
+    "C++/Programs/STLContainerAdaptorsExample/include",
+    "C++/Programs/STLContainerAdaptorsExample/main.cpp",
+    "C++/Programs/STLContainerAdaptorsExample",
+    "C++/StandardLibraryContainersAndAlgorithms/ContainerAdaptors/Queues.md",
+    "C++/StandardLibraryContainersAndAlgorithms/ContainerAdaptors/Priority Queues.md",
+    "C++/StandardLibraryContainersAndAlgorithms/ContainerAdaptors/Stacks.md",
+    "C++/StandardLibraryContainersAndAlgorithms/ContainerAdaptors/What is a container adaptor.md",
+    "C++/StandardLibraryContainersAndAlgorithms/UnorderedContainers/What is an unordered containers.md",
+    "C++/StandardLibraryContainersAndAlgorithms/ContainerAdaptors",
+    "C++/StandardLibraryContainersAndAlgorithms/Untitled.md",
     "C++/StandardLibraryContainersAndAlgorithms/UnorderedContainers/unorderedmap.png",
     "C++/StandardLibraryContainersAndAlgorithms/UnorderedContainers/unorderedset.png",
-    "C++/StandardLibraryContainersAndAlgorithms/UnorderedContainers/What is an unordered containers.md",
     "C++/StandardLibraryContainersAndAlgorithms/AssociativeContainers/Map and Multimap.md",
     "C++/StandardLibraryContainersAndAlgorithms/UnorderedContainers",
     "C++/Programs/STLMapExample/main.exe",
@@ -176,30 +187,20 @@
     "C++/StandardLibraryContainersAndAlgorithms/AssociativeContainers/What is an associative container.md",
     "C++/StandardLibraryContainersAndAlgorithms/AssociativeContainers",
     "C++/StandardLibraryContainersAndAlgorithms/SequenceContainers/Providing initial values to sequence containers.md",
-    "C++/Programs/STLVectorExample/main.exe",
-    "C++/Programs/STLVectorExample/main.cpp",
-    "C++/Programs/STLVectorExample",
     "C++/StandardLibraryContainersAndAlgorithms/SequenceContainers/Forward List.md",
     "C++/StandardLibraryContainersAndAlgorithms/SequenceContainers/List.md",
     "C++/StandardLibraryContainersAndAlgorithms/SequenceContainers/Deque.md",
     "C++/StandardLibraryContainersAndAlgorithms/SequenceContainers/Vectors.md",
     "C++/StandardLibraryContainersAndAlgorithms/SequenceContainers/Array.md",
     "C++/StandardLibraryContainersAndAlgorithms/SequenceContainers/Sequence Containers.md",
-    "C++/StandardLibraryContainersAndAlgorithms/SequenceContainers",
     "C++/StandardLibraryContainersAndAlgorithms/What is the Standard Template Library.md",
     "C++/GenericProgrammingAndTemplates/Generic Templates.md",
-    "C++/StandardLibraryContainersAndAlgorithms",
     "C++/Classes/Functors.md",
     "C++/GenericProgrammingAndTemplates/Template Argument Deduction.md",
     "C++/GenericProgrammingAndTemplates/Default Template Arguments.md",
     "C++/GenericProgrammingAndTemplates/Non-Type Template Parameters.md",
     "C++/Classes/Static members.md",
     "C++/GenericProgrammingAndTemplates/Dependent Types.md",
-    "C++/GenericProgrammingAndTemplates/Defining Class Templates.md",
-    "C++/GenericProgrammingAndTemplates/Defining Function Templates.md",
-    "C++/GenericProgrammingAndTemplates/Using Template Type Parameters.md",
-    "C++/GenericProgrammingAndTemplates/Templates.md",
-    "C++/Classes/Declaring and Defining a Class.md",
-    "C++/Classes/Operator overloading.md"
+    "C++/GenericProgrammingAndTemplates/Defining Class Templates.md"
   ]
 }

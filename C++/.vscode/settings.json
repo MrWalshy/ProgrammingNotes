@@ -50,6 +50,12 @@
         "xutility": "cpp",
         "array": "cpp",
         "string": "cpp",
-        "vector": "cpp"
+        "vector": "cpp",
+        "deque": "cpp",
+        "map": "cpp",
+        "ranges": "cpp",
+        "span": "cpp",
+        "stack": "cpp",
+        "xtree": "cpp"
     }
 }
