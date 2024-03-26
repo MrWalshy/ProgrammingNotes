@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/StandardLibraryContainersAndAlgorithms/AssociativeContainers/Map and Multimap.md",
+                "file": "C++/StandardLibraryContainersAndAlgorithms/UnorderedContainers/What is an unordered containers.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/StandardLibraryContainersAndAlgorithms/AssociativeContainers/Map and Multimap.md",
+                "file": "C++/StandardLibraryContainersAndAlgorithms/UnorderedContainers/What is an unordered containers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/StandardLibraryContainersAndAlgorithms/AssociativeContainers/Map and Multimap.md",
+                "file": "C++/StandardLibraryContainersAndAlgorithms/UnorderedContainers/What is an unordered containers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/StandardLibraryContainersAndAlgorithms/AssociativeContainers/Map and Multimap.md"
+                "file": "C++/StandardLibraryContainersAndAlgorithms/UnorderedContainers/What is an unordered containers.md"
               }
             }
           },
@@ -164,11 +164,15 @@
   },
   "active": "3efa77b42fdabf0e",
   "lastOpenFiles": [
+    "C++/StandardLibraryContainersAndAlgorithms/UnorderedContainers/unorderedmap.png",
+    "C++/StandardLibraryContainersAndAlgorithms/UnorderedContainers/unorderedset.png",
+    "C++/StandardLibraryContainersAndAlgorithms/UnorderedContainers/What is an unordered containers.md",
+    "C++/StandardLibraryContainersAndAlgorithms/AssociativeContainers/Map and Multimap.md",
+    "C++/StandardLibraryContainersAndAlgorithms/UnorderedContainers",
     "C++/Programs/STLMapExample/main.exe",
     "C++/Programs/STLMapExample/main.cpp",
     "C++/Programs/STLMapExample",
     "C++/StandardLibraryContainersAndAlgorithms/AssociativeContainers/Sets and Multisets.md",
-    "C++/StandardLibraryContainersAndAlgorithms/AssociativeContainers/Map and Multimap.md",
     "C++/StandardLibraryContainersAndAlgorithms/AssociativeContainers/What is an associative container.md",
     "C++/StandardLibraryContainersAndAlgorithms/AssociativeContainers",
     "C++/StandardLibraryContainersAndAlgorithms/SequenceContainers/Providing initial values to sequence containers.md",
@@ -187,8 +191,6 @@
     "C++/StandardLibraryContainersAndAlgorithms",
     "C++/Classes/Functors.md",
     "C++/GenericProgrammingAndTemplates/Template Argument Deduction.md",
-    "C++/Programs/TemplateParameterDeductionExample/main.exe",
-    "C++/Programs/TemplateParameterDeductionExample/main.cpp",
     "C++/GenericProgrammingAndTemplates/Default Template Arguments.md",
     "C++/GenericProgrammingAndTemplates/Non-Type Template Parameters.md",
     "C++/Classes/Static members.md",
@@ -198,7 +200,6 @@
     "C++/GenericProgrammingAndTemplates/Using Template Type Parameters.md",
     "C++/GenericProgrammingAndTemplates/Templates.md",
     "C++/Classes/Declaring and Defining a Class.md",
-    "C++/Classes/Operator overloading.md",
-    "C++/Classes/Non-Member Class-Related functions.md"
+    "C++/Classes/Operator overloading.md"
   ]
 }
