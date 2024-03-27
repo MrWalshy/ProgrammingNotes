@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/ObjectOrientedProgramming/Interfaces.md",
+                "file": "C++/ObjectOrientedProgramming/Safe Dynamic Memory.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/ObjectOrientedProgramming/Interfaces.md",
+                "file": "C++/ObjectOrientedProgramming/Safe Dynamic Memory.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/ObjectOrientedProgramming/Interfaces.md",
+                "file": "C++/ObjectOrientedProgramming/Safe Dynamic Memory.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/ObjectOrientedProgramming/Interfaces.md"
+                "file": "C++/ObjectOrientedProgramming/Safe Dynamic Memory.md"
               }
             }
           },
@@ -164,8 +164,10 @@
   },
   "active": "3efa77b42fdabf0e",
   "lastOpenFiles": [
-    "C++/ObjectOrientedProgramming/Polymorphism.md",
+    "C++/ObjectOrientedProgramming/Dynamic Memory.md",
+    "C++/ObjectOrientedProgramming/Safe Dynamic Memory.md",
     "C++/ObjectOrientedProgramming/Interfaces.md",
+    "C++/ObjectOrientedProgramming/Polymorphism.md",
     "C++/ObjectOrientedProgramming/Inheritance.md",
     "C++/Programs/InheritanceExample2GameCharacters/Enemy.cpp",
     "C++/Programs/InheritanceExample2GameCharacters/Hero.cpp",
@@ -198,8 +200,6 @@
     "C++/StandardLibraryContainersAndAlgorithms/ContainerAdaptors/Priority Queues.md",
     "C++/StandardLibraryContainersAndAlgorithms/ContainerAdaptors/Queues.md",
     "C++/StandardLibraryContainersAndAlgorithms/ContainerAdaptors/Stacks.md",
-    "C++/StandardLibraryContainersAndAlgorithms/ContainerAdaptors/What is a container adaptor.md",
-    "C++/StandardLibraryContainersAndAlgorithms/UnorderedContainers/What is an unordered containers.md",
     "C++/StandardLibraryContainersAndAlgorithms/UnorderedContainers/unorderedmap.png",
     "C++/StandardLibraryContainersAndAlgorithms/UnorderedContainers/unorderedset.png"
   ]
