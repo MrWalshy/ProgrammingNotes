@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/ObjectOrientedProgramming/Inheritance.md",
+                "file": "C++/ObjectOrientedProgramming/Interfaces.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/ObjectOrientedProgramming/Inheritance.md",
+                "file": "C++/ObjectOrientedProgramming/Interfaces.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/ObjectOrientedProgramming/Inheritance.md",
+                "file": "C++/ObjectOrientedProgramming/Interfaces.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/ObjectOrientedProgramming/Inheritance.md"
+                "file": "C++/ObjectOrientedProgramming/Interfaces.md"
               }
             }
           },
@@ -164,6 +164,9 @@
   },
   "active": "3efa77b42fdabf0e",
   "lastOpenFiles": [
+    "C++/ObjectOrientedProgramming/Polymorphism.md",
+    "C++/ObjectOrientedProgramming/Interfaces.md",
+    "C++/ObjectOrientedProgramming/Inheritance.md",
     "C++/Programs/InheritanceExample2GameCharacters/Enemy.cpp",
     "C++/Programs/InheritanceExample2GameCharacters/Hero.cpp",
     "C++/Programs/InheritanceExample2GameCharacters/Character.cpp",
@@ -174,9 +177,7 @@
     "C++/Programs/InheritanceExample2GameCharacters/include",
     "C++/Programs/InheritanceExample2GameCharacters/main.cpp",
     "C++/Programs/InheritanceExample2GameCharacters",
-    "C++/Programs/MultipleInheritanceExample/main.exe",
     "C++/StandardLibraryContainersAndAlgorithms/Algorithms/Numeric Algorithms.md",
-    "C++/ObjectOrientedProgramming/Inheritance.md",
     "C++/StandardLibraryContainersAndAlgorithms/Algorithms/Binary Search Algorithms.md",
     "C++/StandardLibraryContainersAndAlgorithms/Algorithms/Sorting algorithms.md",
     "C++/StandardLibraryContainersAndAlgorithms/Algorithms/Mutating Algorithms.md",
@@ -200,7 +201,6 @@
     "C++/StandardLibraryContainersAndAlgorithms/ContainerAdaptors/What is a container adaptor.md",
     "C++/StandardLibraryContainersAndAlgorithms/UnorderedContainers/What is an unordered containers.md",
     "C++/StandardLibraryContainersAndAlgorithms/UnorderedContainers/unorderedmap.png",
-    "C++/StandardLibraryContainersAndAlgorithms/UnorderedContainers/unorderedset.png",
-    "C++/StandardLibraryContainersAndAlgorithms/AssociativeContainers/Map and Multimap.md"
+    "C++/StandardLibraryContainersAndAlgorithms/UnorderedContainers/unorderedset.png"
   ]
 }
