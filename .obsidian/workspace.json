@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/StandardLibraryContainersAndAlgorithms/Algorithms/Numeric Algorithms.md",
+                "file": "C++/ObjectOrientedProgramming/Inheritance.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/StandardLibraryContainersAndAlgorithms/Algorithms/Numeric Algorithms.md",
+                "file": "C++/ObjectOrientedProgramming/Inheritance.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/StandardLibraryContainersAndAlgorithms/Algorithms/Numeric Algorithms.md",
+                "file": "C++/ObjectOrientedProgramming/Inheritance.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/StandardLibraryContainersAndAlgorithms/Algorithms/Numeric Algorithms.md"
+                "file": "C++/ObjectOrientedProgramming/Inheritance.md"
               }
             }
           },
@@ -164,14 +164,20 @@
   },
   "active": "3efa77b42fdabf0e",
   "lastOpenFiles": [
-    "C++/Programs/STLAlgorithmsUsageExample/main.exe",
-    "C++/Programs/STLAlgorithmsUsageExample/UserAccount.cpp",
-    "C++/Programs/STLAlgorithmsUsageExample/include/UserAccount.h",
-    "C++/Programs/STLAlgorithmsUsageExample/include",
-    "C++/Programs/STLAlgorithmsUsageExample/main.cpp",
-    "C++/Programs/STLAlgorithmsUsageExample",
-    "C++/StandardLibraryContainersAndAlgorithms/Algorithms/Binary Search Algorithms.md",
+    "C++/Programs/InheritanceExample2GameCharacters/Enemy.cpp",
+    "C++/Programs/InheritanceExample2GameCharacters/Hero.cpp",
+    "C++/Programs/InheritanceExample2GameCharacters/Character.cpp",
+    "C++/Programs/InheritanceExample2GameCharacters/main.exe",
+    "C++/Programs/InheritanceExample2GameCharacters/Spell.cpp",
+    "C++/Programs/InheritanceExample2GameCharacters/include/actions.h",
+    "C++/Programs/InheritanceExample2GameCharacters/include/characters.h",
+    "C++/Programs/InheritanceExample2GameCharacters/include",
+    "C++/Programs/InheritanceExample2GameCharacters/main.cpp",
+    "C++/Programs/InheritanceExample2GameCharacters",
+    "C++/Programs/MultipleInheritanceExample/main.exe",
     "C++/StandardLibraryContainersAndAlgorithms/Algorithms/Numeric Algorithms.md",
+    "C++/ObjectOrientedProgramming/Inheritance.md",
+    "C++/StandardLibraryContainersAndAlgorithms/Algorithms/Binary Search Algorithms.md",
     "C++/StandardLibraryContainersAndAlgorithms/Algorithms/Sorting algorithms.md",
     "C++/StandardLibraryContainersAndAlgorithms/Algorithms/Mutating Algorithms.md",
     "C++/StandardLibraryContainersAndAlgorithms/Algorithms/Modifying Algorithms.md",
@@ -179,11 +185,6 @@
     "C++/StandardLibraryContainersAndAlgorithms/Algorithms/Lambda.md",
     "C++/StandardLibraryContainersAndAlgorithms/Algorithms/What are algorithms provided by the STL.md",
     "C++/StandardLibraryContainersAndAlgorithms/Iterators.md",
-    "C++/StandardLibraryContainersAndAlgorithms/Algorithms",
-    "C++/Programs/STLVectorIteratorOverContainerExample/main.exe",
-    "C++/Programs/STLVectorIteratorOverContainerExample/main.cpp",
-    "C++/Programs/STLVectorIteratorOverContainerExample",
-    "C++/Programs/STLVectorIteratorExample/main.exe",
     "C++/StandardLibraryContainersAndAlgorithms/UnconventialContainers/Variant.md",
     "C++/Pointers and References/Variable Scope.md",
     "C++/LocalAndGlobalVariables/Local and Global Variables.md",
@@ -200,7 +201,6 @@
     "C++/StandardLibraryContainersAndAlgorithms/UnorderedContainers/What is an unordered containers.md",
     "C++/StandardLibraryContainersAndAlgorithms/UnorderedContainers/unorderedmap.png",
     "C++/StandardLibraryContainersAndAlgorithms/UnorderedContainers/unorderedset.png",
-    "C++/StandardLibraryContainersAndAlgorithms/AssociativeContainers/Map and Multimap.md",
-    "C++/StandardLibraryContainersAndAlgorithms/AssociativeContainers/Sets and Multisets.md"
+    "C++/StandardLibraryContainersAndAlgorithms/AssociativeContainers/Map and Multimap.md"
   ]
 }
