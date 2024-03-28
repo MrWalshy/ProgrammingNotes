@@ -4,16 +4,13 @@
 #include "token_type.h"
 #include "lox/types/object.h"
 
-class Token
+struct Token
 {
-    public:
-        const TokenType type;
-        const std::string lexeme;
-        Object* literal;
-        const int line;
+    TokenType type;
+    std::string lexeme;
+    Object* literal;
+    const int line;
 
-        Token(TokenType type, std::string lexeme, Object* literal, int line);
-
-        std::string toString();
+    std::string toString() const;
 };
 #endif

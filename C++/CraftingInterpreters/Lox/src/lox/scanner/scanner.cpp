@@ -20,7 +20,7 @@ std::vector<Token> Scanner::scanTokens()
         scanToken();
     }
 
-    tokens.push_back(Token(TokenType::END, "", nullptr, line));
+    tokens.push_back(Token{TokenType::END, "", nullptr, line});
     return tokens;
 }
 
@@ -130,7 +130,7 @@ void Scanner::addToken(TokenType type)
 void Scanner::addToken(TokenType type, Object* literal)
 {
     std::string text = source.substr(start, current - start);
-    tokens.push_back(Token(type, text, literal, line));
+    tokens.push_back(Token{type, text, literal, line});
 }
 
 bool Scanner::isDigit(char c) const
