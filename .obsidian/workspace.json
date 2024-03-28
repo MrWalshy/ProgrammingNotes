@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "README.md",
+                "file": "C++/CraftingInterpreters/LoxLanguageNotes/Classes.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "README.md",
+                "file": "C++/CraftingInterpreters/LoxLanguageNotes/Classes.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "README.md",
+                "file": "C++/CraftingInterpreters/LoxLanguageNotes/Classes.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "README.md"
+                "file": "C++/CraftingInterpreters/LoxLanguageNotes/Classes.md"
               }
             }
           },
@@ -162,8 +162,22 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4d18accfc407c4f0",
+  "active": "3efa77b42fdabf0e",
   "lastOpenFiles": [
+    "C++/CraftingInterpreters/LoxLanguageNotes/Functions.md",
+    "C++/CraftingInterpreters/LoxLanguageNotes/Classes.md",
+    "C++/CraftingInterpreters/LoxLanguageNotes/Control Flow.md",
+    "C++/CraftingInterpreters/LoxLanguageNotes/Variables.md",
+    "C++/CraftingInterpreters/LoxLanguageNotes/Untitled",
+    "C++/CraftingInterpreters/LoxLanguageNotes/Statements.md",
+    "C++/CraftingInterpreters/LoxLanguageNotes/Expressions.md",
+    "C++/CraftingInterpreters/LoxLanguageNotes/Data types.md",
+    "C++/CraftingInterpreters/LoxLanguageNotes/High-level language.md",
+    "C++/CraftingInterpreters/LoxLanguageNotes/Hello Lox.md",
+    "C++/CraftingInterpreters/PartsOfALanguage/readme.md",
+    "C++/CraftingInterpreters/PartsOfALanguage/code_mountain.png",
+    "README.md",
+    "C++/CraftingInterpreters/PartsOfALanguage",
     "C++/CraftingInterpreters/LoxLanguageNotes",
     "C++/CraftingInterpreters/TreeWalkInterpreter",
     "C++/CraftingInterpreters",
@@ -179,9 +193,6 @@
     "C++/GeneralNotes/Programs/InheritanceExample2GameCharacters/Hero.cpp",
     "C++/GeneralNotes/Programs/InheritanceExample2GameCharacters/Character.cpp",
     "C++/GeneralNotes/Programs/InheritanceExample2GameCharacters/main.exe",
-    "C++/GeneralNotes/Programs/InheritanceExample2GameCharacters/Spell.cpp",
-    "C++/GeneralNotes/Programs/InheritanceExample2GameCharacters/include/actions.h",
-    "C++/GeneralNotes/Programs/InheritanceExample2GameCharacters/include/characters.h",
     "C++/GeneralNotes/StandardLibraryContainersAndAlgorithms/Algorithms/Numeric Algorithms.md",
     "C++/GeneralNotes/StandardLibraryContainersAndAlgorithms/Algorithms/Binary Search Algorithms.md",
     "C++/GeneralNotes/StandardLibraryContainersAndAlgorithms/Algorithms/Sorting algorithms.md",
@@ -190,16 +201,6 @@
     "C++/GeneralNotes/StandardLibraryContainersAndAlgorithms/Algorithms/Read-only algorithms.md",
     "C++/GeneralNotes/StandardLibraryContainersAndAlgorithms/Algorithms/Lambda.md",
     "C++/GeneralNotes/StandardLibraryContainersAndAlgorithms/Algorithms/What are algorithms provided by the STL.md",
-    "C++/GeneralNotes/StandardLibraryContainersAndAlgorithms/Iterators.md",
-    "C++/GeneralNotes/StandardLibraryContainersAndAlgorithms/UnconventialContainers/Variant.md",
-    "C++/GeneralNotes/Pointers and References/Variable Scope.md",
-    "C++/GeneralNotes/LocalAndGlobalVariables/Local and Global Variables.md",
-    "C++/GeneralNotes/Pointers and References/References.md",
-    "C++/GeneralNotes/Classes/Functors.md",
-    "C++/GeneralNotes/StandardLibraryContainersAndAlgorithms/UnconventialContainers/Optional.md",
-    "C++/GeneralNotes/StandardLibraryContainersAndAlgorithms/UnconventialContainers/Pairs and Tuples.md",
-    "C++/GeneralNotes/StandardLibraryContainersAndAlgorithms/UnconventialContainers/What is meant by unconventional container.md",
-    "C++/GeneralNotes/StandardLibraryContainersAndAlgorithms/UnconventialContainers/Strings.md",
     "C++/GeneralNotes/StandardLibraryContainersAndAlgorithms/UnorderedContainers/unorderedmap.png",
     "C++/GeneralNotes/StandardLibraryContainersAndAlgorithms/UnorderedContainers/unorderedset.png"
   ]
