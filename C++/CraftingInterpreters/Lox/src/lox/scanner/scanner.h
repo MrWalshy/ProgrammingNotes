@@ -14,17 +14,16 @@ class Scanner
         std::vector<Token> scanTokens();
 
     private:
-        const bool isAtEnd();
-        const char peek();
-        const char peekNext();
-        const bool isDigit(char c);
-        const bool isAlpha(char c);
+        bool isAtEnd() const;
+        char peek() const;
+        char peekNext() const;
+        bool isDigit(char c) const;
+        bool isAlpha(char c) const;
+        bool isAlphaNumeric(char c) const;
 
         void scanToken();
         char advance();
         bool match(char expected);
-        
-        bool isAlphaNumeric(char c);
         void string();
         void number();
         void identifier();
