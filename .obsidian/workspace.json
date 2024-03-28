@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/CraftingInterpreters/LoxLanguageNotes/Classes.md",
+                "file": "C++/GeneralNotes/StandardLibraryContainersAndAlgorithms/AssociativeContainers/Map and Multimap.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/CraftingInterpreters/LoxLanguageNotes/Classes.md",
+                "file": "C++/GeneralNotes/StandardLibraryContainersAndAlgorithms/AssociativeContainers/Map and Multimap.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/CraftingInterpreters/LoxLanguageNotes/Classes.md",
+                "file": "C++/GeneralNotes/StandardLibraryContainersAndAlgorithms/AssociativeContainers/Map and Multimap.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/CraftingInterpreters/LoxLanguageNotes/Classes.md"
+                "file": "C++/GeneralNotes/StandardLibraryContainersAndAlgorithms/AssociativeContainers/Map and Multimap.md"
               }
             }
           },
@@ -164,11 +164,25 @@
   },
   "active": "3efa77b42fdabf0e",
   "lastOpenFiles": [
-    "C++/CraftingInterpreters/LoxLanguageNotes/Functions.md",
+    "C++/GeneralNotes/Classes/Copy Constructors and Assignment Operators.md",
+    "C++/CraftingInterpreters/Lox/src/lox/types/number.h",
+    "C++/CraftingInterpreters/Lox/src/lox/types/number.cpp",
+    "C++/CraftingInterpreters/Lox/src/lox/scanner/number.cpp",
+    "C++/CraftingInterpreters/Lox/src/lox/scanner/number.h",
+    "C++/GeneralNotes/ObjectOrientedProgramming/Interfaces.md",
+    "C++/CraftingInterpreters/Lox/src/lox/types/lox_string.cpp",
+    "C++/CraftingInterpreters/Lox/src/lox/types/lox_string.h",
+    "C++/CraftingInterpreters/Lox/src/lox/scanner/token_type.cpp",
+    "C++/CraftingInterpreters/Lox/main.exe",
+    "C++/CraftingInterpreters/Lox/src/lox/types/object.h",
+    "C++/CraftingInterpreters/Lox/src/lox/scanner/token.cpp",
+    "C++/GeneralNotes/ObjectOrientedProgramming/Inheritance.md",
+    "C++/GeneralNotes/ObjectOrientedProgramming/Polymorphism.md",
+    "C++/CraftingInterpreters/TreeWalkInterpreter/Scanning.md",
     "C++/CraftingInterpreters/LoxLanguageNotes/Classes.md",
+    "C++/CraftingInterpreters/LoxLanguageNotes/Functions.md",
     "C++/CraftingInterpreters/LoxLanguageNotes/Control Flow.md",
     "C++/CraftingInterpreters/LoxLanguageNotes/Variables.md",
-    "C++/CraftingInterpreters/LoxLanguageNotes/Untitled",
     "C++/CraftingInterpreters/LoxLanguageNotes/Statements.md",
     "C++/CraftingInterpreters/LoxLanguageNotes/Expressions.md",
     "C++/CraftingInterpreters/LoxLanguageNotes/Data types.md",
@@ -177,30 +191,16 @@
     "C++/CraftingInterpreters/PartsOfALanguage/readme.md",
     "C++/CraftingInterpreters/PartsOfALanguage/code_mountain.png",
     "README.md",
-    "C++/CraftingInterpreters/PartsOfALanguage",
-    "C++/CraftingInterpreters/LoxLanguageNotes",
-    "C++/CraftingInterpreters/TreeWalkInterpreter",
-    "C++/CraftingInterpreters",
     "C++/GeneralNotes/Introduction.md",
     "C++/GeneralNotes/TryCatchBlocks/The try-catch block.md",
-    "C++/GeneralNotes",
     "C++/GeneralNotes/ObjectOrientedProgramming/Safe Dynamic Memory.md",
     "C++/GeneralNotes/ObjectOrientedProgramming/Dynamic Memory.md",
-    "C++/GeneralNotes/ObjectOrientedProgramming/Interfaces.md",
-    "C++/GeneralNotes/ObjectOrientedProgramming/Polymorphism.md",
-    "C++/GeneralNotes/ObjectOrientedProgramming/Inheritance.md",
-    "C++/GeneralNotes/Programs/InheritanceExample2GameCharacters/Enemy.cpp",
-    "C++/GeneralNotes/Programs/InheritanceExample2GameCharacters/Hero.cpp",
-    "C++/GeneralNotes/Programs/InheritanceExample2GameCharacters/Character.cpp",
-    "C++/GeneralNotes/Programs/InheritanceExample2GameCharacters/main.exe",
     "C++/GeneralNotes/StandardLibraryContainersAndAlgorithms/Algorithms/Numeric Algorithms.md",
     "C++/GeneralNotes/StandardLibraryContainersAndAlgorithms/Algorithms/Binary Search Algorithms.md",
     "C++/GeneralNotes/StandardLibraryContainersAndAlgorithms/Algorithms/Sorting algorithms.md",
     "C++/GeneralNotes/StandardLibraryContainersAndAlgorithms/Algorithms/Mutating Algorithms.md",
     "C++/GeneralNotes/StandardLibraryContainersAndAlgorithms/Algorithms/Modifying Algorithms.md",
     "C++/GeneralNotes/StandardLibraryContainersAndAlgorithms/Algorithms/Read-only algorithms.md",
-    "C++/GeneralNotes/StandardLibraryContainersAndAlgorithms/Algorithms/Lambda.md",
-    "C++/GeneralNotes/StandardLibraryContainersAndAlgorithms/Algorithms/What are algorithms provided by the STL.md",
     "C++/GeneralNotes/StandardLibraryContainersAndAlgorithms/UnorderedContainers/unorderedmap.png",
     "C++/GeneralNotes/StandardLibraryContainersAndAlgorithms/UnorderedContainers/unorderedset.png"
   ]
