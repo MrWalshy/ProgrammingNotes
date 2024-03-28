@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/GeneralNotes/StandardLibraryContainersAndAlgorithms/AssociativeContainers/Map and Multimap.md",
+                "file": "C++/GeneralNotes/Introduction.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/GeneralNotes/StandardLibraryContainersAndAlgorithms/AssociativeContainers/Map and Multimap.md",
+                "file": "C++/GeneralNotes/Introduction.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/GeneralNotes/StandardLibraryContainersAndAlgorithms/AssociativeContainers/Map and Multimap.md",
+                "file": "C++/GeneralNotes/Introduction.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/GeneralNotes/StandardLibraryContainersAndAlgorithms/AssociativeContainers/Map and Multimap.md"
+                "file": "C++/GeneralNotes/Introduction.md"
               }
             }
           },
@@ -164,6 +164,7 @@
   },
   "active": "3efa77b42fdabf0e",
   "lastOpenFiles": [
+    "C++/GeneralNotes/StandardLibraryContainersAndAlgorithms/AssociativeContainers/Map and Multimap.md",
     "C++/GeneralNotes/Classes/Copy Constructors and Assignment Operators.md",
     "C++/CraftingInterpreters/Lox/src/lox/types/number.h",
     "C++/CraftingInterpreters/Lox/src/lox/types/number.cpp",
@@ -200,7 +201,6 @@
     "C++/GeneralNotes/StandardLibraryContainersAndAlgorithms/Algorithms/Sorting algorithms.md",
     "C++/GeneralNotes/StandardLibraryContainersAndAlgorithms/Algorithms/Mutating Algorithms.md",
     "C++/GeneralNotes/StandardLibraryContainersAndAlgorithms/Algorithms/Modifying Algorithms.md",
-    "C++/GeneralNotes/StandardLibraryContainersAndAlgorithms/Algorithms/Read-only algorithms.md",
     "C++/GeneralNotes/StandardLibraryContainersAndAlgorithms/UnorderedContainers/unorderedmap.png",
     "C++/GeneralNotes/StandardLibraryContainersAndAlgorithms/UnorderedContainers/unorderedset.png"
   ]

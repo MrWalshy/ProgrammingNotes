@@ -1,3 +1,4 @@
+Notes here are currently based on C++ Fundamentals Packt book, any near verbatim notes I need to reword for better understanding.
 ## Installing a C++ Compiler on Windows
 Two main choices exist, the MSVC toolset or the MinGW toolset. MinGW will be explained here, it provides up to date native builds of GCC and other useful C++ libraries.
 
