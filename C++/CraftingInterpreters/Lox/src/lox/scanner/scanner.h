@@ -14,14 +14,16 @@ class Scanner
         std::vector<Token> scanTokens();
 
     private:
-        bool isAtEnd();
+        const bool isAtEnd();
+        const char peek();
+        const char peekNext();
+        const bool isDigit(char c);
+        const bool isAlpha(char c);
+
         void scanToken();
         char advance();
         bool match(char expected);
-        char peek();
-        char peekNext();
-        bool isDigit(char c);
-        bool isAlpha(char c);
+        
         bool isAlphaNumeric(char c);
         void string();
         void number();
@@ -29,7 +31,7 @@ class Scanner
         void addToken(TokenType type);
         void addToken(TokenType type, Object* literal);
 
-        const std::string& source;
+        std::string source;
         std::vector<Token> tokens;
         int start;
         int current;

@@ -25,7 +25,7 @@ std::vector<Token> Scanner::scanTokens()
     return tokens;
 }
 
-bool Scanner::isAtEnd()
+const bool Scanner::isAtEnd()
 {
     return current >= source.length();
 }
@@ -107,13 +107,13 @@ void Scanner::scanToken()
     }
 }
 
-char Scanner::peek()
+const char Scanner::peek()
 {
     if (isAtEnd()) return '\0';
     return source[current];
 }
 
-char Scanner::peekNext()
+const char Scanner::peekNext()
 {
     if (current + 1 >= source.size()) return '\0';
     return source[current + 1];
@@ -138,19 +138,19 @@ void Scanner::addToken(TokenType type, Object* literal)
     tokens.push_back(Token(type, text, literal, line));
 }
 
-bool Scanner::isDigit(char c)
+const bool Scanner::isDigit(char c)
 {
     return c >= '0' && c <= '9';
 }
 
-bool Scanner::isAlpha(char c)
+const bool Scanner::isAlpha(char c)
 {
     return (c >= 'a' && c <= 'z') ||
            (c >= 'A' && c <= 'Z') ||
            c == '_';
 }
 
-bool Scanner::isAlphaNumeric(char c)
+const bool Scanner::isAlphaNumeric(char c)
 {
     return isDigit(c) || isAlpha(c);
 }
