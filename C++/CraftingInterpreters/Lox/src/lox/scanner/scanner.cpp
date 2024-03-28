@@ -20,7 +20,6 @@ std::vector<Token> Scanner::scanTokens()
         scanToken();
     }
 
-    // tokens.push_back(new Token(TokenType::END, "", nullptr, line));
     tokens.push_back(Token(TokenType::END, "", nullptr, line));
     return tokens;
 }
@@ -42,7 +41,6 @@ bool Scanner::match(char expected)
 void Scanner::scanToken()
 {
     const char c = advance();
-    // std::cout << "Scanning char: " << c << std::endl;
 
     switch (c)
     {
@@ -131,9 +129,6 @@ void Scanner::addToken(TokenType type)
 
 void Scanner::addToken(TokenType type, Object* literal)
 {
-    // std::cout << "start = " << start << ", current = " << current << std::endl;
-    // std::cout << "Token lexeme: ";
-    // std::cout << source.substr(start, current - start) << std::endl;
     std::string text = source.substr(start, current - start);
     tokens.push_back(Token(type, text, literal, line));
 }
@@ -170,8 +165,6 @@ void Scanner::identifier()
         // its a keyword
         addToken(typePosition->second);
     }
-    
-    // addToken(TokenType::IDENTIFIER);
 }
 
 void Scanner::string()
@@ -231,7 +224,6 @@ Scanner::~Scanner()
             LoxString* loxStringPtr = dynamic_cast<LoxString*>(token.literal);
             if (loxStringPtr != nullptr)
             {
-                // std::cout << "Destroying token: " << token.toString() << std::endl;
                 delete loxStringPtr;
             }
         }
