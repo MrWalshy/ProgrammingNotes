@@ -21,7 +21,19 @@ std::vector<Token> Scanner::scanTokens()
     }
 
     tokens.push_back(Token{TokenType::END, "", nullptr, line});
-    return tokens;
+    // each Token contains a std::unique_ptr<Object> member
+    // - std::unique_ptr isn't copyable but can be moved, due to 
+    //   this std::move needs to be used to prevent the compiler from 
+    //   trying to copy each element of the vector.
+    // - std::move enables move semantics, transferring ownership of 
+    //   the vector of tokens to the caller. This is done by transforming 
+    //   from an lvalue to an xvalue - xvalue signals to the compiler that 
+    //   it can transfer ownership of resources from one object to another 
+    //   as the current one will be destroyed soon. Or is it an rvalue reference its 
+    //   converted to, people on the web seem to give conflicting info???
+    // - from what I can tell, the vector used here is discarded but the tokens 
+    //   inside it are moved to the new vector in the caller
+    return std::move(tokens);
 }
 
 bool Scanner::isAtEnd() const
@@ -127,10 +139,10 @@ void Scanner::addToken(TokenType type)
     addToken(type, nullptr);
 }
 
-void Scanner::addToken(TokenType type, Object* literal)
+void Scanner::addToken(TokenType type, std::unique_ptr<Object> literal)
 {
     std::string text = source.substr(start, current - start);
-    tokens.push_back(Token{type, text, literal, line});
+    tokens.push_back(Token{type, text, std::move(literal), line});
 }
 
 bool Scanner::isDigit(char c) const
@@ -186,8 +198,8 @@ void Scanner::string()
     // - TODO: Do debug mode and inspect why
     //   maybe its just the console showing the quotes when printing?
     std::string value = source.substr(start + 1, current - start - 1);
-    LoxString* loxString = new LoxString(value);
-    addToken(TokenType::STRING, loxString);
+    std::unique_ptr<Object> loxString = std::make_unique<LoxString>(value);
+    addToken(TokenType::STRING, std::move(loxString)); // std::move - transfer ownership using move semantics
 }
 
 void Scanner::number()
@@ -203,39 +215,8 @@ void Scanner::number()
     }
 
     double num = std::stod(source.substr(start, current - start));
-    LoxNumber* loxNumber = new LoxNumber(num);
-    addToken(TokenType::NUMBER, loxNumber);
-}
-
-Scanner::~Scanner()
-{
-    // need to release dynamic memory taken by any lox object tokens
-    // - I wonder what I'll do when it comes to the parser...
-    //   should I keep this or defer deletion elsewhere? Maybe switch 
-    //   to smart pointers, shared pointer maybe, so I don't have to manage it.
-    //   This will do for the time being though, I'll tackle that bridge 
-    //   when I get to it. With this, I probably only need the nullptr
-    //   check wrapped around checks for types given only Lox types 
-    //   will have a backing Object*
-    for (Token token : tokens)
-    {
-        if (token.type == TokenType::STRING)
-        {
-            LoxString* loxStringPtr = dynamic_cast<LoxString*>(token.literal);
-            if (loxStringPtr != nullptr)
-            {
-                delete loxStringPtr;
-            }
-        }
-        else if (token.type == TokenType::NUMBER)
-        {
-            LoxNumber* loxNumberPtr = dynamic_cast<LoxNumber*>(token.literal);
-            if (loxNumberPtr != nullptr)
-            {
-                delete loxNumberPtr;
-            }
-        }
-    }
+    std::unique_ptr<Object> loxNumber = std::make_unique<LoxNumber>(num);
+    addToken(TokenType::NUMBER, std::move(loxNumber)); // std::move - transfer ownership using move semantics
 }
 
 // static map of keywords

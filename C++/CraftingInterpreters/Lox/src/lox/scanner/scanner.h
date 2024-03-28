@@ -9,7 +9,6 @@ class Scanner
 {
     public:
         Scanner(const std::string& src);
-        ~Scanner();
 
         std::vector<Token> scanTokens();
 
@@ -28,7 +27,7 @@ class Scanner
         void number();
         void identifier();
         void addToken(TokenType type);
-        void addToken(TokenType type, Object* literal);
+        void addToken(TokenType type, std::unique_ptr<Object> literal);
 
         std::string source;
         std::vector<Token> tokens;

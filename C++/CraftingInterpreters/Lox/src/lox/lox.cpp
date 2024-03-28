@@ -33,12 +33,15 @@ void Lox::run(const std::string& data)
     Scanner sc(data);
     std::vector<Token> tokens = sc.scanTokens();
 
-    for (Token token : tokens)
+    // can't use for (Token token : tokens) as it tries to make a copy
+    // of each Token but can't as it contains std::unique_prt<Object>.
+    // - using const Token& prevents attempting to copy the objects
+    for (const Token& token : tokens)
     {
         std::cout << token.toString() << std::endl;
     }
 
-    
+
 }
 
 void Lox::runFile(std::string fileName)
