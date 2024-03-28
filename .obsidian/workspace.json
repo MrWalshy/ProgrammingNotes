@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/ObjectOrientedProgramming/Safe Dynamic Memory.md",
+                "file": "README.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/ObjectOrientedProgramming/Safe Dynamic Memory.md",
+                "file": "README.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/ObjectOrientedProgramming/Safe Dynamic Memory.md",
+                "file": "README.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/ObjectOrientedProgramming/Safe Dynamic Memory.md"
+                "file": "README.md"
               }
             }
           },
@@ -162,45 +162,45 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3efa77b42fdabf0e",
+  "active": "4d18accfc407c4f0",
   "lastOpenFiles": [
-    "C++/ObjectOrientedProgramming/Dynamic Memory.md",
-    "C++/ObjectOrientedProgramming/Safe Dynamic Memory.md",
-    "C++/ObjectOrientedProgramming/Interfaces.md",
-    "C++/ObjectOrientedProgramming/Polymorphism.md",
-    "C++/ObjectOrientedProgramming/Inheritance.md",
-    "C++/Programs/InheritanceExample2GameCharacters/Enemy.cpp",
-    "C++/Programs/InheritanceExample2GameCharacters/Hero.cpp",
-    "C++/Programs/InheritanceExample2GameCharacters/Character.cpp",
-    "C++/Programs/InheritanceExample2GameCharacters/main.exe",
-    "C++/Programs/InheritanceExample2GameCharacters/Spell.cpp",
-    "C++/Programs/InheritanceExample2GameCharacters/include/actions.h",
-    "C++/Programs/InheritanceExample2GameCharacters/include/characters.h",
-    "C++/Programs/InheritanceExample2GameCharacters/include",
-    "C++/Programs/InheritanceExample2GameCharacters/main.cpp",
-    "C++/Programs/InheritanceExample2GameCharacters",
-    "C++/StandardLibraryContainersAndAlgorithms/Algorithms/Numeric Algorithms.md",
-    "C++/StandardLibraryContainersAndAlgorithms/Algorithms/Binary Search Algorithms.md",
-    "C++/StandardLibraryContainersAndAlgorithms/Algorithms/Sorting algorithms.md",
-    "C++/StandardLibraryContainersAndAlgorithms/Algorithms/Mutating Algorithms.md",
-    "C++/StandardLibraryContainersAndAlgorithms/Algorithms/Modifying Algorithms.md",
-    "C++/StandardLibraryContainersAndAlgorithms/Algorithms/Read-only algorithms.md",
-    "C++/StandardLibraryContainersAndAlgorithms/Algorithms/Lambda.md",
-    "C++/StandardLibraryContainersAndAlgorithms/Algorithms/What are algorithms provided by the STL.md",
-    "C++/StandardLibraryContainersAndAlgorithms/Iterators.md",
-    "C++/StandardLibraryContainersAndAlgorithms/UnconventialContainers/Variant.md",
-    "C++/Pointers and References/Variable Scope.md",
-    "C++/LocalAndGlobalVariables/Local and Global Variables.md",
-    "C++/Pointers and References/References.md",
-    "C++/Classes/Functors.md",
-    "C++/StandardLibraryContainersAndAlgorithms/UnconventialContainers/Optional.md",
-    "C++/StandardLibraryContainersAndAlgorithms/UnconventialContainers/Pairs and Tuples.md",
-    "C++/StandardLibraryContainersAndAlgorithms/UnconventialContainers/What is meant by unconventional container.md",
-    "C++/StandardLibraryContainersAndAlgorithms/UnconventialContainers/Strings.md",
-    "C++/StandardLibraryContainersAndAlgorithms/ContainerAdaptors/Priority Queues.md",
-    "C++/StandardLibraryContainersAndAlgorithms/ContainerAdaptors/Queues.md",
-    "C++/StandardLibraryContainersAndAlgorithms/ContainerAdaptors/Stacks.md",
-    "C++/StandardLibraryContainersAndAlgorithms/UnorderedContainers/unorderedmap.png",
-    "C++/StandardLibraryContainersAndAlgorithms/UnorderedContainers/unorderedset.png"
+    "C++/CraftingInterpreters/LoxLanguageNotes",
+    "C++/CraftingInterpreters/TreeWalkInterpreter",
+    "C++/CraftingInterpreters",
+    "C++/GeneralNotes/Introduction.md",
+    "C++/GeneralNotes/TryCatchBlocks/The try-catch block.md",
+    "C++/GeneralNotes",
+    "C++/GeneralNotes/ObjectOrientedProgramming/Safe Dynamic Memory.md",
+    "C++/GeneralNotes/ObjectOrientedProgramming/Dynamic Memory.md",
+    "C++/GeneralNotes/ObjectOrientedProgramming/Interfaces.md",
+    "C++/GeneralNotes/ObjectOrientedProgramming/Polymorphism.md",
+    "C++/GeneralNotes/ObjectOrientedProgramming/Inheritance.md",
+    "C++/GeneralNotes/Programs/InheritanceExample2GameCharacters/Enemy.cpp",
+    "C++/GeneralNotes/Programs/InheritanceExample2GameCharacters/Hero.cpp",
+    "C++/GeneralNotes/Programs/InheritanceExample2GameCharacters/Character.cpp",
+    "C++/GeneralNotes/Programs/InheritanceExample2GameCharacters/main.exe",
+    "C++/GeneralNotes/Programs/InheritanceExample2GameCharacters/Spell.cpp",
+    "C++/GeneralNotes/Programs/InheritanceExample2GameCharacters/include/actions.h",
+    "C++/GeneralNotes/Programs/InheritanceExample2GameCharacters/include/characters.h",
+    "C++/GeneralNotes/StandardLibraryContainersAndAlgorithms/Algorithms/Numeric Algorithms.md",
+    "C++/GeneralNotes/StandardLibraryContainersAndAlgorithms/Algorithms/Binary Search Algorithms.md",
+    "C++/GeneralNotes/StandardLibraryContainersAndAlgorithms/Algorithms/Sorting algorithms.md",
+    "C++/GeneralNotes/StandardLibraryContainersAndAlgorithms/Algorithms/Mutating Algorithms.md",
+    "C++/GeneralNotes/StandardLibraryContainersAndAlgorithms/Algorithms/Modifying Algorithms.md",
+    "C++/GeneralNotes/StandardLibraryContainersAndAlgorithms/Algorithms/Read-only algorithms.md",
+    "C++/GeneralNotes/StandardLibraryContainersAndAlgorithms/Algorithms/Lambda.md",
+    "C++/GeneralNotes/StandardLibraryContainersAndAlgorithms/Algorithms/What are algorithms provided by the STL.md",
+    "C++/GeneralNotes/StandardLibraryContainersAndAlgorithms/Iterators.md",
+    "C++/GeneralNotes/StandardLibraryContainersAndAlgorithms/UnconventialContainers/Variant.md",
+    "C++/GeneralNotes/Pointers and References/Variable Scope.md",
+    "C++/GeneralNotes/LocalAndGlobalVariables/Local and Global Variables.md",
+    "C++/GeneralNotes/Pointers and References/References.md",
+    "C++/GeneralNotes/Classes/Functors.md",
+    "C++/GeneralNotes/StandardLibraryContainersAndAlgorithms/UnconventialContainers/Optional.md",
+    "C++/GeneralNotes/StandardLibraryContainersAndAlgorithms/UnconventialContainers/Pairs and Tuples.md",
+    "C++/GeneralNotes/StandardLibraryContainersAndAlgorithms/UnconventialContainers/What is meant by unconventional container.md",
+    "C++/GeneralNotes/StandardLibraryContainersAndAlgorithms/UnconventialContainers/Strings.md",
+    "C++/GeneralNotes/StandardLibraryContainersAndAlgorithms/UnorderedContainers/unorderedmap.png",
+    "C++/GeneralNotes/StandardLibraryContainersAndAlgorithms/UnorderedContainers/unorderedset.png"
   ]
 }
