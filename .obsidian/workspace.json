@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/GeneralNotes/Functions/Function Templates.md",
+                "file": "C++/GeneralNotes/CompoundDataTypes/Lvalue references.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/GeneralNotes/Functions/Function Templates.md",
+                "file": "C++/GeneralNotes/CompoundDataTypes/Lvalue references.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/GeneralNotes/Functions/Function Templates.md",
+                "file": "C++/GeneralNotes/CompoundDataTypes/Lvalue references.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/GeneralNotes/Functions/Function Templates.md"
+                "file": "C++/GeneralNotes/CompoundDataTypes/Lvalue references.md"
               }
             }
           },
@@ -164,8 +164,12 @@
   },
   "active": "3efa77b42fdabf0e",
   "lastOpenFiles": [
-    "C++/GeneralNotes/Functions/Function Overloading.md",
+    "C++/GeneralNotes/CompoundDataTypes/Value Categories - lvalues and rvalues.md",
+    "C++/GeneralNotes/CompoundDataTypes/Lvalue references.md",
+    "C++/GeneralNotes/CompoundDataTypes/Intro.md",
     "C++/GeneralNotes/Functions/Function Templates.md",
+    "C++/GeneralNotes/CompoundDataTypes",
+    "C++/GeneralNotes/Functions/Function Overloading.md",
     "C++/GeneralNotes/Functions/Default arguments.md",
     "C++/GeneralNotes/Functions/Deleted functions.md",
     "C++/GeneralNotes/ObjectOrientedProgramming/Interfaces.md",
@@ -184,7 +188,6 @@
     "C++/CraftingInterpreters/Lox/src/lox/scanner/token_type.cpp",
     "C++/CraftingInterpreters/Lox/main.exe",
     "C++/CraftingInterpreters/Lox/src/lox/types/object.h",
-    "C++/CraftingInterpreters/Lox/src/lox/scanner/token.cpp",
     "C++/GeneralNotes/ObjectOrientedProgramming/Polymorphism.md",
     "C++/CraftingInterpreters/TreeWalkInterpreter/Scanning.md",
     "C++/CraftingInterpreters/LoxLanguageNotes/Classes.md",
@@ -198,9 +201,6 @@
     "C++/CraftingInterpreters/LoxLanguageNotes/Hello Lox.md",
     "C++/CraftingInterpreters/PartsOfALanguage/readme.md",
     "C++/CraftingInterpreters/PartsOfALanguage/code_mountain.png",
-    "README.md",
-    "C++/GeneralNotes/TryCatchBlocks/The try-catch block.md",
-    "C++/GeneralNotes/StandardLibraryContainersAndAlgorithms/Algorithms/Numeric Algorithms.md",
     "C++/GeneralNotes/StandardLibraryContainersAndAlgorithms/UnorderedContainers/unorderedmap.png",
     "C++/GeneralNotes/StandardLibraryContainersAndAlgorithms/UnorderedContainers/unorderedset.png"
   ]
