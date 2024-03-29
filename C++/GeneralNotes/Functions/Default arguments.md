@@ -12,4 +12,4 @@ multiply(10); // same as multiply(10, 1)
 multiply(10, 2);
 ```
 
-It is best practice to set default arguments in the function signature declaration and not in the definition.
+It is best practice to set default arguments in the function signature declaration and not in the definition, i.e., in the header file rather than an implementation file. Once declared, default arguments also cannot be redeclared so they are only written once (in the header file).
