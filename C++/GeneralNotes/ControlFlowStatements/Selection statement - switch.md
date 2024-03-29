@@ -16,3 +16,5 @@ switch (expression)
 ```
 
 The expression evaluated by the `switch (expression)` line is compared against the cases, the matching case will have its statements executed. The `break` statement is important, this stops the cases *falling-through*; this is where the following cases statements are executed even if they never matched the expressions value.
+
+The `default` case is matched if no other cases matched or allowed to run if a *fall-through* happens, this case is optional.

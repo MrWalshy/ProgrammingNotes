@@ -8,3 +8,16 @@ The primitive types consist of:
 - **Wide character**: The `wchar_t` type allows for greater size when representing character sets, typically 2 to 4 bytes long.
 
 The `char` and `wchar_t` types hold numeric values corresponding to the characters in the machine's character set.
+
+## Separator for large numbers
+A separator can be used to make large numbers easier to read:
+
+```cpp
+int num { 1'000'000 };
+```
+
+The single quote character (`'`) is used for this purpose.
+
+## Boolean logical operator order of evaluation
+- NOT (`!`) before AND (`&&`)
+- AND (`&&`) before OR (`||`)

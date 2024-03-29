@@ -13,3 +13,12 @@ multiply(10, 2);
 ```
 
 It is best practice to set default arguments in the function signature declaration and not in the definition, i.e., in the header file rather than an implementation file. Once declared, default arguments also cannot be redeclared so they are only written once (in the header file).
+
+## Explicitly using default arguments
+Sometimes, you may want to pass an argument to certain parameters but not others that all have default values. Use a pair of braces in positions where you would like the default values to be used:
+
+```cpp
+void foo(int x = 1, int y = 2, int z = 3) {}
+
+foo({}, {}, 5); // invoked as foo(1,2,5)
+```

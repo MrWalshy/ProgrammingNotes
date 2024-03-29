@@ -21,7 +21,7 @@ Variables without an initial value are undetermined until an assignment occurs.
 ## Syntax - Initialisation
 **Variable initialisation** is used to declare a variable with a given value.
 
-The **C-like initialisation** is as follows:
+The **C-like initialisation** (*copy initialisation*) is as follows:
 
 ```cpp
 type variable_name = value;
@@ -37,6 +37,15 @@ type variable_name (value);
 
 ```cpp
 type variable_name {value};
+```
+
+- Prevents narrowing casts from occurring during initialisation.
+
+The brace and constructor syntax are only used for initialisation, so only use the assignment operator for assigning a different value to an already declared variable:
+
+```cpp
+type var {value};
+var = newValue;
 ```
 ## Naming rules
 

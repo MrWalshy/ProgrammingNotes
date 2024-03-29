@@ -80,3 +80,43 @@ struct C: A, B
 ```
 
 This can be disambiguated using the scope resolution operator to specify which classes method should be called, `A::foo()` for example.
+
+## Preventing inheritance
+The `final` keyword can be used to indicate that a class cannot be inherited from, this will be enforced by the compiler:
+
+```cpp
+class Foo: final {}
+class Bar: public Foo {} // Error
+```
+
+A class can be defined both `final` and inherit from other classes:
+
+```cpp
+class Foo {}
+class Bar {}
+class FooBar final : public Foo, public Bar {}
+```
+
+## Invoking a member function from the parent class
+Sometimes, you may wish to extend the functionality of a class method. To invoke the method in the parent class, use the class name and the scope resolution operator followed by the method name to invoke:
+
+```cpp
+class Foo
+{
+	public:
+		void fooey()
+		{
+			std::cout << "foo" << std::endl;
+		}
+};
+
+class FooBar: public Foo
+{
+	public:
+		void fooey()
+		{
+			Foo::fooey();
+			std::cout << "extra foo" << std::endl;
+		}
+};
+```

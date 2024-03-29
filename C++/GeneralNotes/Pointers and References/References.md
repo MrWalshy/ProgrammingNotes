@@ -30,3 +30,20 @@ There are three main differences:
 - A reference, once initialised, is bound to a specific object and cannot be reassigned. Operations performed on the reference are operations performed upon the referenced object.
 - References must be initialised as they cannot be rebound.
 - A reference always has an association with a variable in memory. If the variable is not valid, the reference must not be used.
+
+## References as class members
+When a class contains references, the specific members **must** be initialised within the member initialiser list to satisfy the fact that references must be initialised when they are declared (the constructor body is too late for this as the object is already declared with default values):
+
+```cpp
+class Foo {};
+class Bar
+{
+	public:
+		Bar(Foo& foo): foo(foo) {}
+
+	private:
+		Foo& foo;
+};
+```
+
+If doing this, it needs to be ensured that the lifetime of `Foo` is at least as long as the lifetime of `Bar` wherever it was originally declared and initialised.

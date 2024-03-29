@@ -106,3 +106,67 @@ The `override` keyword was introduced in C++11, it is recommended to use this as
 - Dynamic dispatch is disabled inside constructors and destructors.
 - Constructors cannot be marked `virtual`, destructors can be though and should if a `virtual` method is defined. This is especially important when classes are created on dynamic memory or the heap.
 
+## Slicing
+When working with polymorphic objects, a behaviour called slicing can occur where details of the subclass are lost when it is stored in a superclass variable:
+
+```cpp
+class Character {};
+class Warrior: public Character
+{
+	public:
+		int defence {20};
+};
+
+void Attack(Character e) {}
+
+// main()
+Warrior w;
+Attack(w); // defence member sliced and no longer exists
+```
+
+To prevent this, store the subclass object in a pointer or reference variable to prevent the slicing behaviour from occurring:
+
+```cpp
+class Character {};
+class Warrior: public Character
+{
+	public:
+		int defence {20};
+};
+
+void Attack(Character* e) {}
+
+// main()
+Warrior w;
+Attack(&w);
+```
+
+## Dynamic downcasting
+It is possible to downcast using `static_case<T>(T t)`, but this is unsafe. The alternative `dynamic_cast<T>(T)` is safer as it checks whether the object pointed to is actually of the specified type `T`, returning a `nullptr` if it is not:
+
+```cpp
+class Character {};
+class Warrior: public Character
+{
+	public:
+		int defence {20};
+};
+
+void doSomething(Character* e) 
+{
+	Warrior* warriorPtr = dynamic_cast<Warrior*>(e);
+
+	if (warriorPtr)
+	{
+		// its a warrior
+	}
+	else
+	{
+		// its not a warrior
+	}
+}
+
+// main()
+Warrior w;
+Attack(&w);
+```

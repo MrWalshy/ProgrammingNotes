@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/GeneralNotes/CompoundDataTypes/Lvalue references.md",
+                "file": "C++/GeneralNotes/Preprocessor/Function macros.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/GeneralNotes/CompoundDataTypes/Lvalue references.md",
+                "file": "C++/GeneralNotes/Preprocessor/Function macros.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/GeneralNotes/CompoundDataTypes/Lvalue references.md",
+                "file": "C++/GeneralNotes/Preprocessor/Function macros.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/GeneralNotes/CompoundDataTypes/Lvalue references.md"
+                "file": "C++/GeneralNotes/Preprocessor/Function macros.md"
               }
             }
           },
@@ -164,42 +164,42 @@
   },
   "active": "3efa77b42fdabf0e",
   "lastOpenFiles": [
-    "C++/GeneralNotes/CompoundDataTypes/Value Categories - lvalues and rvalues.md",
-    "C++/GeneralNotes/CompoundDataTypes/Lvalue references.md",
-    "C++/GeneralNotes/CompoundDataTypes/Intro.md",
-    "C++/GeneralNotes/Functions/Function Templates.md",
-    "C++/GeneralNotes/CompoundDataTypes",
-    "C++/GeneralNotes/Functions/Function Overloading.md",
-    "C++/GeneralNotes/Functions/Default arguments.md",
-    "C++/GeneralNotes/Functions/Deleted functions.md",
-    "C++/GeneralNotes/ObjectOrientedProgramming/Interfaces.md",
-    "C++/GeneralNotes/ObjectOrientedProgramming/Inheritance.md",
-    "C++/GeneralNotes/ObjectOrientedProgramming/Safe Dynamic Memory.md",
-    "C++/GeneralNotes/ObjectOrientedProgramming/Dynamic Memory.md",
-    "C++/GeneralNotes/Introduction.md",
-    "C++/GeneralNotes/StandardLibraryContainersAndAlgorithms/AssociativeContainers/Map and Multimap.md",
-    "C++/GeneralNotes/Classes/Copy Constructors and Assignment Operators.md",
-    "C++/CraftingInterpreters/Lox/src/lox/types/number.h",
-    "C++/CraftingInterpreters/Lox/src/lox/types/number.cpp",
-    "C++/CraftingInterpreters/Lox/src/lox/scanner/number.cpp",
-    "C++/CraftingInterpreters/Lox/src/lox/scanner/number.h",
-    "C++/CraftingInterpreters/Lox/src/lox/types/lox_string.cpp",
-    "C++/CraftingInterpreters/Lox/src/lox/types/lox_string.h",
-    "C++/CraftingInterpreters/Lox/src/lox/scanner/token_type.cpp",
-    "C++/CraftingInterpreters/Lox/main.exe",
-    "C++/CraftingInterpreters/Lox/src/lox/types/object.h",
+    "C++/GeneralNotes/Preprocessor/Text Replacement Macros.md",
+    "C++/GeneralNotes/Preprocessor/Function macros.md",
+    "C++/GeneralNotes/Preprocessor/The define directive.md",
+    "C++/GeneralNotes/Preprocessor/Conditional Inclusion.md",
+    "C++/GeneralNotes/Preprocessor/What is the preprocessor.md",
     "C++/GeneralNotes/ObjectOrientedProgramming/Polymorphism.md",
-    "C++/CraftingInterpreters/TreeWalkInterpreter/Scanning.md",
-    "C++/CraftingInterpreters/LoxLanguageNotes/Classes.md",
-    "C++/CraftingInterpreters/LoxLanguageNotes/Functions.md",
-    "C++/CraftingInterpreters/LoxLanguageNotes/Control Flow.md",
-    "C++/CraftingInterpreters/LoxLanguageNotes/Variables.md",
-    "C++/CraftingInterpreters/LoxLanguageNotes/Statements.md",
-    "C++/CraftingInterpreters/LoxLanguageNotes/Expressions.md",
-    "C++/CraftingInterpreters/LoxLanguageNotes/Data types.md",
-    "C++/CraftingInterpreters/LoxLanguageNotes/High-level language.md",
-    "C++/CraftingInterpreters/LoxLanguageNotes/Hello Lox.md",
-    "C++/CraftingInterpreters/PartsOfALanguage/readme.md",
+    "C++/GeneralNotes/Preprocessor",
+    "C++/GeneralNotes/ObjectOrientedProgramming/Interfaces.md",
+    "C++/GeneralNotes/ObjectOrientedProgramming/Dynamic Memory.md",
+    "C++/GeneralNotes/ObjectOrientedProgramming/Inheritance.md",
+    "C++/GeneralNotes/Pointers and References/Pointers.md",
+    "C++/GeneralNotes/Pointers and References/References.md",
+    "C++/GeneralNotes/Pointers and References/The const qualifier.md",
+    "C++/GeneralNotes/Classes/Constructors and Destructors.md",
+    "C++/GeneralNotes/Classes/Structured binding.md",
+    "C++/GeneralNotes/Classes/Operator overloading.md",
+    "C++/GeneralNotes/Classes/Declaring and Defining a Class.md",
+    "C++/GeneralNotes/Classes/Copy Constructors and Assignment Operators.md",
+    "C++/GeneralNotes/Functions/Const Parameters.md",
+    "C++/GeneralNotes/Functions/Forward Declaration.md",
+    "C++/GeneralNotes/Pointers and References/Variable Scope.md",
+    "C++/GeneralNotes/LocalAndGlobalVariables/Local and Global Variables.md",
+    "C++/GeneralNotes/Functions/Default arguments.md",
+    "C++/GeneralNotes/Built-in Data Types/Variable definition.md",
+    "C++/GeneralNotes/Built-in Data Types/Primitive Data Types.md",
+    "C++/GeneralNotes/ControlFlowStatements/Selection statement - switch.md",
+    "C++/GeneralNotes/ControlFlowStatements/Ternary Operator.md",
+    "C++/VisualStudioPrograms/HelloWorld/New Text Document.txt",
+    "C++/VisualStudioPrograms/HelloWorld/HelloWorld/wqa5nazo.cir~",
+    "C++/VisualStudioPrograms/HelloWorld/HelloWorld/x64/Debug/HelloWorld.tlog/Cl.items.tlog",
+    "C++/VisualStudioPrograms/HelloWorld/HelloWorld/x64/Debug/HelloWorld.exe.recipe",
+    "C++/VisualStudioPrograms/HelloWorld/HelloWorld/x64/Debug/HelloWorld.tlog/link.command.1.tlog",
+    "C++/VisualStudioPrograms/HelloWorld/HelloWorld/x64/Debug/HelloWorld.tlog/link.secondary.1.tlog",
+    "C++/VisualStudioPrograms/HelloWorld/HelloWorld/x64/Debug/HelloWorld.tlog/link.write.1.tlog",
+    "C++/VisualStudioPrograms/HelloWorld/HelloWorld/x64/Debug/HelloWorld.tlog/link.read.1.tlog",
+    "C++/VisualStudioPrograms/HelloWorld/HelloWorld/x64/Debug/HelloWorld.tlog/link.read.4.tlog",
     "C++/CraftingInterpreters/PartsOfALanguage/code_mountain.png",
     "C++/GeneralNotes/StandardLibraryContainersAndAlgorithms/UnorderedContainers/unorderedmap.png",
     "C++/GeneralNotes/StandardLibraryContainersAndAlgorithms/UnorderedContainers/unorderedset.png"

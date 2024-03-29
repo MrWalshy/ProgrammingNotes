@@ -1,0 +1,1 @@
+The **preprocessor** is a tool that acts as an intermediary between your source code and the compiler when the build process is started. It modifies the code in temporary files based on special *preprocessor directives* in the source files. This process of *translation* occurs, and then the *translation units* produced are handed off to the compiler.
