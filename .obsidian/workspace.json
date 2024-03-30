@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/GeneralNotes/Preprocessor/Function macros.md",
+                "file": "C++/GeneralNotes/UsefulFeatures/Random Numbers.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/GeneralNotes/Preprocessor/Function macros.md",
+                "file": "C++/GeneralNotes/UsefulFeatures/Random Numbers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/GeneralNotes/Preprocessor/Function macros.md",
+                "file": "C++/GeneralNotes/UsefulFeatures/Random Numbers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/GeneralNotes/Preprocessor/Function macros.md"
+                "file": "C++/GeneralNotes/UsefulFeatures/Random Numbers.md"
               }
             }
           },
@@ -164,8 +164,19 @@
   },
   "active": "3efa77b42fdabf0e",
   "lastOpenFiles": [
-    "C++/GeneralNotes/Preprocessor/Text Replacement Macros.md",
+    "C++/GeneralNotes/Programs/GeneratingRandomNumbers/main.exe",
+    "C++/GeneralNotes/Programs/GeneratingRandomNumbers/Random.cpp",
+    "C++/GeneralNotes/Programs/GeneratingRandomNumbers/include/Random.h",
+    "C++/GeneralNotes/Programs/GeneratingRandomNumbers/include/random.h",
+    "C++/GeneralNotes/Programs/GeneratingRandomNumbers/include",
+    "C++/GeneralNotes/Programs/GeneratingRandomNumbers/random.cpp",
+    "C++/GeneralNotes/Programs/GeneratingRandomNumbers/random.h",
+    "C++/GeneralNotes/Programs/GeneratingRandomNumbers/main.cpp",
+    "C++/GeneralNotes/Programs/GeneratingRandomNumbers",
     "C++/GeneralNotes/Preprocessor/Function macros.md",
+    "C++/GeneralNotes/UsefulFeatures/Random Numbers.md",
+    "C++/GeneralNotes/UsefulFeatures",
+    "C++/GeneralNotes/Preprocessor/Text Replacement Macros.md",
     "C++/GeneralNotes/Preprocessor/The define directive.md",
     "C++/GeneralNotes/Preprocessor/Conditional Inclusion.md",
     "C++/GeneralNotes/Preprocessor/What is the preprocessor.md",
@@ -189,17 +200,6 @@
     "C++/GeneralNotes/Functions/Default arguments.md",
     "C++/GeneralNotes/Built-in Data Types/Variable definition.md",
     "C++/GeneralNotes/Built-in Data Types/Primitive Data Types.md",
-    "C++/GeneralNotes/ControlFlowStatements/Selection statement - switch.md",
-    "C++/GeneralNotes/ControlFlowStatements/Ternary Operator.md",
-    "C++/VisualStudioPrograms/HelloWorld/New Text Document.txt",
-    "C++/VisualStudioPrograms/HelloWorld/HelloWorld/wqa5nazo.cir~",
-    "C++/VisualStudioPrograms/HelloWorld/HelloWorld/x64/Debug/HelloWorld.tlog/Cl.items.tlog",
-    "C++/VisualStudioPrograms/HelloWorld/HelloWorld/x64/Debug/HelloWorld.exe.recipe",
-    "C++/VisualStudioPrograms/HelloWorld/HelloWorld/x64/Debug/HelloWorld.tlog/link.command.1.tlog",
-    "C++/VisualStudioPrograms/HelloWorld/HelloWorld/x64/Debug/HelloWorld.tlog/link.secondary.1.tlog",
-    "C++/VisualStudioPrograms/HelloWorld/HelloWorld/x64/Debug/HelloWorld.tlog/link.write.1.tlog",
-    "C++/VisualStudioPrograms/HelloWorld/HelloWorld/x64/Debug/HelloWorld.tlog/link.read.1.tlog",
-    "C++/VisualStudioPrograms/HelloWorld/HelloWorld/x64/Debug/HelloWorld.tlog/link.read.4.tlog",
     "C++/CraftingInterpreters/PartsOfALanguage/code_mountain.png",
     "C++/GeneralNotes/StandardLibraryContainersAndAlgorithms/UnorderedContainers/unorderedmap.png",
     "C++/GeneralNotes/StandardLibraryContainersAndAlgorithms/UnorderedContainers/unorderedset.png"

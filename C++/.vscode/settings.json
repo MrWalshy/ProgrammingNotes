@@ -56,6 +56,12 @@
         "ranges": "cpp",
         "span": "cpp",
         "stack": "cpp",
-        "xtree": "cpp"
+        "xtree": "cpp",
+        "algorithm": "cpp",
+        "codecvt": "cpp",
+        "fstream": "cpp",
+        "optional": "cpp",
+        "random": "cpp",
+        "variant": "cpp"
     }
 }
