@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/GeneralNotes/UsefulFeatures/Overloading the insertion operator.md",
+                "file": "C++/GeneralNotes/UsefulFeatures/Bitwise operators and Bit flags.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/GeneralNotes/UsefulFeatures/Overloading the insertion operator.md",
+                "file": "C++/GeneralNotes/UsefulFeatures/Bitwise operators and Bit flags.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/GeneralNotes/UsefulFeatures/Overloading the insertion operator.md",
+                "file": "C++/GeneralNotes/UsefulFeatures/Bitwise operators and Bit flags.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/GeneralNotes/UsefulFeatures/Overloading the insertion operator.md"
+                "file": "C++/GeneralNotes/UsefulFeatures/Bitwise operators and Bit flags.md"
               }
             }
           },
@@ -164,8 +164,10 @@
   },
   "active": "3efa77b42fdabf0e",
   "lastOpenFiles": [
-    "C++/GeneralNotes/UsefulFeatures/String interpolation.md",
+    "C++/GeneralNotes/UsefulFeatures/System Calls and Terminal Management.md",
+    "C++/GeneralNotes/UsefulFeatures/Bitwise operators and Bit flags.md",
     "C++/GeneralNotes/UsefulFeatures/Overloading the insertion operator.md",
+    "C++/GeneralNotes/UsefulFeatures/String interpolation.md",
     "C++/GeneralNotes/UsefulFeatures/Dates Times and Durations.md",
     "C++/GeneralNotes/UsefulFeatures/Random Numbers.md",
     "C++/GeneralNotes/Programs/GeneratingRandomNumbers/main.exe",
@@ -198,8 +200,6 @@
     "C++/GeneralNotes/Functions/Const Parameters.md",
     "C++/GeneralNotes/Functions/Forward Declaration.md",
     "C++/GeneralNotes/Pointers and References/Variable Scope.md",
-    "C++/GeneralNotes/LocalAndGlobalVariables/Local and Global Variables.md",
-    "C++/GeneralNotes/Functions/Default arguments.md",
     "C++/CraftingInterpreters/PartsOfALanguage/code_mountain.png",
     "C++/GeneralNotes/StandardLibraryContainersAndAlgorithms/UnorderedContainers/unorderedmap.png",
     "C++/GeneralNotes/StandardLibraryContainersAndAlgorithms/UnorderedContainers/unorderedset.png"
