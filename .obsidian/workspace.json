@@ -13,7 +13,19 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/GeneralNotes/UsefulFeatures/Bitwise operators and Bit flags.md",
+                "file": "C++/GeneralNotes/MemoryManagement/Smart shared pointers.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "ec8ab4c0a5772394",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "C++/GeneralNotes/ObjectOrientedProgramming/Polymorphism.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/GeneralNotes/UsefulFeatures/Bitwise operators and Bit flags.md",
+                "file": "C++/GeneralNotes/MemoryManagement/Smart shared pointers.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/GeneralNotes/UsefulFeatures/Bitwise operators and Bit flags.md",
+                "file": "C++/GeneralNotes/MemoryManagement/Smart shared pointers.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/GeneralNotes/UsefulFeatures/Bitwise operators and Bit flags.md"
+                "file": "C++/GeneralNotes/MemoryManagement/Smart shared pointers.md"
               }
             }
           },
@@ -164,42 +176,42 @@
   },
   "active": "3efa77b42fdabf0e",
   "lastOpenFiles": [
-    "C++/GeneralNotes/UsefulFeatures/System Calls and Terminal Management.md",
+    "C++/GeneralNotes/ObjectOrientedProgramming/Polymorphism.md",
+    "C++/GeneralNotes/StandardLibraryContainersAndAlgorithms/Algorithms/Lambda.md",
+    "C++/GeneralNotes/MemoryManagement/Smart shared pointers.md",
+    "C++/GeneralNotes/Programs/SharedPointerExample/main.exe",
+    "C++/GeneralNotes/Programs/SharedPointerExample/main.cpp",
+    "C++/GeneralNotes/Programs/SharedPointerExample",
+    "C++/GeneralNotes/ObjectOrientedProgramming/Inheritance.md",
+    "C++/GeneralNotes/MemoryManagement/Smart Unique Pointers.md",
+    "C++/GeneralNotes/Programs/TransferringUniquePointerOwnership/main.exe",
+    "C++/GeneralNotes/Programs/TransferringUniquePointerOwnership/main.cpp",
+    "C++/GeneralNotes/Programs/TransferringUniquePointerOwnership",
+    "C++/GeneralNotes/Programs/RequestingAccessToASmartPointersRawPointer/main.exe",
+    "C++/GeneralNotes/Programs/RequestingAccessToASmartPointersRawPointer/main.cpp",
+    "C++/GeneralNotes/Programs/RequestingAccessToASmartPointersRawPointer",
+    "C++/GeneralNotes/Programs/CreatingAndDereferencingUniquePointers/main.exe",
+    "C++/GeneralNotes/MemoryManagement/The Heap.md",
+    "C++/GeneralNotes/MemoryManagement/The Stack.md",
     "C++/GeneralNotes/UsefulFeatures/Bitwise operators and Bit flags.md",
+    "C++/GeneralNotes/UsefulFeatures/System Calls and Terminal Management.md",
     "C++/GeneralNotes/UsefulFeatures/Overloading the insertion operator.md",
     "C++/GeneralNotes/UsefulFeatures/String interpolation.md",
     "C++/GeneralNotes/UsefulFeatures/Dates Times and Durations.md",
     "C++/GeneralNotes/UsefulFeatures/Random Numbers.md",
-    "C++/GeneralNotes/Programs/GeneratingRandomNumbers/main.exe",
-    "C++/GeneralNotes/Programs/GeneratingRandomNumbers/Random.cpp",
-    "C++/GeneralNotes/Programs/GeneratingRandomNumbers/include/Random.h",
-    "C++/GeneralNotes/Programs/GeneratingRandomNumbers/include/random.h",
-    "C++/GeneralNotes/Programs/GeneratingRandomNumbers/include",
-    "C++/GeneralNotes/Programs/GeneratingRandomNumbers/random.cpp",
-    "C++/GeneralNotes/Programs/GeneratingRandomNumbers/random.h",
-    "C++/GeneralNotes/Programs/GeneratingRandomNumbers/main.cpp",
-    "C++/GeneralNotes/Programs/GeneratingRandomNumbers",
     "C++/GeneralNotes/Preprocessor/Function macros.md",
-    "C++/GeneralNotes/UsefulFeatures",
     "C++/GeneralNotes/Preprocessor/Text Replacement Macros.md",
     "C++/GeneralNotes/Preprocessor/The define directive.md",
     "C++/GeneralNotes/Preprocessor/Conditional Inclusion.md",
     "C++/GeneralNotes/Preprocessor/What is the preprocessor.md",
-    "C++/GeneralNotes/ObjectOrientedProgramming/Polymorphism.md",
     "C++/GeneralNotes/ObjectOrientedProgramming/Interfaces.md",
     "C++/GeneralNotes/ObjectOrientedProgramming/Dynamic Memory.md",
-    "C++/GeneralNotes/ObjectOrientedProgramming/Inheritance.md",
     "C++/GeneralNotes/Pointers and References/Pointers.md",
     "C++/GeneralNotes/Pointers and References/References.md",
     "C++/GeneralNotes/Pointers and References/The const qualifier.md",
     "C++/GeneralNotes/Classes/Constructors and Destructors.md",
     "C++/GeneralNotes/Classes/Structured binding.md",
     "C++/GeneralNotes/Classes/Operator overloading.md",
-    "C++/GeneralNotes/Classes/Declaring and Defining a Class.md",
-    "C++/GeneralNotes/Classes/Copy Constructors and Assignment Operators.md",
-    "C++/GeneralNotes/Functions/Const Parameters.md",
-    "C++/GeneralNotes/Functions/Forward Declaration.md",
-    "C++/GeneralNotes/Pointers and References/Variable Scope.md",
     "C++/CraftingInterpreters/PartsOfALanguage/code_mountain.png",
     "C++/GeneralNotes/StandardLibraryContainersAndAlgorithms/UnorderedContainers/unorderedmap.png",
     "C++/GeneralNotes/StandardLibraryContainersAndAlgorithms/UnorderedContainers/unorderedset.png"
