@@ -272,6 +272,7 @@ class A
 };
 ```
 
+- `&src` is returning a pointer (address) of the reference passed to the assignment operator
 ## Copy semantics and pass-by-value
 When code is used which implicitly creates copies of objects, copy semantics come into play. This typically involves scenarios where objects are passed around by value, like to a function where its parameters are not references or pointers. In such a case, the copy constructor is used to create the object that the function receives.
 
