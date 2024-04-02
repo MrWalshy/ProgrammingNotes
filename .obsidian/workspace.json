@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/GeneralNotes/MemoryManagement/Smart shared pointers.md",
+                "file": "C++/GeneralNotes/MemoryManagement/Copy Semantics and Return Value Optimisation.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/GeneralNotes/MemoryManagement/Smart shared pointers.md",
+                "file": "C++/GeneralNotes/MemoryManagement/Copy Semantics and Return Value Optimisation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/GeneralNotes/MemoryManagement/Smart shared pointers.md",
+                "file": "C++/GeneralNotes/MemoryManagement/Copy Semantics and Return Value Optimisation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/GeneralNotes/MemoryManagement/Smart shared pointers.md"
+                "file": "C++/GeneralNotes/MemoryManagement/Copy Semantics and Return Value Optimisation.md"
               }
             }
           },
@@ -176,9 +176,17 @@
   },
   "active": "3efa77b42fdabf0e",
   "lastOpenFiles": [
+    "C++/GeneralNotes/Programs/DeepCopyAssignmentOperatorExample/main.exe",
+    "C++/GeneralNotes/Programs/DeepCopyAssignmentOperatorExample/main.cpp",
+    "C++/GeneralNotes/Programs/DeepCopyAssignmentOperatorExample",
+    "C++/GeneralNotes/Programs/DeepCopyConstructorExample/main.exe",
+    "C++/GeneralNotes/Programs/DeepCopyConstructorExample/main.cpp",
+    "C++/GeneralNotes/Programs/DeepCopyConstructorExample",
+    "C++/GeneralNotes/MemoryManagement/Smart weak pointers.md",
+    "C++/GeneralNotes/MemoryManagement/Copy Semantics and Return Value Optimisation.md",
+    "C++/GeneralNotes/MemoryManagement/Smart shared pointers.md",
     "C++/GeneralNotes/ObjectOrientedProgramming/Polymorphism.md",
     "C++/GeneralNotes/StandardLibraryContainersAndAlgorithms/Algorithms/Lambda.md",
-    "C++/GeneralNotes/MemoryManagement/Smart shared pointers.md",
     "C++/GeneralNotes/Programs/SharedPointerExample/main.exe",
     "C++/GeneralNotes/Programs/SharedPointerExample/main.cpp",
     "C++/GeneralNotes/Programs/SharedPointerExample",
@@ -186,11 +194,6 @@
     "C++/GeneralNotes/MemoryManagement/Smart Unique Pointers.md",
     "C++/GeneralNotes/Programs/TransferringUniquePointerOwnership/main.exe",
     "C++/GeneralNotes/Programs/TransferringUniquePointerOwnership/main.cpp",
-    "C++/GeneralNotes/Programs/TransferringUniquePointerOwnership",
-    "C++/GeneralNotes/Programs/RequestingAccessToASmartPointersRawPointer/main.exe",
-    "C++/GeneralNotes/Programs/RequestingAccessToASmartPointersRawPointer/main.cpp",
-    "C++/GeneralNotes/Programs/RequestingAccessToASmartPointersRawPointer",
-    "C++/GeneralNotes/Programs/CreatingAndDereferencingUniquePointers/main.exe",
     "C++/GeneralNotes/MemoryManagement/The Heap.md",
     "C++/GeneralNotes/MemoryManagement/The Stack.md",
     "C++/GeneralNotes/UsefulFeatures/Bitwise operators and Bit flags.md",
@@ -209,9 +212,6 @@
     "C++/GeneralNotes/Pointers and References/Pointers.md",
     "C++/GeneralNotes/Pointers and References/References.md",
     "C++/GeneralNotes/Pointers and References/The const qualifier.md",
-    "C++/GeneralNotes/Classes/Constructors and Destructors.md",
-    "C++/GeneralNotes/Classes/Structured binding.md",
-    "C++/GeneralNotes/Classes/Operator overloading.md",
     "C++/CraftingInterpreters/PartsOfALanguage/code_mountain.png",
     "C++/GeneralNotes/StandardLibraryContainersAndAlgorithms/UnorderedContainers/unorderedmap.png",
     "C++/GeneralNotes/StandardLibraryContainersAndAlgorithms/UnorderedContainers/unorderedset.png"
