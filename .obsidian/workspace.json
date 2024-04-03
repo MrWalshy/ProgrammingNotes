@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/GeneralNotes/MemoryManagement/Move semantics.md",
+                "file": "C++/GeneralNotes/MemoryManagement/Value Categories.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +97,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/GeneralNotes/MemoryManagement/Move semantics.md",
+                "file": "C++/GeneralNotes/MemoryManagement/Value Categories.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +114,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/GeneralNotes/MemoryManagement/Move semantics.md",
+                "file": "C++/GeneralNotes/MemoryManagement/Value Categories.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +137,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/GeneralNotes/MemoryManagement/Move semantics.md"
+                "file": "C++/GeneralNotes/MemoryManagement/Value Categories.md"
               }
             }
           },
@@ -176,10 +176,11 @@
   },
   "active": "3efa77b42fdabf0e",
   "lastOpenFiles": [
+    "C++/GeneralNotes/MemoryManagement/Move semantics.md",
+    "C++/GeneralNotes/MemoryManagement/Value Categories.md",
     "C++/GeneralNotes/Programs/MoveAssignmentOperatorExample/main.exe",
     "C++/GeneralNotes/MemoryManagement/Copy Semantics and Return Value Optimisation.md",
     "C++/GeneralNotes/ObjectOrientedProgramming/Polymorphism.md",
-    "C++/GeneralNotes/MemoryManagement/Move semantics.md",
     "C++/GeneralNotes/Programs/MoveAssignmentOperatorExample/main.cpp",
     "C++/GeneralNotes/Programs/MoveAssignmentOperatorExample",
     "C++/GeneralNotes/Programs/MoveConstructorExample/main.exe",
@@ -189,7 +190,6 @@
     "C++/GeneralNotes/Programs/DeepCopyAssignmentOperatorExample/main.cpp",
     "C++/GeneralNotes/Programs/DeepCopyAssignmentOperatorExample",
     "C++/GeneralNotes/Programs/DeepCopyConstructorExample/main.exe",
-    "C++/GeneralNotes/Programs/DeepCopyConstructorExample/main.cpp",
     "C++/GeneralNotes/MemoryManagement/Smart weak pointers.md",
     "C++/GeneralNotes/MemoryManagement/Smart shared pointers.md",
     "C++/GeneralNotes/StandardLibraryContainersAndAlgorithms/Algorithms/Lambda.md",
