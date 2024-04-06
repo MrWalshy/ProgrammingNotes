@@ -4,28 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "69631250a4efd6bf",
+        "id": "1f9f3e9ba5097450",
         "type": "tabs",
         "children": [
           {
-            "id": "3efa77b42fdabf0e",
+            "id": "94b19414f5556ab5",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "C++/GeneralNotes/MemoryManagement/Value Categories.md",
-                "mode": "source",
-                "source": false
-              }
-            }
-          },
-          {
-            "id": "ec8ab4c0a5772394",
-            "type": "leaf",
-            "state": {
-              "type": "markdown",
-              "state": {
-                "file": "C++/GeneralNotes/MemoryManagement/Copy Semantics and Return Value Optimisation.md",
+                "file": "GameDevelopment/Unity/2D/Animating the player.md",
                 "mode": "source",
                 "source": false
               }
@@ -97,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "C++/GeneralNotes/MemoryManagement/Value Categories.md",
+                "file": "GameDevelopment/Unity/2D/Animating the player.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -114,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "C++/GeneralNotes/MemoryManagement/Value Categories.md",
+                "file": "GameDevelopment/Unity/2D/Animating the player.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -137,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "C++/GeneralNotes/MemoryManagement/Value Categories.md"
+                "file": "GameDevelopment/Unity/2D/Animating the player.md"
               }
             }
           },
@@ -174,46 +162,53 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "3efa77b42fdabf0e",
+  "active": "94b19414f5556ab5",
   "lastOpenFiles": [
-    "C++/GeneralNotes/MemoryManagement/Move semantics.md",
-    "C++/GeneralNotes/MemoryManagement/Value Categories.md",
-    "C++/GeneralNotes/Programs/MoveAssignmentOperatorExample/main.exe",
-    "C++/GeneralNotes/MemoryManagement/Copy Semantics and Return Value Optimisation.md",
-    "C++/GeneralNotes/ObjectOrientedProgramming/Polymorphism.md",
-    "C++/GeneralNotes/Programs/MoveAssignmentOperatorExample/main.cpp",
-    "C++/GeneralNotes/Programs/MoveAssignmentOperatorExample",
-    "C++/GeneralNotes/Programs/MoveConstructorExample/main.exe",
-    "C++/GeneralNotes/Programs/MoveConstructorExample/main.cpp",
-    "C++/GeneralNotes/Programs/MoveConstructorExample",
-    "C++/GeneralNotes/Programs/DeepCopyAssignmentOperatorExample/main.exe",
-    "C++/GeneralNotes/Programs/DeepCopyAssignmentOperatorExample/main.cpp",
-    "C++/GeneralNotes/Programs/DeepCopyAssignmentOperatorExample",
-    "C++/GeneralNotes/Programs/DeepCopyConstructorExample/main.exe",
-    "C++/GeneralNotes/MemoryManagement/Smart weak pointers.md",
-    "C++/GeneralNotes/MemoryManagement/Smart shared pointers.md",
-    "C++/GeneralNotes/StandardLibraryContainersAndAlgorithms/Algorithms/Lambda.md",
-    "C++/GeneralNotes/ObjectOrientedProgramming/Inheritance.md",
-    "C++/GeneralNotes/MemoryManagement/Smart Unique Pointers.md",
-    "C++/GeneralNotes/MemoryManagement/The Heap.md",
-    "C++/GeneralNotes/MemoryManagement/The Stack.md",
-    "C++/GeneralNotes/UsefulFeatures/Bitwise operators and Bit flags.md",
-    "C++/GeneralNotes/UsefulFeatures/System Calls and Terminal Management.md",
-    "C++/GeneralNotes/UsefulFeatures/Overloading the insertion operator.md",
-    "C++/GeneralNotes/UsefulFeatures/String interpolation.md",
-    "C++/GeneralNotes/UsefulFeatures/Dates Times and Durations.md",
-    "C++/GeneralNotes/UsefulFeatures/Random Numbers.md",
-    "C++/GeneralNotes/Preprocessor/Function macros.md",
-    "C++/GeneralNotes/Preprocessor/Text Replacement Macros.md",
-    "C++/GeneralNotes/Preprocessor/The define directive.md",
-    "C++/GeneralNotes/Preprocessor/Conditional Inclusion.md",
-    "C++/GeneralNotes/Preprocessor/What is the preprocessor.md",
-    "C++/GeneralNotes/ObjectOrientedProgramming/Interfaces.md",
-    "C++/GeneralNotes/ObjectOrientedProgramming/Dynamic Memory.md",
-    "C++/GeneralNotes/Pointers and References/Pointers.md",
-    "C++/GeneralNotes/Pointers and References/References.md",
-    "C++/CraftingInterpreters/PartsOfALanguage/code_mountain.png",
-    "C++/GeneralNotes/StandardLibraryContainersAndAlgorithms/UnorderedContainers/unorderedmap.png",
-    "C++/GeneralNotes/StandardLibraryContainersAndAlgorithms/UnorderedContainers/unorderedset.png"
+    "GameDevelopment/Unity/2D/Table of Contents.md",
+    "GameDevelopment/Unity/2D/Animating the player.md",
+    "GameDevelopment/Unity/2D/Fundamentals of Sprite Animation.md",
+    "GameDevelopment/Unity/2D/Controlling The Player.md",
+    "GameDevelopment/Unity/2D/images/rigidbody_boxcollider_components.png",
+    "GameDevelopment/Unity/2D/Unity Classes.md",
+    "GameDevelopment/Unity/2D/GameObjects and Components.md",
+    "GameDevelopment/Unity/2D/images/sprite_components.png",
+    "GameDevelopment/Unity/2D/images/2d_sprite_object_options.png",
+    "GameDevelopment/Unity/2D/Working with the Sprite System.md",
+    "GameDevelopment/Unity/2D/images/spritesheet_import_step5_slice_complete.png",
+    "GameDevelopment/Unity/2D/images/spritesheet_import_step4_sliced_regions.png",
+    "GameDevelopment/Unity/2D/images/spritesheet_import_step3_slicing.png",
+    "GameDevelopment/Unity/2D/images/spritesheet_import_step2_editor.png",
+    "GameDevelopment/Unity/2D/images/spritesheet_import_step1.png",
+    "GameDevelopment/Unity/2D/images/sprite_inspector_view.png",
+    "GameDevelopment/Unity/2D/images/fresh_imported_sprites.png",
+    "GameDevelopment/Unity/2D/Creating a Scene.md",
+    "GameDevelopment/Unity/2D/Project Structure.md",
+    "GameDevelopment/Unity/2D/Physics 2D.md",
+    "GameDevelopment/Unity/2D/Working with Sprites.md",
+    "GameDevelopment/Unity/2D/Unity's 2D features.md",
+    "GameDevelopment/Unity/2D/images",
+    "GameDevelopment/Unity/2D/Getting Assets.md",
+    "GameDevelopment/Udemy2DGameDeveloperCourse/Section2DeliveryDriver/Using DeltaTime for framerate independence.md",
+    "GameDevelopment/Unity/2D",
+    "GameDevelopment/Unity",
+    "GameDevelopment/Udemy2DGameDeveloperCourse/Section2DeliveryDriver/Adding player input.md",
+    "GameDevelopment/Udemy2DGameDeveloperCourse/Section2DeliveryDriver/Adding the Car and Script.md",
+    "GameDevelopment/Udemy2DGameDeveloperCourse/Section2DeliveryDriver/Translating the car.md",
+    "GameDevelopment/Udemy2DGameDeveloperCourse/Section2DeliveryDriver/Using SerializeField to modify variables in the inspector.md",
+    "GameDevelopment/Udemy2DGameDeveloperCourse/Section2DeliveryDriver/Managing an objects state.md",
+    "GameDevelopment/Udemy2DGameDeveloperCourse/Section2DeliveryDriver/The start and update methods.md",
+    "GameDevelopment/Udemy2DGameDeveloperCourse/Section2DeliveryDriver/Game Design.md",
+    "GameDevelopment/Udemy2DGameDeveloperCourse/Section1/Unity Interface.md",
+    "GameDevelopment/Udemy2DGameDeveloperCourse/Section2DeliveryDriver",
+    "GameDevelopment/Udemy2DGameDeveloperCourse/Section1",
+    "GameDevelopment/HP_FromCodeToCreation_MasterGameProgramming_EDX/readme.md",
+    "GameDevelopment/Udemy2DGameDeveloperCourse",
+    "GameDevelopment/HP_FromCodeToCreation_MasterGameProgramming_EDX/GameEnginesAndProgramming/Module 3 Programming Behind Games.md",
+    "GameDevelopment/HP_FromCodeToCreation_MasterGameProgramming_EDX/IntroductionToTheGameIndustryAndProduction/Video Game Production Pipeline.md",
+    "GameDevelopment/HP_FromCodeToCreation_MasterGameProgramming_EDX/GameEnginesAndProgramming",
+    "GameDevelopment/HP_FromCodeToCreation_MasterGameProgramming_EDX/IntroductionToTheGameIndustryAndProduction/Intro to Game Industry.md",
+    "GameDevelopment/HP_FromCodeToCreation_MasterGameProgramming_EDX/IntroductionToTheGameIndustryAndProduction",
+    "GameDevelopment/HP_FromCodeToCreation_MasterGameProgramming_EDX",
+    "GameDevelopment"
   ]
 }
