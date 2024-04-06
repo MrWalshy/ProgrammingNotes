@@ -53,6 +53,48 @@ Once the script is created, it can be attached to the `Player` game object. This
 
 Running the project after this will allow moving the player sprite with the keyboard.
 
+## A better implementation
+
+The physics system of Unity does not run at the same frame rate as the rest of the game engine, it is instead fixed (50fps/0.02seconds or 60fps from what I can tell) by default to provide a consistent physics simulation regardless of the games performance. Due to this, it is better not to adjust the velocity in the `Update()` method. Instead, the `FixedUpdate()` method should be used as this method is called at a fixed time interval and is used for physics-related updates; any changes are applied consistently regardless of the frame rate as `FixedRate()` is called at a fixed rate independent of the game's FPS:
+
+```c#
+public class CharacterMovement : MonoBehaviour
+{
+    // instance for the player
+    private Rigidbody2D rigidbody;
+
+    // tracking how much movement needed from input
+    private float movePlayerHorizontal;
+    private float movePlayerVertical;
+    private Vector2 movement;
+
+    // speed modifier
+    private float speed = 4.0f;
+
+    private void Awake()
+    {
+        rigidbody = GetComponent<Rigidbody2D>();
+    }
+
+    // Update is called once per frame
+    void Update()
+    {
+        movePlayerHorizontal = Input.GetAxis("Horizontal");
+        movePlayerVertical = Input.GetAxis("Vertical");
+        movement = new Vector2(movePlayerHorizontal, movePlayerVertical).normalized;
+    }
+
+	void FixedUpdate()
+	{
+		rigidbody.velocity = speed * movement;
+	}
+}
+```
+
+The vector is `normalized` to turn it into a unit vector, a vector where its length/magnitude is `1` while preserving its direction.
+
+1. The magnitude is calculated as: $|V| = sqrt(v_x^2 + v_y^2 + v_z^2)$
+2. The vector is normalised by dividing each component by its magnitude: $Vnormalised = \frac{V}{|V|} = (\frac{V_x}{|V|}, \frac{V_y}{|V|}, \frac{V_z}{|V|})$
 ## An Alternative way of moving the player
 The previous example modifies the velocity of the games rigid body directly, this is useful for physics-based movement where more realistic and dynamic interactions are desired.
 
