@@ -40,11 +40,11 @@ The `FixedUpdate()` and `Update()` methods do not have a defined order in which 
 ## Resolution
 The platform-resolution that a game renders at can be a stumbling block in Unity. By default, the Unity Editor runs in the **Free Aspect** mode. The **Aspect** mode can be changed using the drop-down in the **Game** window to represent the resolutions supported by each targeted platform, custom resolutions can also be added here:
 
-![](./images/aspect_mode_dropdown.png)
+![](../images/aspect_mode_dropdown.png)
 
 To change the build target of a project, navigate to the **Build Settings** using `File > Build Settings`. The desired platform can be selected, then clicking on the **Switch Platform** button will action the change:
 
-![](./images/build_settings.png)
+![](../images/build_settings.png)
 
 It is important to consider the aspect mode used in a game, setting everything up to use fixed bound settings for a camera or game objects may not work well for every resolution. This can result in out of range settings or objects that are undersized.
 

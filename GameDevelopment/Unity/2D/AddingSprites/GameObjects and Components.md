@@ -7,9 +7,9 @@ In 2D games, the majority of the game objects will be a `Sprite` object.
 ## Sprite GameObjects
 A Sprite object can be created by right-clicking in the hierarchy, and then selecting `2D Object > Sprites > xxx` where `xxx` is the desired shape:
 
-![](./images/2d_sprite_object_options.png)
+![](../images/2d_sprite_object_options.png)
 
 The new game object will have two default components, the `Transform` and `Sprite Renderer`:
 
-![](./images/sprite_components.png)
+![](../images/sprite_components.png)
 

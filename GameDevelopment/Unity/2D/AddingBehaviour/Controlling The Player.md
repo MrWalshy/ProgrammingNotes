@@ -5,7 +5,7 @@ First, a `RigidBody2D` component and `BoxCollider2D` component should be added t
 - Set the **Gravity Scale** to 0 as gravity is not being used and check the **Freeze Rotation Z** checkbox.
 - Select **Is Trigger** on the collider to let Unity know to check if the character is touching an object and to prevent it from passing through if so.
 
-![](./images/rigidbody_boxcollider_components.png)
+![](../images/rigidbody_boxcollider_components.png)
 
 > In a game that uses gravity, two box collider components would be needed. One to check if the character touched other objects (**Is Trigger** selected) and another to prevent the character from passing through other objects (**Is Trigger** not selected).
 

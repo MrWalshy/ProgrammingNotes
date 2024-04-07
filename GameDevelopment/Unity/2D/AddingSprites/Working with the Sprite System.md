@@ -3,11 +3,11 @@ The sprite system in Unity is used for importing and managing your sprites, the 
 ## Importing Sprites
 The simplest way of including sprites is to drag and drop them from the system file explorer into the **Project** window in Unity. Once an image file is brought in, clicking on the image will show its import settings in the image's inspector:
 
-![](./images/fresh_imported_sprites.png)
+![](../images/fresh_imported_sprites.png)
 
 The sprites import settings are visible in the **Inspector** window, any changes can only be saved by hitting the **Apply** button:
 
-![](./images/sprite_inspector_view.png)
+![](../images/sprite_inspector_view.png)
 
 ### Texture Type
 All new images in Unity have their `Texture Type` set to `Sprite (2D and UI)` in a 2D project instead of `Texture` like in a 3D project.
@@ -74,24 +74,24 @@ When working with a single sprite or individual regions from a sprite sheet, the
 ## Importing a sprite sheet example
 Select an asset from the `Assets` folder that represents a sprite sheet. In the **Inspector**, change the **Sprite Mode** to **Multiple** and then select the **Sprite Editor** button. 
 
-![](./images/spritesheet_import_step1.png)
+![](../images/spritesheet_import_step1.png)
 
 Select **Apply** when prompted to bring up the Sprite Editor:
 
-![](./images/spritesheet_import_step2_editor.png)
+![](../images/spritesheet_import_step2_editor.png)
 
 Expand the Sprite Editor if necessary to see the **Slice** drop-down. Set the `Type` to `Automatic` and the `Pivot` to `Bottom`:
 
-![](./images/spritesheet_import_step3_slicing.png)
+![](../images/spritesheet_import_step3_slicing.png)
 
 Select the `Slice` button to see the sprites now surrounded by bounding boxes, clicking any one of them will also bring up the individual sprites options:
 
-![](./images/spritesheet_import_step4_sliced_regions.png)
+![](../images/spritesheet_import_step4_sliced_regions.png)
 
 > When working with sprite sheets that have a walking animation, `Bottom` is generally the best pivot point.
 
 Select the `Apply` button and close the editor. In the assets window, the imported image asset will now have an arrow that can be clicked to show the individual sprites sliced from the sprite sheet:
 
-![](./images/spritesheet_import_step5_slice_complete.png)
+![](../images/spritesheet_import_step5_slice_complete.png)
 
 The individual sprites can then be dragged as needed onto a sprite object to be its texture.

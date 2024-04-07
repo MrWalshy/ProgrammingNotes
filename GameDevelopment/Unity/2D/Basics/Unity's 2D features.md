@@ -6,4 +6,4 @@ A 2D project provides a default camera in an **Orthographic** projection, the ca
 
 Swap between the two modes (2D and 3D) by accessing the **Project Settings** via **Edit > Project Settings | Editor**, then changing the **Default Behaviour Mode**:
 
-![](./images/default_behaviour_mode.png)
+![](../images/default_behaviour_mode.png)

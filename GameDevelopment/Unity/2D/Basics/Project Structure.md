@@ -1,6 +1,6 @@
 When starting a new project, Unity creates an **Assets** folder. It is good practice to give this folder a structure in which to place your assets. The best practice is to group objects by their type in the folder:
 
-![](./images/top_level_project_structure.png)
+![](../images/top_level_project_structure.png)
 
 These top-level organisational folders can then be further subdivided.
 
