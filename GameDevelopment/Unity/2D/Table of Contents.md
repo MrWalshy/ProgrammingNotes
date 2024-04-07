@@ -10,4 +10,7 @@
 - [Controlling the Player](./Controlling%20The%20Player.md)
 - [Fundamentals of Sprite Animation](./Fundamentals%20of%20Sprite%20Animation.md)
 - [Animating the Player](./Animating%20The%20Player.md)
+- [Backgrounds and Layers](./Backgrounds%20and%20Layers.md)
+- [Working with the Camera](./Working%20with%20the%20Camera.md)
+- [Transitioning and Bounds](./Transitioning%20and%20Bounds.md)
 - 

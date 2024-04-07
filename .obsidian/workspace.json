@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GameDevelopment/Unity/2D/Animating the player.md",
+                "file": "GameDevelopment/Unity/2D/Transitioning and bounds.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GameDevelopment/Unity/2D/Animating the player.md",
+                "file": "GameDevelopment/Unity/2D/Transitioning and bounds.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GameDevelopment/Unity/2D/Animating the player.md",
+                "file": "GameDevelopment/Unity/2D/Transitioning and bounds.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GameDevelopment/Unity/2D/Animating the player.md"
+                "file": "GameDevelopment/Unity/2D/Transitioning and bounds.md"
               }
             }
           },
@@ -164,18 +164,21 @@
   },
   "active": "4d18accfc407c4f0",
   "lastOpenFiles": [
-    "GameDevelopment/Unity/2D/images/player_idle_down_transition_settings.png",
-    "GameDevelopment/Unity/2D/images/player_walk_to_idle_transitions.png",
-    "GameDevelopment/Unity/2D/images/player_idle_down_node.png",
-    "GameDevelopment/Unity/2D/images/xmove_horizontal_transition_condition.png",
-    "GameDevelopment/Unity/2D/images/ymove_down_animation_condition.png",
-    "GameDevelopment/Unity/2D/images/creating_new_animation_parameter.png",
-    "GameDevelopment/Unity/2D/images/modified_transition_state_prop_settings.png",
-    "GameDevelopment/Unity/2D/images/animation_transition_default_settings_inspector.png",
-    "GameDevelopment/Unity/2D/images/animation_transition_default_props_inspector.png",
-    "GameDevelopment/Unity/2D/images/animation_transitions_added.png",
-    "GameDevelopment/Unity/2D/images/ordered_animation_nodes.png",
+    "GameDevelopment/Unity/2D/images/adding_tags_to_gameobject.png",
+    "GameDevelopment/Unity/2D/images/non-trigger-box-collider-on-player.png",
+    "GameDevelopment/Unity/2D/images/collider_on_border.png",
+    "GameDevelopment/Unity/2D/images/added_icons_to_border_objects.png",
+    "GameDevelopment/Unity/2D/images/new_boundaries_objects.png",
     "GameDevelopment/Unity/2D/Table of Contents.md",
+    "GameDevelopment/Unity/2D/Transitioning and bounds.md",
+    "GameDevelopment/Unity/2D/Working with the Camera.md",
+    "GameDevelopment/Unity/2D/images/build_settings.png",
+    "GameDevelopment/Unity/2D/images/aspect_mode_dropdown.png",
+    "GameDevelopment/Unity/2D/Backgrounds and Layers.md",
+    "GameDevelopment/Unity/2D/images/background_with_roads_and_sidewalk.png",
+    "GameDevelopment/Unity/2D/images/backgrounds_group_gameobject.png",
+    "GameDevelopment/Unity/2D/images/multiple_background_images.png",
+    "GameDevelopment/Unity/2D/images/player_in_front_of_background_layer.png",
     "GameDevelopment/Unity/2D/Animating the player.md",
     "GameDevelopment/Unity/2D/Controlling The Player.md",
     "GameDevelopment/Unity/2D/Fundamentals of Sprite Animation.md",
@@ -202,10 +205,7 @@
     "GameDevelopment/Udemy2DGameDeveloperCourse/Section1/Unity Interface.md",
     "GameDevelopment/Udemy2DGameDeveloperCourse/Section2DeliveryDriver",
     "GameDevelopment/Udemy2DGameDeveloperCourse/Section1",
-    "GameDevelopment/HP_FromCodeToCreation_MasterGameProgramming_EDX/readme.md",
     "GameDevelopment/Udemy2DGameDeveloperCourse",
-    "GameDevelopment/HP_FromCodeToCreation_MasterGameProgramming_EDX/GameEnginesAndProgramming/Module 3 Programming Behind Games.md",
-    "GameDevelopment/HP_FromCodeToCreation_MasterGameProgramming_EDX/IntroductionToTheGameIndustryAndProduction/Video Game Production Pipeline.md",
     "GameDevelopment/HP_FromCodeToCreation_MasterGameProgramming_EDX/GameEnginesAndProgramming",
     "GameDevelopment/HP_FromCodeToCreation_MasterGameProgramming_EDX/IntroductionToTheGameIndustryAndProduction",
     "GameDevelopment/HP_FromCodeToCreation_MasterGameProgramming_EDX",
