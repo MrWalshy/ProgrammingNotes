@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GameDevelopment/Unity/2D/Transitioning and bounds.md",
+                "file": "GameDevelopment/Unity/2D/Table of Contents.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GameDevelopment/Unity/2D/Transitioning and bounds.md",
+                "file": "GameDevelopment/Unity/2D/Table of Contents.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GameDevelopment/Unity/2D/Transitioning and bounds.md",
+                "file": "GameDevelopment/Unity/2D/Table of Contents.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GameDevelopment/Unity/2D/Transitioning and bounds.md"
+                "file": "GameDevelopment/Unity/2D/Table of Contents.md"
               }
             }
           },
@@ -150,7 +150,7 @@
       }
     ],
     "direction": "horizontal",
-    "width": 335.5
+    "width": 316.5
   },
   "left-ribbon": {
     "hiddenItems": {
@@ -162,8 +162,27 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "94b19414f5556ab5",
+  "active": "83e4d14bcca20bca",
   "lastOpenFiles": [
+    "GameDevelopment/Unity/2D/NPCsAndInteractions/Adding NPCs.md",
+    "GameDevelopment/Unity/2D/Table of Contents.md",
+    "GameDevelopment/Unity/2D/NPCsAndInteractions/Advanced Programming Techniques.md",
+    "GameDevelopment/Unity/2D/NPCsAndInteractions/Considering RPG Elements.md",
+    "GameDevelopment/Unity/2D/NPCsAndInteractions/Getting NPCs Talking.md",
+    "GameDevelopment/Unity/2D/images/added_conversation_entries_to_asset.png",
+    "GameDevelopment/Unity/2D/images/create_conversation_menu_option.png",
+    "GameDevelopment/Unity/2D/images/additional_boxcolliders_for_npc.png",
+    "GameDevelopment/Unity/2D/images/added_mayor_npc.png",
+    "GameDevelopment/Unity/2D/UISystem/UI Buttons.md",
+    "GameDevelopment/Unity/2D/NPCsAndInteractions",
+    "GameDevelopment/Unity/2D/images/legacy_ui_button_defaults.png",
+    "GameDevelopment/Unity/2D/UISystem/UI Layout and Rect Transform.md",
+    "GameDevelopment/Unity/2D/UISystem/UI Text and Images.md",
+    "GameDevelopment/Unity/2D/images/ui_image_default_properties.png",
+    "GameDevelopment/Unity/2D/images/legacy_ui_text_properties.png",
+    "GameDevelopment/Unity/2D/UISystem/UI Canvas.md",
+    "GameDevelopment/Unity/2D/images/canvas_render_mode_default.png",
+    "GameDevelopment/Unity/2D/Transitioning and bounds.md",
     "GameDevelopment/Unity/2D/Backgrounds and Layers.md",
     "GameDevelopment/Unity/2D/SpriteAnimationBasics/Fundamentals of Sprite Animation.md",
     "GameDevelopment/Unity/2D/SpriteAnimationBasics/Animating the player.md",
@@ -179,35 +198,16 @@
     "GameDevelopment/Unity/2D/AddingSprites/GameObjects and Components.md",
     "GameDevelopment/Unity/2D/AddingBehaviour/Unity Classes.md",
     "GameDevelopment/Unity/2D/AddingBehaviour/Controlling The Player.md",
-    "GameDevelopment/Unity/2D/UISystem/UI Canvas.md",
     "GameDevelopment/Unity/2D/images/canvas_out_of_view.png",
-    "GameDevelopment/Unity/2D/Table of Contents.md",
     "GameDevelopment/Unity/2D/UISystem",
-    "GameDevelopment/Unity/2D/Transitioning and bounds.md",
     "GameDevelopment/Unity/2D/CameraBasics",
     "GameDevelopment/Unity/2D/SpriteAnimationBasics",
     "GameDevelopment/Unity/2D/AddingBehaviour",
     "GameDevelopment/Unity/2D/AddingSprites",
     "GameDevelopment/Unity/2D/Basics",
-    "GameDevelopment/Unity/2D/images/adding_tags_to_gameobject.png",
-    "GameDevelopment/Unity/2D/images/non-trigger-box-collider-on-player.png",
-    "GameDevelopment/Unity/2D/images/collider_on_border.png",
-    "GameDevelopment/Unity/2D/images/added_icons_to_border_objects.png",
-    "GameDevelopment/Unity/2D/images/new_boundaries_objects.png",
-    "GameDevelopment/Unity/2D/images/build_settings.png",
-    "GameDevelopment/Unity/2D/images/aspect_mode_dropdown.png",
-    "GameDevelopment/Unity/2D/images/background_with_roads_and_sidewalk.png",
     "GameDevelopment/Unity/2D/images",
     "GameDevelopment/Udemy2DGameDeveloperCourse/Section2DeliveryDriver/Using DeltaTime for framerate independence.md",
     "GameDevelopment/Unity/2D",
-    "GameDevelopment/Unity",
-    "GameDevelopment/Udemy2DGameDeveloperCourse/Section2DeliveryDriver/Adding player input.md",
-    "GameDevelopment/Udemy2DGameDeveloperCourse/Section2DeliveryDriver/Adding the Car and Script.md",
-    "GameDevelopment/Udemy2DGameDeveloperCourse/Section2DeliveryDriver/Translating the car.md",
-    "GameDevelopment/Udemy2DGameDeveloperCourse/Section2DeliveryDriver/Using SerializeField to modify variables in the inspector.md",
-    "GameDevelopment/Udemy2DGameDeveloperCourse/Section2DeliveryDriver/Managing an objects state.md",
-    "GameDevelopment/Udemy2DGameDeveloperCourse/Section2DeliveryDriver/The start and update methods.md",
-    "GameDevelopment/Udemy2DGameDeveloperCourse/Section2DeliveryDriver/Game Design.md",
-    "GameDevelopment/Udemy2DGameDeveloperCourse/Section2DeliveryDriver"
+    "GameDevelopment/Unity"
   ]
 }
