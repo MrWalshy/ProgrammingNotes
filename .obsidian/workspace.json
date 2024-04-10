@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GameDevelopment/Unity/2D/Table of Contents.md",
+                "file": "GameDevelopment/Unity/2D/Enemies/Event Systems.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GameDevelopment/Unity/2D/Table of Contents.md",
+                "file": "GameDevelopment/Unity/2D/Enemies/Event Systems.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GameDevelopment/Unity/2D/Table of Contents.md",
+                "file": "GameDevelopment/Unity/2D/Enemies/Event Systems.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GameDevelopment/Unity/2D/Table of Contents.md"
+                "file": "GameDevelopment/Unity/2D/Enemies/Event Systems.md"
               }
             }
           },
@@ -162,32 +162,40 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "83e4d14bcca20bca",
+  "active": "94b19414f5556ab5",
   "lastOpenFiles": [
-    "GameDevelopment/Unity/2D/NPCsAndInteractions/Adding NPCs.md",
     "GameDevelopment/Unity/2D/Table of Contents.md",
+    "GameDevelopment/Unity/2D/Enemies/Event Systems.md",
+    "GameDevelopment/Unity/2D/WorldMaps/Managing Navigation between Scenes.md",
+    "GameDevelopment/Unity/2D/Enemies",
+    "GameDevelopment/Unity/2D/images/added_scenes_to_build_settings_wm.png",
+    "GameDevelopment/Unity/2D/images/rightborder_town_overworld_tag_wm.png",
+    "GameDevelopment/Unity/2D/WorldMaps/Creating a game map.md",
+    "GameDevelopment/Unity/2D/images/borders_on_map_wm.png",
+    "GameDevelopment/Unity/2D/images/tagged_town_map_point_wm.png",
+    "GameDevelopment/Unity/2D/images/map_point_properties_wm.png",
+    "GameDevelopment/Unity/2D/images/town_on_map_wm.png",
+    "GameDevelopment/Unity/2D/images/player_on_game_map_wm.png",
+    "GameDevelopment/Unity/2D/images/player_prefab_wm.png",
+    "GameDevelopment/Unity/2D/images/map_background_image_wm.png",
+    "GameDevelopment/Unity/2D/WorldMaps/Overview of Maps.md",
     "GameDevelopment/Unity/2D/NPCsAndInteractions/Advanced Programming Techniques.md",
+    "GameDevelopment/Unity/2D/WorldMaps",
+    "GameDevelopment/Unity/2D/SpriteAnimationBasics/Animating the player.md",
+    "GameDevelopment/Unity/2D/SpriteAnimationBasics/Fundamentals of Sprite Animation.md",
+    "GameDevelopment/Unity/2D/NPCsAndInteractions/Adding NPCs.md",
+    "GameDevelopment/Unity/2D/Backgrounds and Layers.md",
+    "GameDevelopment/Unity/2D/NPCsAndInteractions/Adding a basic conversation system.md",
+    "GameDevelopment/Unity/2D/images/mayor_npc_script_conversation_component_cv.png",
     "GameDevelopment/Unity/2D/NPCsAndInteractions/Considering RPG Elements.md",
     "GameDevelopment/Unity/2D/NPCsAndInteractions/Getting NPCs Talking.md",
-    "GameDevelopment/Unity/2D/images/added_conversation_entries_to_asset.png",
-    "GameDevelopment/Unity/2D/images/create_conversation_menu_option.png",
-    "GameDevelopment/Unity/2D/images/additional_boxcolliders_for_npc.png",
-    "GameDevelopment/Unity/2D/images/added_mayor_npc.png",
     "GameDevelopment/Unity/2D/UISystem/UI Buttons.md",
     "GameDevelopment/Unity/2D/NPCsAndInteractions",
-    "GameDevelopment/Unity/2D/images/legacy_ui_button_defaults.png",
     "GameDevelopment/Unity/2D/UISystem/UI Layout and Rect Transform.md",
     "GameDevelopment/Unity/2D/UISystem/UI Text and Images.md",
-    "GameDevelopment/Unity/2D/images/ui_image_default_properties.png",
-    "GameDevelopment/Unity/2D/images/legacy_ui_text_properties.png",
     "GameDevelopment/Unity/2D/UISystem/UI Canvas.md",
-    "GameDevelopment/Unity/2D/images/canvas_render_mode_default.png",
     "GameDevelopment/Unity/2D/Transitioning and bounds.md",
-    "GameDevelopment/Unity/2D/Backgrounds and Layers.md",
-    "GameDevelopment/Unity/2D/SpriteAnimationBasics/Fundamentals of Sprite Animation.md",
-    "GameDevelopment/Unity/2D/SpriteAnimationBasics/Animating the player.md",
     "GameDevelopment/Unity/2D/CameraBasics/Working with the Camera.md",
-    "GameDevelopment/Unity/2D/images/2d_sprite_object_options.png",
     "GameDevelopment/Unity/2D/Basics/Working with Sprites.md",
     "GameDevelopment/Unity/2D/Basics/Unity's 2D features.md",
     "GameDevelopment/Unity/2D/Basics/Project Structure.md",
@@ -195,19 +203,12 @@
     "GameDevelopment/Unity/2D/Basics/Getting Assets.md",
     "GameDevelopment/Unity/2D/Basics/Creating a Scene.md",
     "GameDevelopment/Unity/2D/AddingSprites/Working with the Sprite System.md",
-    "GameDevelopment/Unity/2D/AddingSprites/GameObjects and Components.md",
-    "GameDevelopment/Unity/2D/AddingBehaviour/Unity Classes.md",
-    "GameDevelopment/Unity/2D/AddingBehaviour/Controlling The Player.md",
-    "GameDevelopment/Unity/2D/images/canvas_out_of_view.png",
     "GameDevelopment/Unity/2D/UISystem",
     "GameDevelopment/Unity/2D/CameraBasics",
     "GameDevelopment/Unity/2D/SpriteAnimationBasics",
     "GameDevelopment/Unity/2D/AddingBehaviour",
     "GameDevelopment/Unity/2D/AddingSprites",
     "GameDevelopment/Unity/2D/Basics",
-    "GameDevelopment/Unity/2D/images",
-    "GameDevelopment/Udemy2DGameDeveloperCourse/Section2DeliveryDriver/Using DeltaTime for framerate independence.md",
-    "GameDevelopment/Unity/2D",
-    "GameDevelopment/Unity"
+    "GameDevelopment/Unity/2D/images"
   ]
 }
