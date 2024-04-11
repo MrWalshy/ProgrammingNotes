@@ -26,4 +26,5 @@
 - [Creating a game map](./WorldMaps/Creating%20a%20game%20map.md)
 - [Managing Navigation between Scenes](./WorldMaps/Managing%20Navigation%20between%20Scenes.md)
 - [Event systems - Enemies](./Enemies/Event%20Systems.md)
+- [Setting up the battle scene](./Enemies/Setting%20up%20the%20battle%20scene.md)
 - 
