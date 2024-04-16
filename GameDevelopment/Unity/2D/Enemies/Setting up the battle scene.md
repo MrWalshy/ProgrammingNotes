@@ -142,3 +142,297 @@ private IEnumerator MoveCharacterToPoint(GameObject destination, GameObject enem
 ```
 
 ## Creating the battle manager
+The `BattleManager` script now needs assigning to an empty game object in the scene:
+
+![](../images/battlemanager_object_with_script.png)
+
+With the script attached, the spawn points for the enemies and the enemy prefabs can be dragged into their respective arrays on the script:
+
+![](../images/battlemanager_object_spawn_points_and_prefabs_attached.png)
+
+The last thing to do is to setup the animation curve. Clicking the grey box will open a **Curve** window, select the appropriate curve.
+
+## Allowing the player to run away
+To allow the player to run away, a UI button will be added to the scene. Create a button and set its anchor and pivot point as appropriate (top-left in this case):
+
+![](../images/runaway_btn_on_scene.png)
+
+Add a `CanvasGroup` component to the `Canvas` in the battle scene to allow adjusting its interactivity and visibility. By default, it should be invisible and unable to be interacted with:
+
+- Set `alpha` to `0`
+- Deselect `Interactable` and `Block Raycasts`
+
+Now, some logic will be added to make the button visible only when it is the players turn to attack. In the `BattleManager` script, add the field:
+
+```c#
+[SerializeField] private CanvasGroup buttons;
+```
+
+Add the `Update()` method with the following implementation to turn the button on and off depending on whether the player is attacking (players turn) or not:
+
+```c#
+private void Update()
+{
+    if (battlePhase == BattlePhase.PLAYER_ATTACK)
+    {
+        buttons.alpha = 1;
+        buttons.interactable = true;
+        buttons.blocksRaycasts = true;
+    }
+    else
+    {
+        buttons.alpha = 0;
+        buttons.interactable = false;
+        buttons.blocksRaycasts = false;
+    }
+}
+
+public void RunAway()
+{
+    NavigationManager.NavigateTo("Overworld");
+}
+```
+
+Now, attach the canvas to the `buttons` element of the `BattleManager` objects script in the editor. Then set the run away buttons on click function as the `RunAway()` method on the `BattleManager` objects attached script:
+
+![](../images/battlescene_runaway_btn_onclick_event.png)
+
+## Starting a battle
+With the battle scene setup, a way for a battle to start needs to be added. In this case, it will be done on the `Overworld` scene by adding battle areas which have higher probabilities of encountering a battle.
+
+In the `Overworld` scene, create an empty game object called `BattleZones`, create an empty child object called `BattleZone` inside of it. Add a `BoxCollider2D` component, with `IsTrigger` set to `true`, to the `BattleZone` and give the zone an icon:
+
+![](../images/overworld_first_battle_zone.png)
+
+Now, create a script called `RandomBattle` which will be attached to the `BattleZone` object(s) to trigger a battle. In the script, declare some fields that will be used to calculate when a battle should occur:
+
+```c#
+public class RandomBattle : MonoBehaviour
+{
+    [SerializeField] private int battleProbability;
+    [SerializeField] private int secondsBetweenBattles;
+    [SerializeField] private string battleSceneName;
+    [SerializeField] private int encounterChance = 100;
+}
+```
+
+- `battleProbability`: Represents the chance of a battle encounter in a zone.
+- `encounterChance`: Holds a randomly generated number. If the value is less than or equal to `battleProbability`, a battle occurs.
+- `secondsBetweenBattles`: Determines the amount of time that will pass before another battle can occur. After the time has elapsed, `encounterChance` will be assigned a new random number.
+- `battleSceneName`: The string name of the scene that will load on a battle occurring.
+
+To allow continually checking for whether a battle should occur or not when the player is inside the battle zone, the `OnTriggerEnter2D`, `OnTriggerStay2D`, and `OnTriggerExit2D` methods of `MonoBehaviour` will be utilised:
+
+```c#
+private void OnTriggerEnter2D(Collider2D collision)
+{
+    encounterChance = Random.Range(1, 100);
+    if (encounterChance > battleProbability) StartCoroutine(RecalculateChance());
+}
+
+private void OnTriggerStay2D(Collider2D collision)
+{
+    if (encounterChance <= battleProbability)
+    {
+        Debug.Log("Battle started");
+        SceneManager.LoadScene(battleSceneName);
+    }
+}
+
+private void OnTriggerExit2D(Collider2D collision)
+{
+    encounterChance = 100;
+    StopCoroutine(RecalculateChance());
+}
+
+private IEnumerator RecalculateChance()
+{
+    while (encounterChance > battleProbability)
+    {
+        yield return new WaitForSeconds(secondsBetweenBattles);
+        encounterChance = Random.Range(1, 100);
+    }
+}
+```
+
+When the player enters the collision area, a random number is generated to determine if a battle occurs. If a battle does not occur, `RecalculateChance` is called to generate a random number for the `encounterChance`. As long as the player remains in the zone, battles will be attempted continually. Once the player exits the zone, battle attempts will stop.
+
+Attach the `RandomBattle` script to the `BattleZone` object and set its field values as necessary:
+
+![](../images/battlezone_random_battle_script_attached.png)
+
+Now, create a prefab from the `BattleZone` object so that it can reused as needed. With the existing object, rename it to `Zone1` and resize its collision area as seems appropriate. Add any additional battle zones as deemed necessary.
+
+Make sure to add the `BattleScene` to the build settings.
+
+## Saving the map position
+After the player enters a battle, whether they run or fight their last known position should be restored. This is known as the *last known position method*, although other ways of setting a position after the battle exists.
+
+To implement this, things like the player's stats, options, preferences, and where they are in the world will be stored. This will also be useful for save functionality at a later point.
+
+For this, a simple static `GameState` class can be used:
+
+```c#
+public static class GameState
+{
+    public static Player currentPlayer = ScriptableObject.CreateInstance<Player>();
+    public static Dictionary<string, Vector3> lastScenePositions = new Dictionary<string, Vector3>();
+}
+```
+
+- The `currentPlayer` class variable stores the tracked player instance, this holds the player related information
+- The `lastScenePositions` variable is recording the scenes a player has visited and their last position registered in that scene
+
+It can also be helpful to add helper methods for retrieving and setting a scenes last position:
+
+```c#
+public static Vector3 GetLastScenePosition(string scene)
+{
+    if (GameState.lastScenePositions.ContainsKey(scene))
+    {
+        return GameState.lastScenePositions[scene];
+    }
+    else return Vector3.zero;
+}
+
+public static void SetLastScenePosition(string scene, Vector3 position)
+{
+    if (GameState.lastScenePositions.ContainsKey(scene))
+    {
+        GameState.lastScenePositions[scene] = position;
+    }
+    else
+    {
+        GameState.lastScenePositions.Add(scene, position);
+    }
+}
+```
+
+Now, a `MapPosition` script can be created for the map to load the last position if one exists and save the last position upon scene exit:
+
+```c#
+public class MapPosition : MonoBehaviour
+{
+    private void Awake()
+    {
+        Vector3 lastPosition = GameState.GetLastScenePosition(SceneManager.GetActiveScene().name);
+        if (lastPosition != Vector3.zero) transform.position = lastPosition;
+    }
+
+    private void OnDestroy()
+    {
+        GameState.SetLastScenePosition(SceneManager.GetActiveScene().name, transform.position);
+    }
+}
+```
+
+When the script is loaded in a scene, it sets the position. On scene exit, it sets the last scenes position. This script can then be attached to the `Player` prefab so that it updates all instance of the player, allowing them to spawn appropriately.
+
+## Prevent battles from accidently immediately occurring
+As the players position is restored, this may accidently cause another battle scene to immediately occur in certain occasions.
+
+To resolve this, add a class variable to the `GameState` script to hold if a battle has just been exited or not:
+
+```c#
+public static bool recentlyExitedBattle;
+```
+
+Then update the `RunAway` method of the `BattleManager` script to update this class variable:
+
+```c#
+public void RunAway()
+{
+    GameState.recentlyExitedBattle = true;
+    NavigationManager.NavigateTo("Overworld");
+}
+```
+
+Then update the `RandomBattle` script to account for whether this has occurred or not:
+
+```c#
+private void OnTriggerEnter2D(Collider2D collision)
+{
+    if (GameState.recentlyExitedBattle)
+    {
+        StartCoroutine(RecalculateChance());
+        GameState.recentlyExitedBattle = false;
+    }
+    else
+    {
+        encounterChance = Random.Range(1, 100);
+        if (encounterChance > battleProbability) StartCoroutine(RecalculateChance());
+    }
+}
+```
+
+## Fixing travel between scenes
+With the ability to save map positions added, this will cause the game to trigger switches between scenes rapidly when travelling due to the last positions of each scene being on the colliders which initiate travel.
+
+To fix this, first add a variable to indicate whether the last position should be saved to the `GameState` script:
+
+```c#
+public static bool saveLastPosition = true;
+```
+
+The adjust the `MapPosition.OnDestroy` method to only save the last position if this variable is true:
+
+```c#
+private void OnDestroy()
+{
+    if (GameState.saveLastPosition)
+    {
+        GameState.SetLastScenePosition(SceneManager.GetActiveScene().name, transform.position);
+    }
+}
+```
+
+Then add a variable to record the starting position to the `NavigationPrompt` script:
+
+```c#
+public Vector3 startingPosition;
+```
+
+Then update both trigger methods in the same script to account for whether the last position should be saved or not:
+
+```c#
+private void OnCollisionEnter2D(Collision2D collision)
+{
+    if (NavigationManager.CanNavigate(this.tag))
+    {
+        GameState.saveLastPosition = false;
+        GameState.SetLastScenePosition(SceneManager.GetActiveScene().name, startingPosition);
+
+        Debug.Log("Attempting to exit via " + this.tag);
+        NavigationManager.NavigateTo(this.tag);
+    }
+}
+
+private void OnTriggerEnter2D(Collider2D collision)
+{
+    if (NavigationManager.CanNavigate(tag))
+    {
+        GameState.saveLastPosition = false;
+        GameState.SetLastScenePosition(SceneManager.GetActiveScene().name, startingPosition);
+
+        Debug.Log("Attempting to exit via " + tag);
+        NavigationManager.NavigateTo(tag);
+    }
+}
+```
+
+Then, in the Unity Editor set the `startingPosition`'s value as appropriate for objects which have this script attached.
+
+To account for `GameState.saveLastPosition` being set to `false` when travelling between scenes, it needs to be updated to `true` when a battle occurs to allow the position prior to battle to be restored appropriately. Update `RandomBattle.OnTriggerStay2D` to resolve this:
+
+```c#
+private void OnTriggerStay2D(Collider2D collision)
+{
+    if (encounterChance <= battleProbability)
+    {
+        Debug.Log("Battle started");
+        GameState.saveLastPosition = true;
+        SceneManager.LoadScene(battleSceneName);
+    }
+}
+```
+

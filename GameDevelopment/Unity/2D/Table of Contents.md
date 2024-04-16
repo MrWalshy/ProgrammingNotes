@@ -27,4 +27,7 @@
 - [Managing Navigation between Scenes](./WorldMaps/Managing%20Navigation%20between%20Scenes.md)
 - [Event systems - Enemies](./Enemies/Event%20Systems.md)
 - [Setting up the battle scene](./Enemies/Setting%20up%20the%20battle%20scene.md)
+- [Setting up the battle state manager](./Enemies/Setting%20up%20the%20battle%20state%20manager.md)
+- [Using the battle state manager](./Enemies/Using%20the%20battle%20state%20manager.md)
+- [Intro animation](./Enemies/Intro%20animation.md)
 - 

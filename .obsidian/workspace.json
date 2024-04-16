@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GameDevelopment/Unity/2D/Enemies/Setting up the battle scene.md",
+                "file": "GameDevelopment/Unity/2D/Enemies/Intro animation.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GameDevelopment/Unity/2D/Enemies/Setting up the battle scene.md",
+                "file": "GameDevelopment/Unity/2D/Enemies/Intro animation.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GameDevelopment/Unity/2D/Enemies/Setting up the battle scene.md",
+                "file": "GameDevelopment/Unity/2D/Enemies/Intro animation.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GameDevelopment/Unity/2D/Enemies/Setting up the battle scene.md"
+                "file": "GameDevelopment/Unity/2D/Enemies/Intro animation.md"
               }
             }
           },
@@ -164,23 +164,25 @@
   },
   "active": "94b19414f5556ab5",
   "lastOpenFiles": [
+    "GameDevelopment/Unity/2D/Table of Contents.md",
+    "GameDevelopment/Unity/2D/Enemies/Intro animation.md",
+    "GameDevelopment/Unity/2D/Enemies/Using the battle state manager.md",
+    "GameDevelopment/Unity/2D/Enemies/Setting up the battle state manager.md",
+    "GameDevelopment/Unity/2D/images/battle_state_machine_states.png",
+    "GameDevelopment/Unity/2D/Enemies/Setting up the battle scene.md",
+    "GameDevelopment/Unity/2D/images/battlezone_random_battle_script_attached.png",
+    "GameDevelopment/Unity/2D/images/overworld_first_battle_zone.png",
+    "GameDevelopment/Unity/2D/images/battlescene_runaway_btn_onclick_event.png",
+    "GameDevelopment/Unity/2D/images/runaway_btn_on_scene.png",
+    "GameDevelopment/Unity/2D/images/battlemanager_object_spawn_points_and_prefabs_attached.png",
+    "GameDevelopment/Unity/2D/images/battlemanager_object_with_script.png",
     "GameDevelopment/Unity/2D/images/battlescene_spawn_points_on_scene.png",
     "GameDevelopment/Unity/2D/images/added_animator_enemy_dragon.png",
     "GameDevelopment/Unity/2D/images/battlescene_state_transitions.png",
-    "GameDevelopment/Unity/2D/images/battlescene_animator_states.png",
-    "GameDevelopment/Unity/2D/images/initial_enemy_battlescene_sprite.png",
-    "GameDevelopment/Unity/2D/images/battle_scene_background.png",
-    "GameDevelopment/Unity/2D/Table of Contents.md",
-    "GameDevelopment/Unity/2D/Enemies/Setting up the battle scene.md",
     "GameDevelopment/Unity/2D/Enemies/Event Systems.md",
     "GameDevelopment/Unity/2D/WorldMaps/Managing Navigation between Scenes.md",
     "GameDevelopment/Unity/2D/Enemies",
-    "GameDevelopment/Unity/2D/images/added_scenes_to_build_settings_wm.png",
-    "GameDevelopment/Unity/2D/images/rightborder_town_overworld_tag_wm.png",
     "GameDevelopment/Unity/2D/WorldMaps/Creating a game map.md",
-    "GameDevelopment/Unity/2D/images/borders_on_map_wm.png",
-    "GameDevelopment/Unity/2D/images/tagged_town_map_point_wm.png",
-    "GameDevelopment/Unity/2D/images/map_point_properties_wm.png",
     "GameDevelopment/Unity/2D/WorldMaps/Overview of Maps.md",
     "GameDevelopment/Unity/2D/NPCsAndInteractions/Advanced Programming Techniques.md",
     "GameDevelopment/Unity/2D/WorldMaps",
@@ -201,8 +203,6 @@
     "GameDevelopment/Unity/2D/Basics/Working with Sprites.md",
     "GameDevelopment/Unity/2D/Basics/Unity's 2D features.md",
     "GameDevelopment/Unity/2D/Basics/Project Structure.md",
-    "GameDevelopment/Unity/2D/Basics/Physics 2D.md",
-    "GameDevelopment/Unity/2D/Basics/Getting Assets.md",
     "GameDevelopment/Unity/2D/UISystem",
     "GameDevelopment/Unity/2D/CameraBasics",
     "GameDevelopment/Unity/2D/SpriteAnimationBasics",
