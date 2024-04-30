@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "bfcfd58a7fa29b33",
@@ -162,18 +163,26 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4d18accfc407c4f0",
+  "active": "1764c10a0dd91623",
   "lastOpenFiles": [
-    "CSharp/programs",
+    "CSharp/programs/MyFirstProgram/obj/Debug/net8.0/MyFirstProgram.csproj.FileListAbsolute.txt",
+    "CSharp/programs/MyFirstProgram/bin/Debug/net8.0/MyFirstProgram.pdb",
+    "CSharp/programs/MyFirstProgram/obj/Debug/net8.0/ref/MyFirstProgram.dll",
+    "CSharp/programs/MyFirstProgram/bin/Debug/net8.0/MyFirstProgram.dll",
+    "CSharp/programs/MyFirstProgram/bin/Debug/net8.0/MyFirstProgram.runtimeconfig.json",
+    "CSharp/programs/MyFirstProgram/obj/Debug/net8.0/MyFirstProgram.genruntimeconfig.cache",
+    "CSharp/programs/MyFirstProgram/bin/Debug/net8.0/MyFirstProgram.deps.json",
+    "CSharp/programs/MyFirstProgram/bin/Debug/net8.0/MyFirstProgram.exe",
+    "CSharp/programs/MyFirstProgram/obj/Debug/net8.0/apphost.exe",
+    "CSharp/programs/MyFirstProgram/obj/Debug/net8.0/refint/MyFirstProgram.dll",
+    "CSharp/programs/MyFirstProgram/obj/Debug/net8.0/MyFirstProgram.pdb",
     "CSharp/Table of Contents.md",
     "CSharp/A basic program.md",
     "CSharp/What is CSharp and .NET.md",
     "GameDevelopment/Unity/Tidbits/Player Movement.md",
-    "CSharp",
     "GameDevelopment/Unity/Game Design Primer.md",
     "GameDevelopment/Unity/Tidbits/Accessing components.md",
     "GameDevelopment/Unity/CSharp/Polymorphism.md",
-    "GameDevelopment/Unity/Tidbits",
     "GameDevelopment/Unity/CSharp/Inheritance.md",
     "GameDevelopment/Unity/CSharp/Creating structs.md",
     "GameDevelopment/Unity/CSharp/Creating classes.md",
@@ -186,7 +195,6 @@
     "GameDevelopment/Unity/CSharp/Common built-in types.md",
     "GameDevelopment/Unity/CSharp/Access Modifiers.md",
     "GameDevelopment/Unity/2D/Enemies/Intro animation.md",
-    "GameDevelopment/Unity/CSharp",
     "GameDevelopment/Unity/2D/Table of Contents.md",
     "GameDevelopment/Unity/2D/Enemies/Using the battle state manager.md",
     "GameDevelopment/Unity/2D/Enemies/Setting up the battle state manager.md",
@@ -202,13 +210,6 @@
     "GameDevelopment/Unity/2D/images/added_animator_enemy_dragon.png",
     "GameDevelopment/Unity/2D/images/battlescene_state_transitions.png",
     "GameDevelopment/Unity/2D/Enemies/Event Systems.md",
-    "GameDevelopment/Unity/2D/WorldMaps/Managing Navigation between Scenes.md",
-    "GameDevelopment/Unity/2D/Enemies",
-    "GameDevelopment/Unity/2D/WorldMaps",
-    "GameDevelopment/Unity/2D/NPCsAndInteractions",
-    "GameDevelopment/Unity/2D/UISystem",
-    "GameDevelopment/Unity/2D/CameraBasics",
-    "GameDevelopment/Unity/2D/SpriteAnimationBasics",
-    "GameDevelopment/Unity/2D/AddingBehaviour"
+    "GameDevelopment/Unity/2D/WorldMaps/Managing Navigation between Scenes.md"
   ]
 }

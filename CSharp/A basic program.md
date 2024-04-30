@@ -28,6 +28,21 @@ The `dotnet` tool (`dotnet.exe` on Windows) can be used to manage .NET source co
 Compiling requires a *project file* and one or more C# files. To scaffold a new console project, use the command:
 
 ```sh
-dotnet new Console -n MyFirstProgram
+dotnet new console -n MyFirstProgram
 ```
 
+This creates a folder called `MyFirstProgram` containing a `MyFirstProgram.csproj` and a C# file called `Program.cs`.
+
+The program can be built and run with the following from inside the project directory:
+
+```sh
+dotnet run MyFirstProgram
+```
+
+Or just built without running using:
+
+```sh
+dotnet build MyFirstProgram.csproj
+```
+
+The built assembly will be output to `bin/debug` in the project folder.
