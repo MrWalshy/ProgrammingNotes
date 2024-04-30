@@ -4,16 +4,16 @@
     "type": "split",
     "children": [
       {
-        "id": "1f9f3e9ba5097450",
+        "id": "31fc9f93f3dce190",
         "type": "tabs",
         "children": [
           {
-            "id": "94b19414f5556ab5",
+            "id": "1764c10a0dd91623",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "GameDevelopment/Unity/2D/Enemies/Intro animation.md",
+                "file": "CSharp/A basic program.md",
                 "mode": "source",
                 "source": false
               }
@@ -85,7 +85,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "GameDevelopment/Unity/2D/Enemies/Intro animation.md",
+                "file": "CSharp/A basic program.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +102,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "GameDevelopment/Unity/2D/Enemies/Intro animation.md",
+                "file": "CSharp/A basic program.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +125,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "GameDevelopment/Unity/2D/Enemies/Intro animation.md"
+                "file": "CSharp/A basic program.md"
               }
             }
           },
@@ -162,10 +162,32 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "94b19414f5556ab5",
+  "active": "4d18accfc407c4f0",
   "lastOpenFiles": [
-    "GameDevelopment/Unity/2D/Table of Contents.md",
+    "CSharp/programs",
+    "CSharp/Table of Contents.md",
+    "CSharp/A basic program.md",
+    "CSharp/What is CSharp and .NET.md",
+    "GameDevelopment/Unity/Tidbits/Player Movement.md",
+    "CSharp",
+    "GameDevelopment/Unity/Game Design Primer.md",
+    "GameDevelopment/Unity/Tidbits/Accessing components.md",
+    "GameDevelopment/Unity/CSharp/Polymorphism.md",
+    "GameDevelopment/Unity/Tidbits",
+    "GameDevelopment/Unity/CSharp/Inheritance.md",
+    "GameDevelopment/Unity/CSharp/Creating structs.md",
+    "GameDevelopment/Unity/CSharp/Creating classes.md",
+    "GameDevelopment/Unity/CSharp/Iterative statements.md",
+    "GameDevelopment/Unity/CSharp/Collections.md",
+    "GameDevelopment/Unity/CSharp/Monobehaviour.md",
+    "GameDevelopment/Unity/CSharp/Methods.md",
+    "GameDevelopment/Unity/CSharp/Defining Variables.md",
+    "GameDevelopment/Unity/CSharp/String interpolation.md",
+    "GameDevelopment/Unity/CSharp/Common built-in types.md",
+    "GameDevelopment/Unity/CSharp/Access Modifiers.md",
     "GameDevelopment/Unity/2D/Enemies/Intro animation.md",
+    "GameDevelopment/Unity/CSharp",
+    "GameDevelopment/Unity/2D/Table of Contents.md",
     "GameDevelopment/Unity/2D/Enemies/Using the battle state manager.md",
     "GameDevelopment/Unity/2D/Enemies/Setting up the battle state manager.md",
     "GameDevelopment/Unity/2D/images/battle_state_machine_states.png",
@@ -182,33 +204,11 @@
     "GameDevelopment/Unity/2D/Enemies/Event Systems.md",
     "GameDevelopment/Unity/2D/WorldMaps/Managing Navigation between Scenes.md",
     "GameDevelopment/Unity/2D/Enemies",
-    "GameDevelopment/Unity/2D/WorldMaps/Creating a game map.md",
-    "GameDevelopment/Unity/2D/WorldMaps/Overview of Maps.md",
-    "GameDevelopment/Unity/2D/NPCsAndInteractions/Advanced Programming Techniques.md",
     "GameDevelopment/Unity/2D/WorldMaps",
-    "GameDevelopment/Unity/2D/SpriteAnimationBasics/Animating the player.md",
-    "GameDevelopment/Unity/2D/SpriteAnimationBasics/Fundamentals of Sprite Animation.md",
-    "GameDevelopment/Unity/2D/NPCsAndInteractions/Adding NPCs.md",
-    "GameDevelopment/Unity/2D/Backgrounds and Layers.md",
-    "GameDevelopment/Unity/2D/NPCsAndInteractions/Adding a basic conversation system.md",
-    "GameDevelopment/Unity/2D/NPCsAndInteractions/Considering RPG Elements.md",
-    "GameDevelopment/Unity/2D/NPCsAndInteractions/Getting NPCs Talking.md",
-    "GameDevelopment/Unity/2D/UISystem/UI Buttons.md",
     "GameDevelopment/Unity/2D/NPCsAndInteractions",
-    "GameDevelopment/Unity/2D/UISystem/UI Layout and Rect Transform.md",
-    "GameDevelopment/Unity/2D/UISystem/UI Text and Images.md",
-    "GameDevelopment/Unity/2D/UISystem/UI Canvas.md",
-    "GameDevelopment/Unity/2D/Transitioning and bounds.md",
-    "GameDevelopment/Unity/2D/CameraBasics/Working with the Camera.md",
-    "GameDevelopment/Unity/2D/Basics/Working with Sprites.md",
-    "GameDevelopment/Unity/2D/Basics/Unity's 2D features.md",
-    "GameDevelopment/Unity/2D/Basics/Project Structure.md",
     "GameDevelopment/Unity/2D/UISystem",
     "GameDevelopment/Unity/2D/CameraBasics",
     "GameDevelopment/Unity/2D/SpriteAnimationBasics",
-    "GameDevelopment/Unity/2D/AddingBehaviour",
-    "GameDevelopment/Unity/2D/AddingSprites",
-    "GameDevelopment/Unity/2D/Basics",
-    "GameDevelopment/Unity/2D/images"
+    "GameDevelopment/Unity/2D/AddingBehaviour"
   ]
 }
