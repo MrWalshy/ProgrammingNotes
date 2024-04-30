@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSharp/A basic program.md",
+                "file": "CSharp/Variables and Parameters.md",
                 "mode": "source",
                 "source": false
               }
@@ -86,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSharp/A basic program.md",
+                "file": "CSharp/Variables and Parameters.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -103,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSharp/A basic program.md",
+                "file": "CSharp/Variables and Parameters.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -126,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSharp/A basic program.md"
+                "file": "CSharp/Variables and Parameters.md"
               }
             }
           },
@@ -165,18 +165,22 @@
   },
   "active": "1764c10a0dd91623",
   "lastOpenFiles": [
-    "CSharp/programs/MyFirstProgram/obj/Debug/net8.0/MyFirstProgram.csproj.FileListAbsolute.txt",
-    "CSharp/programs/MyFirstProgram/bin/Debug/net8.0/MyFirstProgram.pdb",
-    "CSharp/programs/MyFirstProgram/obj/Debug/net8.0/ref/MyFirstProgram.dll",
-    "CSharp/programs/MyFirstProgram/bin/Debug/net8.0/MyFirstProgram.dll",
-    "CSharp/programs/MyFirstProgram/bin/Debug/net8.0/MyFirstProgram.runtimeconfig.json",
-    "CSharp/programs/MyFirstProgram/obj/Debug/net8.0/MyFirstProgram.genruntimeconfig.cache",
-    "CSharp/programs/MyFirstProgram/bin/Debug/net8.0/MyFirstProgram.deps.json",
-    "CSharp/programs/MyFirstProgram/bin/Debug/net8.0/MyFirstProgram.exe",
-    "CSharp/programs/MyFirstProgram/obj/Debug/net8.0/apphost.exe",
-    "CSharp/programs/MyFirstProgram/obj/Debug/net8.0/refint/MyFirstProgram.dll",
-    "CSharp/programs/MyFirstProgram/obj/Debug/net8.0/MyFirstProgram.pdb",
     "CSharp/Table of Contents.md",
+    "CSharp/Variables and Parameters.md",
+    "CSharp/Arrays.md",
+    "CSharp/programs/Arrays/obj/Debug/net8.0/Arrays.csproj.FileListAbsolute.txt",
+    "CSharp/programs/Arrays/bin/Debug/net8.0/Arrays.pdb",
+    "CSharp/programs/Arrays/obj/Debug/net8.0/ref/Arrays.dll",
+    "CSharp/programs/Arrays/bin/Debug/net8.0/Arrays.dll",
+    "CSharp/programs/Arrays/bin/Debug/net8.0/Arrays.runtimeconfig.json",
+    "CSharp/programs/Arrays/obj/Debug/net8.0/Arrays.genruntimeconfig.cache",
+    "CSharp/programs/Arrays/bin/Debug/net8.0/Arrays.deps.json",
+    "CSharp/programs/Arrays/bin/Debug/net8.0/Arrays.exe",
+    "CSharp/programs/Arrays/obj/Debug/net8.0/apphost.exe",
+    "CSharp/programs/Arrays/obj/Debug/net8.0/refint/Arrays.dll",
+    "CSharp/Strings and characters.md",
+    "CSharp/Type basics.md",
+    "CSharp/Syntax.md",
     "CSharp/A basic program.md",
     "CSharp/What is CSharp and .NET.md",
     "GameDevelopment/Unity/Tidbits/Player Movement.md",
@@ -197,9 +201,7 @@
     "GameDevelopment/Unity/2D/Enemies/Intro animation.md",
     "GameDevelopment/Unity/2D/Table of Contents.md",
     "GameDevelopment/Unity/2D/Enemies/Using the battle state manager.md",
-    "GameDevelopment/Unity/2D/Enemies/Setting up the battle state manager.md",
     "GameDevelopment/Unity/2D/images/battle_state_machine_states.png",
-    "GameDevelopment/Unity/2D/Enemies/Setting up the battle scene.md",
     "GameDevelopment/Unity/2D/images/battlezone_random_battle_script_attached.png",
     "GameDevelopment/Unity/2D/images/overworld_first_battle_zone.png",
     "GameDevelopment/Unity/2D/images/battlescene_runaway_btn_onclick_event.png",
@@ -208,8 +210,6 @@
     "GameDevelopment/Unity/2D/images/battlemanager_object_with_script.png",
     "GameDevelopment/Unity/2D/images/battlescene_spawn_points_on_scene.png",
     "GameDevelopment/Unity/2D/images/added_animator_enemy_dragon.png",
-    "GameDevelopment/Unity/2D/images/battlescene_state_transitions.png",
-    "GameDevelopment/Unity/2D/Enemies/Event Systems.md",
-    "GameDevelopment/Unity/2D/WorldMaps/Managing Navigation between Scenes.md"
+    "GameDevelopment/Unity/2D/images/battlescene_state_transitions.png"
   ]
 }
