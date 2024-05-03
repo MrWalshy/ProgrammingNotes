@@ -13,7 +13,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CSharp/Selection statements.md",
+                "file": "CSharp/Namespaces.md",
                 "mode": "source",
                 "source": false
               }
@@ -69,7 +69,8 @@
       }
     ],
     "direction": "horizontal",
-    "width": 300
+    "width": 300,
+    "collapsed": true
   },
   "right": {
     "id": "bfcfd58a7fa29b33",
@@ -85,7 +86,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CSharp/Selection statements.md",
+                "file": "CSharp/Namespaces.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -102,7 +103,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CSharp/Selection statements.md",
+                "file": "CSharp/Namespaces.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -125,7 +126,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CSharp/Selection statements.md"
+                "file": "CSharp/Namespaces.md"
               }
             }
           },
@@ -165,6 +166,7 @@
   "active": "1764c10a0dd91623",
   "lastOpenFiles": [
     "CSharp/Table of Contents.md",
+    "CSharp/Namespaces.md",
     "CSharp/Selection statements.md",
     "CSharp/Null operators.md",
     "CSharp/Variables and Parameters.md",
@@ -199,7 +201,6 @@
     "GameDevelopment/Unity/CSharp/String interpolation.md",
     "GameDevelopment/Unity/CSharp/Common built-in types.md",
     "GameDevelopment/Unity/CSharp/Access Modifiers.md",
-    "GameDevelopment/Unity/2D/Enemies/Intro animation.md",
     "GameDevelopment/Unity/2D/images/battle_state_machine_states.png",
     "GameDevelopment/Unity/2D/images/battlezone_random_battle_script_attached.png",
     "GameDevelopment/Unity/2D/images/overworld_first_battle_zone.png",
