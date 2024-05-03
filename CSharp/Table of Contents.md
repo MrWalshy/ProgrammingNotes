@@ -5,4 +5,6 @@
 5. [Strings and Characters](./Strings%20and%20characters.md)
 6. [Arrays](./Arrays.md)
 7. [Variables and Parameters](./Variables%20and%20Parameters.md)
-8. 
+8. [Null Operators](./Null%20operators.md)
+9. [Selection Statements](./Selection%20statements.md)
+10. 
